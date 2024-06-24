@@ -1,0 +1,198 @@
+{
+  "main": {
+    "id": "a12e2aaee0cce288",
+    "type": "split",
+    "children": [
+      {
+        "id": "67be357651c294bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b15409ea939676b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "NETWORKING/Network_Protocols/SMB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b4a42c1763b7a506",
+    "type": "split",
+    "children": [
+      {
+        "id": "32e86666f7c30f1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cbf68360a1bdeb53",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "12eecdc40f775861",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "10a88ddee50d2ab9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "ssh",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2cac4bd4c268b9f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "531a06019a483921",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d49db7278a47ce1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "NETWORKING/Network_Protocols/SMB.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "912a936e33384f87",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "NETWORKING/Network_Protocols/SMB.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "57046e02ee6fd24f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "bf3c145175b207c2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "NETWORKING/Network_Protocols/SMB.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b15409ea939676b1",
+  "lastOpenFiles": [
+    "NETWORKING/Network_Protocols/SMTP.md",
+    "tools/nmap.md",
+    "NETWORKING/Network_Protocols/SMB.md",
+    "Attachment_Folder/Screenshot from 2024-06-22 15-28-56.png",
+    "Screenshot from 2024-06-22 15-28-56.png",
+    "Introductory_CyberSecurity/Basics/Vocabulary.md",
+    "Introductory_CyberSecurity/Basics/subnet.md",
+    "Introductory_CyberSecurity/Basics/Vocabulary",
+    "LINUX/Fundamentals.md",
+    "Attachment_Folder/Screenshot from 2024-06-18 09-48-00.png",
+    "Screenshot from 2024-06-18 09-48-00.png",
+    "Attachment_Folder/Screenshot from 2024-06-18 09-42-02.png",
+    "Screenshot from 2024-06-18 09-42-02.png",
+    "Attachment_Folder/Screenshot from 2024-06-18 09-36-21.png",
+    "Screenshot from 2024-06-18 09-36-21.png",
+    "tools/Wireshark.md",
+    "Introductory_CyberSecurity/Basics/Linux_Commands.md",
+    "NETWORKING/Network_Protocols/ICMP.md",
+    "NETWORKING/ICMP.md",
+    "vapt/vulnerability_assessment.md",
+    "misc.md",
+    "writeups",
+    "Attachment_Folder/Screenshot from 2024-06-16 16-47-29.png",
+    "Screenshot from 2024-06-16 16-47-29.png",
+    "NETWORKING/Network_Protocols/TCP.md",
+    "laws_and_regulations/infosec.md",
+    "vapt/penetration_testing.md",
+    "vapt",
+    "Introductory_CyberSecurity/Ethical_Hacking/ethical_hacking.md",
+    "laws_and_regulations",
+    "self_protection_tips.md",
+    "Introductory_CyberSecurity/Ethical_Hacking",
+    "Introductory_CyberSecurity/cyber_threats.md",
+    "malware/malware.md",
+    "Introductory_CyberSecurity/Introductory_researching/vulnerability_searching.md",
+    "Introductory_CyberSecurity/Introductory_researching/introductory_researching.md",
+    "LINUX/commands.md",
+    "Introductory_CyberSecurity/introductory_researching.md",
+    "Introductory_CyberSecurity/Introductory_researching",
+    "introductory_researching.md",
+    "android_security/android_filesystem.md",
+    "malware",
+    "android_security/android.md",
+    "android_security",
+    "cryptography",
+    "NETWORKING/Network_Protocols/email_sec"
+  ]
+}

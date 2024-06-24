@@ -1,0 +1,1 @@
+*Telnet* is a network protocol **used on the internet or local area networks** to **provide a bi-directional interactive text-oriented communication facility** using a virtual terminal connection 

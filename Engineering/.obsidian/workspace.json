@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "7470df475cd68e0f",
+    "type": "split",
+    "children": [
+      {
+        "id": "954e2882db615853",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0a11f55bbfd5b806",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "programming/misc.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "43ec20a62c3e73ed",
+    "type": "split",
+    "children": [
+      {
+        "id": "2413476790e71463",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "414ae219a6bb1993",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3566e593cd3fd4da",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f28b264dda027bc8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "8159d6decbf30160",
+    "type": "split",
+    "children": [
+      {
+        "id": "9b7e1f1d365523c6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85bac727b9241ed9",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "programming/misc.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b3240a9bd09b0d90",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "programming/misc.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "537692fd39dc23b4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "af9747fec6e2b214",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "programming/misc.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0a11f55bbfd5b806",
+  "lastOpenFiles": [
+    "programming/Languages/python.md",
+    "programming/misc.md",
+    "programming/Git_&_GitHub.md",
+    "programming/Languages/bash.md",
+    "programming/Concepts/Programming Terms.md",
+    "Attachment_Folder/Screenshot from 2024-05-14 19-36-30.png",
+    "programming/Languages/C++_Book.md",
+    "programming/Languages/C++.md",
+    "programming/python.md",
+    "programming/Concepts/Object_Oriented_Programming.md",
+    "programming/Concepts",
+    "programming/Languages",
+    "programming/General Programming Concepts.md",
+    "programming/C++_Book.md",
+    "Attachment_Folder/Screenshot from 2024-05-12 18-57-06.png",
+    "Attachment_Folder/Screenshot from 2024-05-12 18-53-15.png",
+    "Attachment_Folder/Screenshot 2024-05-11 193400.jpg",
+    "Attachment_Folder/Screenshot 2024-05-11 193338.jpg",
+    "Pasted image 20240511192229.png",
+    "Attachment_Folder/Screenshot 2024-05-11 191938.jpg",
+    "programming/C++/main().md",
+    "programming/VIM.md",
+    "Forensic_Sciences&Law/Assignment_CaseStudies/Intro.md",
+    "Forensic_Sciences&Law/Assignment_CaseStudies/WannaCry.md",
+    "Forensic_Sciences&Law/Assignment_CaseStudies/Pegasus.md",
+    "Forensic_Sciences&Law/Assignment_CaseStudies/Wipro_Phishing_Attack.md",
+    "Forensic_Sciences&Law/Assignment_CaseStudies/CloudHopper_Campaign.md",
+    "Forensic_Sciences&Law/Basics_Of_Forensic_Sciences.md",
+    "Forensic_Sciences&Law/Basics_Of_Forensic_Sciences 1.md",
+    "Forensic_Sciences&Law/Introduction_to_Sexual_Assault.md",
+    "Forensic_Sciences&Law/Assignment_CaseStudies",
+    "Forensic_Sciences&Law/Untitled.md"
+  ]
+}

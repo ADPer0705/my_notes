@@ -1,0 +1,3 @@
+*File Transfer Protocol (FTP)* is a standard network protocol used to **transfer files from one host to another host over a TCP-based network**, such as the internet 
+ - often used to upload web pager and other documents from a private development machine to a public web-hosting server 
+ - FTP is built on a **client-server architecture** and *uses separate control and data connections* between the client and the server 
