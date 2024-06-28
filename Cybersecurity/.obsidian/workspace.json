@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/Network_Protocols/SMB.md",
+                "file": "tools/nmap.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKING/Network_Protocols/SMB.md",
+                "file": "tools/nmap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKING/Network_Protocols/SMB.md",
+                "file": "tools/nmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORKING/Network_Protocols/SMB.md"
+                "file": "tools/nmap.md"
               }
             }
           }
@@ -148,9 +148,10 @@
   },
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
+    "NETWORKING/Network_Protocols/Telnet.md",
+    "NETWORKING/Network_Protocols/SMB.md",
     "NETWORKING/Network_Protocols/SMTP.md",
     "tools/nmap.md",
-    "NETWORKING/Network_Protocols/SMB.md",
     "Attachment_Folder/Screenshot from 2024-06-22 15-28-56.png",
     "Screenshot from 2024-06-22 15-28-56.png",
     "Introductory_CyberSecurity/Basics/Vocabulary.md",
@@ -190,7 +191,6 @@
     "introductory_researching.md",
     "android_security/android_filesystem.md",
     "malware",
-    "android_security/android.md",
     "android_security",
     "cryptography",
     "NETWORKING/Network_Protocols/email_sec"

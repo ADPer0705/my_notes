@@ -25,6 +25,29 @@ once they have established a connection, clients can then send commands (*SMBs*)
 - **Authentication and Authorization**
 	- Ensures that only authorized users can access resources 
 
+### Key concepts and components of SMB
+- Shares and Resources
+	- **share**
+		- often referred to as "share"
+		- A shared resource is a directory or a printer made available t network users
+		- It allows multiple users to access the same files or resources simultaneously 
+	- **Shared Folder**
+		- A folder on a computer or server that is shared over the network for access by other computers or users 
+- Clients and Servers 
+	- **SMB client**
+		- A device or computer that accesses files or services shared by an SMB server 
+	- **SMB server**
+		- A computer or device that hosts shared resources and responds to requests from SMB clients 
+- Authentication and Access Control 
+	- **Authentication**
+		- SMB supports different authentication methods, including username/password, NTLM (NT LAN Manager), and Kerberos
+	- **Access Control**
+		- Permissions on shared resources dictate who can read, write, modify, or delete files and folders within a shared directory
+- Versions of SMB
+	- **SMB1, SMB2, SMB3**
+		- Different versions of the protocol with varying levels of security, performance enhancements, and features. 
+		- SMB3, for example, introduced improvements like encryption and better handling or large files 
+
 ---
 
 # Enumerating SMB
@@ -56,4 +79,14 @@ from our enumeration stage, we know :
 - The SMB share location 
 - The name of an interesting SMB share 
 
-NOTE : 
+#### SMB client
+because we're truing to access an SMB share, we need a client to access resources on server. 
+- here we will be using SMB client because it's part of the default samba suite
+
+we can remotely access the SMB share using the syntax : 
+```terminal
+smbclient //[IP]?[SHARE]
+```
+followed by the tags : 
+`-U [name]` to specify the user 
+`-p [port]` to specify the port 

@@ -74,8 +74,3 @@ cin >> num1;
 ## Cascading of I/O Operations
 Using multiple `<<` or `>>` in one statement is called *cascading*,
 
-# Structure of a C++ Pragram
-
-![[Screenshot from 2024-04-07 19-46-33.png]]
-
-A typical
