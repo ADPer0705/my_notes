@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/Languages/C++_Book.md",
+                "file": "programming/Concepts/Programming Terms.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/Languages/C++_Book.md",
+                "file": "programming/Concepts/Programming Terms.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/Languages/C++_Book.md",
+                "file": "programming/Concepts/Programming Terms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/Languages/C++_Book.md"
+                "file": "programming/Concepts/Programming Terms.md"
               }
             }
           }
@@ -147,11 +147,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a11f55bbfd5b806",
+  "active": "414ae219a6bb1993",
   "lastOpenFiles": [
+    "Untitled.md",
+    "programming/Concepts/Programming Terms.md",
     "programming/Languages/C++.md",
-    "programming/Concepts/Object_Oriented_Programming.md",
     "programming/Languages/C++_Book.md",
+    "programming/Languages/bash.md",
+    "programming/Concepts/Object_Oriented_Programming.md",
     "programming/Languages/python.md",
     "Electrical_and_Electronics/Digital_Logic_Design/boolean_algebra.md",
     "Electrical_and_Electronics/Digital_Logic_Design/Digital_Logic_Design.md",
@@ -162,8 +165,6 @@
     "Forensic_Sciences&Law/Basics_Of_Forensic_Sciences.md",
     "programming/misc.md",
     "programming/Git_&_GitHub.md",
-    "programming/Languages/bash.md",
-    "programming/Concepts/Programming Terms.md",
     "Attachment_Folder/Screenshot from 2024-05-14 19-36-30.png",
     "programming/python.md",
     "programming/Concepts",
@@ -183,7 +184,6 @@
     "Forensic_Sciences&Law/Assignment_CaseStudies/Pegasus.md",
     "Forensic_Sciences&Law/Assignment_CaseStudies/Wipro_Phishing_Attack.md",
     "Forensic_Sciences&Law/Assignment_CaseStudies/CloudHopper_Campaign.md",
-    "Forensic_Sciences&Law/Introduction_to_Sexual_Assault.md",
     "Forensic_Sciences&Law/Assignment_CaseStudies"
   ]
 }
