@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tools/nmap.md",
+                "file": "NETWORKING/Network_Protocols/FTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tools/nmap.md",
+                "file": "NETWORKING/Network_Protocols/FTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tools/nmap.md",
+                "file": "NETWORKING/Network_Protocols/FTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tools/nmap.md"
+                "file": "NETWORKING/Network_Protocols/FTP.md"
               }
             }
           }
@@ -149,9 +149,13 @@
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
     "NETWORKING/Network_Protocols/Telnet.md",
+    "NETWORKING/wireless_networks.md",
+    "NETWORKING/Network_Topology.md",
+    "misc.md",
+    "tools/Wireshark.md",
+    "tools/nmap.md",
     "NETWORKING/Network_Protocols/SMB.md",
     "NETWORKING/Network_Protocols/SMTP.md",
-    "tools/nmap.md",
     "Attachment_Folder/Screenshot from 2024-06-22 15-28-56.png",
     "Screenshot from 2024-06-22 15-28-56.png",
     "Introductory_CyberSecurity/Basics/Vocabulary.md",
@@ -164,12 +168,10 @@
     "Screenshot from 2024-06-18 09-42-02.png",
     "Attachment_Folder/Screenshot from 2024-06-18 09-36-21.png",
     "Screenshot from 2024-06-18 09-36-21.png",
-    "tools/Wireshark.md",
     "Introductory_CyberSecurity/Basics/Linux_Commands.md",
     "NETWORKING/Network_Protocols/ICMP.md",
     "NETWORKING/ICMP.md",
     "vapt/vulnerability_assessment.md",
-    "misc.md",
     "writeups",
     "Attachment_Folder/Screenshot from 2024-06-16 16-47-29.png",
     "Screenshot from 2024-06-16 16-47-29.png",
@@ -188,8 +190,6 @@
     "LINUX/commands.md",
     "Introductory_CyberSecurity/introductory_researching.md",
     "Introductory_CyberSecurity/Introductory_researching",
-    "introductory_researching.md",
-    "android_security/android_filesystem.md",
     "malware",
     "android_security",
     "cryptography",

@@ -1,5 +1,6 @@
 *Telnet* is a network protocol **used on the internet or local area networks** to **provide a bi-directional interactive text-oriented communication facility** using a virtual terminal connection 
 - Telnet is an application protocol which allows you, with the use of telnet client, to connect to and execute commands and a remote machine that's hosting a telnet server
+- can be described as a remote command-line access 
 
 The telnet client will establish a connection with the server. The client will then become a *virtual-terminal* allowing you to interact with the remote host 
 
@@ -51,3 +52,44 @@ telnet [ip] [port]
 ---
 
 # Enumerating Telnet
+Enumerating telnet involves discovering and gathering information about telnet services running on a network. This process can identify potential vulnerabilities, determine the security posture of the service, and gather valuable information for further exploitation. 
+
+1. **Scanning for Telnet Services**
+	- First, identify hosts running Telnet services by scanning the network for open port 23 (The default Telnet port)
+	``` terminal
+	nmap -p 23 <target_ip_range>
+    ```
+2. **Banner Grabbing**
+	- Banner Grabbing helps identify the telnet services and version running on the target service and version running on the target
+		- Banner grabbing is a technique used to gather information about a network service running on a system 
+		- when a client connects to a service, such as its version, software, or other relevant information 
+		- This information can be useful for identifying potential vulnerabilities or understanding the configuration of the service 
+	- This provides useful information about the software and its potential vulnerabilities
+	- using netcat 
+	```terminal
+	nc -v <target_ip> 23
+	```
+	- One can also use telnet client to connect and grab the banner 
+	```terminal
+	telnet <target_ip> 23
+    ```
+3. **Service Version Detection**
+	- using nmap's service version detection capabilities can help determine the telnet service version more accurately 
+	- `nmap -sV -p 23 <target_ip>`
+
+Once the telnet service has been identified, one may attempt to brute-force login credentials, if permitted, then carry out manual exploration and so on 
+
+---
+
+# Exploiting Telnet 
+Telnet, being a protocol, is in and of itself insecure 
+- it lacks encryption 
+- has poor access control for the most part 
+
+There are CVE s fro telnet client and server systems, which can be used while exploiting 
+- https://www.cvedetails.com/
+- https://cve.mitre.org/
+NOTE : CVE stands for common vulnerability and exposures 
+However one is far more likely to find a misconfiguration in how telnet has been configured or is operating that will allow you to exploit it 
+
+

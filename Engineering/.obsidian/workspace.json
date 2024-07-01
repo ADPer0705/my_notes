@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/Concepts/Programming Terms.md",
+                "file": "Electrical_and_Electronics/Digital_Logic_Design/number_system.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/Concepts/Programming Terms.md",
+                "file": "Electrical_and_Electronics/Digital_Logic_Design/number_system.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/Concepts/Programming Terms.md",
+                "file": "Electrical_and_Electronics/Digital_Logic_Design/number_system.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/Concepts/Programming Terms.md"
+                "file": "Electrical_and_Electronics/Digital_Logic_Design/number_system.md"
               }
             }
           }
@@ -147,17 +147,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "414ae219a6bb1993",
+  "active": "0a11f55bbfd5b806",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Electrical_and_Electronics/Digital_Logic_Design/Digital_Logic_Design.md",
+    "Electrical_and_Electronics/Digital_Logic_Design/number_system.md",
     "programming/Concepts/Programming Terms.md",
+    "Untitled.md",
     "programming/Languages/C++.md",
     "programming/Languages/C++_Book.md",
     "programming/Languages/bash.md",
     "programming/Concepts/Object_Oriented_Programming.md",
     "programming/Languages/python.md",
     "Electrical_and_Electronics/Digital_Logic_Design/boolean_algebra.md",
-    "Electrical_and_Electronics/Digital_Logic_Design/Digital_Logic_Design.md",
     "Forensic_Sciences&Law/Introduction_To_Forensic_Sciences.md",
     "Forensic_Sciences&Law/Introduction_To_Crime_Scene.md",
     "Forensic_Sciences&Law/First_Responder.md",
@@ -183,7 +184,6 @@
     "Forensic_Sciences&Law/Assignment_CaseStudies/WannaCry.md",
     "Forensic_Sciences&Law/Assignment_CaseStudies/Pegasus.md",
     "Forensic_Sciences&Law/Assignment_CaseStudies/Wipro_Phishing_Attack.md",
-    "Forensic_Sciences&Law/Assignment_CaseStudies/CloudHopper_Campaign.md",
     "Forensic_Sciences&Law/Assignment_CaseStudies"
   ]
 }
