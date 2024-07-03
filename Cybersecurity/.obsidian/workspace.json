@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/Network_Protocols/FTP.md",
+                "file": "ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKING/Network_Protocols/FTP.md",
+                "file": "ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKING/Network_Protocols/FTP.md",
+                "file": "ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORKING/Network_Protocols/FTP.md"
+                "file": "ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
+    "ISC2_CC/4)Network_Security/0_Overview.md",
+    "NETWORKING/Network_Protocols/FTP.md",
     "NETWORKING/Network_Protocols/Telnet.md",
     "NETWORKING/wireless_networks.md",
     "NETWORKING/Network_Topology.md",
@@ -187,8 +189,6 @@
     "malware/malware.md",
     "Introductory_CyberSecurity/Introductory_researching/vulnerability_searching.md",
     "Introductory_CyberSecurity/Introductory_researching/introductory_researching.md",
-    "LINUX/commands.md",
-    "Introductory_CyberSecurity/introductory_researching.md",
     "Introductory_CyberSecurity/Introductory_researching",
     "malware",
     "android_security",

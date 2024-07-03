@@ -4,6 +4,14 @@
 - The application of scientific knowledge to supply accurate and objective information reflecting the events that occurred at a crime 
 - The application of scientific knowledge to legal problems 
 
+# Scope and Need of Forensic Sciences
+- There is an urgent need for the application of forensic science in the criminal justice delivery system.
+- There are a large number of trials, criminal proceedings in heinous (serious) crimes, which end in acquittals.
+- Large number of cases still pending in various courts in India for disposal. So, there is a necessity of evidences to prove somebody guilty or exoneration of the innocents.
+- Reason - lack of proper evidences.
+- Witnesses turn hostile
+- The eyewitnesses may not be reliable sometimes because of the credibility. This may lead to the complication of the delivery of the justice.
+
 # A Brief History
 
 ## Forensic in Indian Literature

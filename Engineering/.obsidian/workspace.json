@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Electrical_and_Electronics/Digital_Logic_Design/number_system.md",
+                "file": "programming/Concepts/Object_Oriented_Programming.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Electrical_and_Electronics/Digital_Logic_Design/number_system.md",
+                "file": "programming/Concepts/Object_Oriented_Programming.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Electrical_and_Electronics/Digital_Logic_Design/number_system.md",
+                "file": "programming/Concepts/Object_Oriented_Programming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Electrical_and_Electronics/Digital_Logic_Design/number_system.md"
+                "file": "programming/Concepts/Object_Oriented_Programming.md"
               }
             }
           }
@@ -149,21 +149,29 @@
   },
   "active": "0a11f55bbfd5b806",
   "lastOpenFiles": [
-    "Electrical_and_Electronics/Digital_Logic_Design/Digital_Logic_Design.md",
-    "Electrical_and_Electronics/Digital_Logic_Design/number_system.md",
-    "programming/Concepts/Programming Terms.md",
-    "Untitled.md",
     "programming/Languages/C++.md",
     "programming/Languages/C++_Book.md",
-    "programming/Languages/bash.md",
+    "Professional_Ethics/Professional_Practices_in_Engineering.md",
+    "Professional_Ethics/Engineering_Ethics.md",
+    "Professional_Ethics/Professional_Ethics.md",
+    "Professional_Ethics/Professional_Practices_in_Engineering",
     "programming/Concepts/Object_Oriented_Programming.md",
+    "2024-02-25.md",
+    "Pasted image 20240511192229.png",
+    "Attachment_Folder/Pasted image 20240511192229.png",
+    "Forensic_Sciences&Law/Introduction_To_Forensic_Sciences.md",
+    "Forensic_Sciences&Law/Investigation.md",
+    "Forensic_Sciences&Law/First_Responder.md",
+    "Forensic_Sciences&Law/Introduction_To_Crime_Scene.md",
+    "Forensic_Sciences&Law/Basics_Of_Forensic_Sciences.md",
+    "Forensic_Sciences&Law/Basics_Of_Forensic_Sciences 1.md",
+    "Electrical_and_Electronics/Digital_Logic_Design/number_system.md",
+    "Electrical_and_Electronics/Digital_Logic_Design/Digital_Logic_Design.md",
+    "programming/Concepts/Programming Terms.md",
+    "Untitled.md",
+    "programming/Languages/bash.md",
     "programming/Languages/python.md",
     "Electrical_and_Electronics/Digital_Logic_Design/boolean_algebra.md",
-    "Forensic_Sciences&Law/Introduction_To_Forensic_Sciences.md",
-    "Forensic_Sciences&Law/Introduction_To_Crime_Scene.md",
-    "Forensic_Sciences&Law/First_Responder.md",
-    "Forensic_Sciences&Law/Basics_Of_Forensic_Sciences 1.md",
-    "Forensic_Sciences&Law/Basics_Of_Forensic_Sciences.md",
     "programming/misc.md",
     "programming/Git_&_GitHub.md",
     "Attachment_Folder/Screenshot from 2024-05-14 19-36-30.png",
@@ -176,14 +184,8 @@
     "Attachment_Folder/Screenshot from 2024-05-12 18-53-15.png",
     "Attachment_Folder/Screenshot 2024-05-11 193400.jpg",
     "Attachment_Folder/Screenshot 2024-05-11 193338.jpg",
-    "Pasted image 20240511192229.png",
     "Attachment_Folder/Screenshot 2024-05-11 191938.jpg",
     "programming/C++/main().md",
-    "programming/VIM.md",
-    "Forensic_Sciences&Law/Assignment_CaseStudies/Intro.md",
-    "Forensic_Sciences&Law/Assignment_CaseStudies/WannaCry.md",
-    "Forensic_Sciences&Law/Assignment_CaseStudies/Pegasus.md",
-    "Forensic_Sciences&Law/Assignment_CaseStudies/Wipro_Phishing_Attack.md",
     "Forensic_Sciences&Law/Assignment_CaseStudies"
   ]
 }
