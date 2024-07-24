@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/Network_Addressing/port_addressing.md",
+                "file": "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKING/Network_Addressing/port_addressing.md",
+                "file": "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKING/Network_Addressing/port_addressing.md",
+                "file": "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORKING/Network_Addressing/port_addressing.md"
+                "file": "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md"
               }
             }
           }
@@ -148,6 +148,13 @@
   },
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
+    "Attachment_Folder/Screenshot from 2024-07-07 16-48-31.png",
+    "Screenshot from 2024-07-07 16-48-31.png",
+    "Attachment_Folder/Screenshot from 2024-07-07 16-40-56.png",
+    "Screenshot from 2024-07-07 16-40-56.png",
+    "Attachment_Folder/Screenshot from 2024-07-07 16-18-16.png",
+    "Screenshot from 2024-07-07 16-18-16.png",
+    "NETWORKING/Network_Addressing/port_addressing.md",
     "ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md",
     "Attachment_Folder/Screenshot from 2024-07-04 13-08-54.png",
     "Screenshot from 2024-07-04 13-08-54.png",
@@ -158,11 +165,6 @@
     "NETWORKING/Network_Protocols/UDP.md",
     "NETWORKING/Network_Topology.md",
     "NETWORKING/Network_Models/Basics_NetworkModels.md",
-    "Attachment_Folder/Screenshot from 2024-07-03 23-21-45.png",
-    "Screenshot from 2024-07-03 23-21-45.png",
-    "Attachment_Folder/Screenshot from 2024-07-03 23-20-11.png",
-    "Screenshot from 2024-07-03 23-20-11.png",
-    "Attachment_Folder/Screenshot from 2024-07-03 23-19-02.png",
     "ISC2_CC/4)Network_Security/0_Overview.md",
     "NETWORKING/Network_Protocols/FTP.md",
     "NETWORKING/Network_Protocols/Telnet.md",
@@ -185,7 +187,6 @@
     "laws_and_regulations/infosec.md",
     "vapt/penetration_testing.md",
     "vapt",
-    "Introductory_CyberSecurity/Ethical_Hacking/ethical_hacking.md",
     "laws_and_regulations",
     "Introductory_CyberSecurity/Ethical_Hacking",
     "Introductory_CyberSecurity/Introductory_researching",

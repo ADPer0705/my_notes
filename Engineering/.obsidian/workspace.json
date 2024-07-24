@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "90894d4e3ffdd5ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Forensic_Sciences&Law/Scientific_Methods_in_Crime_Processin.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/Concepts/Object_Oriented_Programming.md",
+                "file": "Forensic_Sciences&Law/Scientific_Methods_in_Crime_Processin.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "programming/Concepts/Object_Oriented_Programming.md",
+                "file": "Forensic_Sciences&Law/Scientific_Methods_in_Crime_Processin.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/Concepts/Object_Oriented_Programming.md"
+                "file": "Forensic_Sciences&Law/Scientific_Methods_in_Crime_Processin.md"
               }
             }
           }
@@ -147,8 +160,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a11f55bbfd5b806",
+  "active": "90894d4e3ffdd5ff",
   "lastOpenFiles": [
+    "Forensic_Sciences&Law/Assignment_CaseStudies/Pegasus.md",
+    "Forensic_Sciences&Law/Assignment_CaseStudies/Intro.md",
+    "Forensic_Sciences&Law/Assignment_CaseStudies/CloudHopper_Campaign.md",
+    "Forensic_Sciences&Law/Scientific_Methods_in_Crime_Processin.md",
+    "Forensic_Sciences&Law/Investigation_Agencies.md",
+    "Forensic_Sciences&Law/Investigation.md",
+    "Forensic_Sciences&Law/Introduction_to_Sexual_Assault.md",
+    "Forensic_Sciences&Law/Introduction_To_Forensic_Sciences.md",
+    "Forensic_Sciences&Law/Introduction_To_Crime_Scene.md",
+    "Forensic_Sciences&Law/First_Responder.md",
+    "Forensic_Sciences&Law/Basics_Of_Forensic_Sciences.md",
     "programming/Languages/C++.md",
     "programming/Languages/C++_Book.md",
     "Professional_Ethics/Professional_Practices_in_Engineering.md",
@@ -159,11 +183,6 @@
     "2024-02-25.md",
     "Pasted image 20240511192229.png",
     "Attachment_Folder/Pasted image 20240511192229.png",
-    "Forensic_Sciences&Law/Introduction_To_Forensic_Sciences.md",
-    "Forensic_Sciences&Law/Investigation.md",
-    "Forensic_Sciences&Law/First_Responder.md",
-    "Forensic_Sciences&Law/Introduction_To_Crime_Scene.md",
-    "Forensic_Sciences&Law/Basics_Of_Forensic_Sciences.md",
     "Forensic_Sciences&Law/Basics_Of_Forensic_Sciences 1.md",
     "Electrical_and_Electronics/Digital_Logic_Design/number_system.md",
     "Electrical_and_Electronics/Digital_Logic_Design/Digital_Logic_Design.md",
@@ -172,20 +191,14 @@
     "programming/Languages/bash.md",
     "programming/Languages/python.md",
     "Electrical_and_Electronics/Digital_Logic_Design/boolean_algebra.md",
-    "programming/misc.md",
-    "programming/Git_&_GitHub.md",
     "Attachment_Folder/Screenshot from 2024-05-14 19-36-30.png",
-    "programming/python.md",
     "programming/Concepts",
     "programming/Languages",
-    "programming/General Programming Concepts.md",
-    "programming/C++_Book.md",
     "Attachment_Folder/Screenshot from 2024-05-12 18-57-06.png",
     "Attachment_Folder/Screenshot from 2024-05-12 18-53-15.png",
     "Attachment_Folder/Screenshot 2024-05-11 193400.jpg",
     "Attachment_Folder/Screenshot 2024-05-11 193338.jpg",
     "Attachment_Folder/Screenshot 2024-05-11 191938.jpg",
-    "programming/C++/main().md",
     "Forensic_Sciences&Law/Assignment_CaseStudies"
   ]
 }

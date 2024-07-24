@@ -130,3 +130,10 @@ TCP/IP is also subject to passive attacks via monitoring or sniffing.
 
 ![[Screenshot from 2024-07-04 13-08-54.png]]
 
+---
+
+
+> [!NOTE] NOTE
+> - refer ports
+
+
