@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
+                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
+                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
+                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md"
+                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
+    "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
     "Attachment_Folder/Screenshot from 2024-07-07 16-48-31.png",
     "Screenshot from 2024-07-07 16-48-31.png",
     "Attachment_Folder/Screenshot from 2024-07-07 16-40-56.png",
@@ -161,7 +162,6 @@
     "NETWORKING/Wi-Fi/wifi.md",
     "Attachment_Folder/Screenshot from 2024-07-03 23-39-07.png",
     "Screenshot from 2024-07-03 23-39-07.png",
-    "Attachment_Folder/EDU-ELCC-70245b-What_is_Wifi-techart-v06.svg",
     "NETWORKING/Network_Protocols/UDP.md",
     "NETWORKING/Network_Topology.md",
     "NETWORKING/Network_Models/Basics_NetworkModels.md",
