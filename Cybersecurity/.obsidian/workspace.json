@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/Network_Protocols/FTP.md",
+                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKING/Network_Protocols/FTP.md",
+                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKING/Network_Protocols/FTP.md",
+                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORKING/Network_Protocols/FTP.md"
+                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md"
               }
             }
           }
@@ -148,6 +148,11 @@
   },
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
+    "Attachment_Folder/Screenshot from 2024-07-27 17-22-41.png",
+    "Screenshot from 2024-07-27 17-22-41.png",
+    "Attachment_Folder/Screenshot from 2024-07-27 16-53-04.png",
+    "Screenshot from 2024-07-27 16-53-04.png",
+    "NETWORKING/Network_Protocols/FTP.md",
     "NETWORKING/Network_Protocols/HTTP.md",
     "NETWORKING/Network_Protocols/Telnet.md",
     "NETWORKING/Network_Protocols/SMB.md",
@@ -162,15 +167,11 @@
     "NETWORKING/Network_Addressing/port_addressing.md",
     "ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md",
     "Attachment_Folder/Screenshot from 2024-07-04 13-08-54.png",
-    "Screenshot from 2024-07-04 13-08-54.png",
     "NETWORKING/Wi-Fi/wifi.md",
-    "Attachment_Folder/Screenshot from 2024-07-03 23-39-07.png",
-    "Screenshot from 2024-07-03 23-39-07.png",
     "NETWORKING/Network_Protocols/UDP.md",
     "NETWORKING/Network_Topology.md",
     "NETWORKING/Network_Models/Basics_NetworkModels.md",
     "ISC2_CC/4)Network_Security/0_Overview.md",
-    "NETWORKING/Network_Protocols/FTP.md",
     "NETWORKING/wireless_networks.md",
     "misc.md",
     "tools/Wireshark.md",
@@ -185,7 +186,6 @@
     "NETWORKING/ICMP.md",
     "vapt/vulnerability_assessment.md",
     "writeups",
-    "NETWORKING/Network_Protocols/TCP.md",
     "vapt",
     "laws_and_regulations",
     "Introductory_CyberSecurity/Ethical_Hacking",

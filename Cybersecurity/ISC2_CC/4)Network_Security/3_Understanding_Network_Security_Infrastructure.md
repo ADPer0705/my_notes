@@ -29,6 +29,86 @@ If the data center is owned by the organization, it will likely by built on prem
 		- Servers
 		- Wiring and/or switch components
 - **Power**
-	- Data centers and information systems in general consume a tremendous amount of electrical power, which needs to be delivered both constantly and consistently. Wide fluctuations in the quality of power affect system lifespan, while disruptions in supply completely stop system operations.
+	- Data centers and information systems in general consume a tremendous amount of electrical power, which needs to be delivered both constantly and consistently. 
+	- Wide fluctuations in the quality of power affect system lifespan, while disruptions in supply completely stop system operations.
+	- Power at the site is always an integral part of data center operations. Regardless of fuel source, backup generators must be sized to provide for the critical load (the computing resources) and the supporting infrastructure. 
+	- Similarly, battery backups must be properly sized to carry the critical load until generators start and stabilize. 
+	- As with data backups, testing is necessary to ensure the failover to alternate power works properly.
+- **Fire Suppression**
+	- For server rooms, appropriate fire detection/suppression must be considered based on 
+		- the size of the room, 
+		- typical human occupation, 
+		- egress routes and 
+		- risk of damage to equipment. 
+	- For example, water used for fire suppression would cause more harm to servers and other electronic components. Gas-based fire suppression systems are more friendly to the electronics, but can be toxic to humans.
 
-Power at the site is always an integral part of data center operations. Regardless of fuel source, backup generators must be sized to provide for the critical load (the computing resources) and the supporting infrastructure. Similarly, battery backups must be properly sized to carry the critical load until generators start and stabilize. As with data backups, testing is necessary to ensure the failover to alternate power works properly.
+# Redundancy
+The concept of redundancy is to *design systems with duplicate components* so that if a failure were to occur, there would be a backup. 
+This can apply to the data center as well. 
+- Risk assessments pertaining to the data center should identify when multiple separate utility service entrances are necessary for redundant communication channels and/or mechanisms.  
+
+If the organization requires full redundancy, devices should have two power supplies connected to diverse power sources. Those power sources would be backed up by batteries and generators. In a high-availability environment, even generators would be redundant and fed by different fuel types.
+
+![[Screenshot from 2024-07-27 16-53-04.png]]
+
+
+> [!NOTE]
+> UPS : Uninterrupted Power supply
+
+---
+
+# MOU / MOA
+
+> [!NOTE] 
+> MOU : Memorandum of Understanding
+> MOA : Memorandum of Agreement
+
+Some organizations seeking to minimize downtime and enhance BC (Business Continuity) and DR (Disaster Recovery) capabilities will create agreements with other, similar organizations. 
+- They agree that if one of the parties experiences an emergency and cannot operate within their own facility, the other party will share its resources and let them operate within theirs in order to maintain critical functions. 
+- These agreements often even include competitors, because their facilities and resources meet the needs of their particular industry. 
+
+For example, Hospital A and Hospital B are competitors in the same city. The hospitals create an agreement with each other: if something bad happens to Hospital A (a fire, flood, bomb threat, loss of power, etc.), that hospital can temporarily send personnel and systems to work inside Hospital B in order to stay in business during the interruption (and Hospital B can relocate to Hospital A, if Hospital B has a similar problem). The hospitals have decided that they are not going to compete based on safety and security—they are going to compete on service, price and customer loyalty. This way, they protect themselves and the healthcare industry as a whole.  
+
+These agreements are called *joint operating agreements (JOA)* or *memoranda of understanding (MOU)* or *memoranda of agreement (MOA)*. Sometimes these agreements are mandated by regulatory requirements, or they might just be part of the administrative safeguards instituted by an entity within the guidelines of its industry. 
+
+The difference between an MOA or MOU  and an SLA is that 
+- a Memorandum of Understanding is more directly related to what can be done with a system or the information. 
+- The service level agreement goes down to the granular level. 
+	- For example, if I'm outsourcing the IT services, then I will need to have two full-time technicians readily available, at least from Monday through Friday from eight to five. 
+	- With cloud computing, I need to have access to the information in my backup systems within 10 minutes. 
+	- An SLA specifies the more intricate aspects of the services.  
+
+We must be very cautious when outsourcing with cloud-based services, because we have to make sure that we understand exactly what we are agreeing to. If the SLA promises 100 percent accessibility to information, is the access directly to you at the moment, or is it access to their website or through their portal when they open on Monday? That's where you'll rely on your legal team, who can supervise and review the conditions carefully before you sign the dotted line at the bottom.
+
+---
+
+# Cloud
+
+> [!NOTE] Cloud Computing
+> A model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g. networks, servers, storage, applications, and services) than can be rapidly provisioned and released with minimal management effort or service provider interaction 
+> NIST 800-145
+
+- Usually associated with an internet-based set of computing resources, and typically sold as a service, provided by a *cloud service provider (CSP)*
+
+Cloud computing is very similar to the electrical or power grid. 
+- It is provisioned in a geographic location and is sourced using an electrical means that is not necessarily obvious to the consumer. 
+- But when you want electricity, it’s available to you via a common standard interface and you pay only for what you use. 
+- In these ways, cloud computing is very similar. It is a *very scalable, elastic and easy-to-use “utility” for the provisioning and deployment of Information Technology (IT) services*.  
+
+There are various definitions of what cloud computing means according to the leading standards, including NIST. The NIST definition provided above is commonly used around the globe, cited by professionals and others alike to clarify what the term “cloud” means
+
+This image depicts cloud computing characteristics, service and deployment models
+
+![[Screenshot from 2024-07-27 17-22-41.png | 650]]
+
+
+## Cloud Characteristics
+Cloud-based assets include any resources that an organization accesses using cloud computing. 
+- Cloud computing refers to on-demand access to computing resources available from almost anywhere, and 
+- cloud computing resources are highly available and easily scalable. 
+- Organizations typically lease cloud-based resources from outside the organization. 
+- Cloud computing has many benefits for organizations, which include but are not limited to: 
+	- *Usage is metered and priced according to units (or instances) consumed*. This can also be billed back to specific departments or functions.
+	- *Reduced cost of ownership*. There is no need to buy any assets for everyday use, no loss of asset value over time and a reduction of other related costs of maintenance and support.
+	- *Reduced energy and cooling costs*, along with *“green IT” environment effect* with optimum use of IT resources and systems.
+	- Allows an enterprise to *scale up* new software or data-based services/solutions through cloud systems quickly and *without having to install massive hardware locally*.
