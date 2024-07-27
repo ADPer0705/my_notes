@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
+                "file": "NETWORKING/Network_Protocols/FTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
+                "file": "NETWORKING/Network_Protocols/FTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
+                "file": "NETWORKING/Network_Protocols/FTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md"
+                "file": "NETWORKING/Network_Protocols/FTP.md"
               }
             }
           }
@@ -148,6 +148,10 @@
   },
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
+    "NETWORKING/Network_Protocols/HTTP.md",
+    "NETWORKING/Network_Protocols/Telnet.md",
+    "NETWORKING/Network_Protocols/SMB.md",
+    "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
     "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
     "Attachment_Folder/Screenshot from 2024-07-07 16-48-31.png",
     "Screenshot from 2024-07-07 16-48-31.png",
@@ -167,12 +171,10 @@
     "NETWORKING/Network_Models/Basics_NetworkModels.md",
     "ISC2_CC/4)Network_Security/0_Overview.md",
     "NETWORKING/Network_Protocols/FTP.md",
-    "NETWORKING/Network_Protocols/Telnet.md",
     "NETWORKING/wireless_networks.md",
     "misc.md",
     "tools/Wireshark.md",
     "tools/nmap.md",
-    "NETWORKING/Network_Protocols/SMB.md",
     "NETWORKING/Network_Protocols/SMTP.md",
     "Introductory_CyberSecurity/Basics/Vocabulary.md",
     "Introductory_CyberSecurity/Basics/subnet.md",
@@ -184,8 +186,6 @@
     "vapt/vulnerability_assessment.md",
     "writeups",
     "NETWORKING/Network_Protocols/TCP.md",
-    "laws_and_regulations/infosec.md",
-    "vapt/penetration_testing.md",
     "vapt",
     "laws_and_regulations",
     "Introductory_CyberSecurity/Ethical_Hacking",
