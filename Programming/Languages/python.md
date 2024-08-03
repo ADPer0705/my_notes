@@ -338,7 +338,8 @@ computer_choice = random.choice(options)
 ```
 The above code will make a list of `options` and then randomly make a choice from the list using the `random` library
 
-- A single List can contain various number of data types.
+- A single List can contain various number of data types
+- allows duplicate elements 
 - Lists can be empty
 - Lists have indexing as arrays 
 	- `options[2]` will give `scissors`
@@ -1104,8 +1105,6 @@ __or__()       responds to the | operator
 __xor__()      responds to the ^ operator
 ```
 
-
-
 ---
 # Some Things to Keep in mind
 - almost no where will it matter if there is *single quotes of double quotes*
@@ -1138,4 +1137,4 @@ Advantages with ‘as’ keyword:
 - The keyword as is used to make alias with programmer selected name, It decreases the chance coincide of the name of the module with the variable name.
 
 #### `pass`
-we use pass keyword wherever we want to define a function with no block of code, or a class with no member 
+we use pass keyword wherever we want to define a function with no block of code, or a class with no member

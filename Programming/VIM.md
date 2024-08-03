@@ -1,5 +1,6 @@
 cheatsheets :
-- [1](https://vim.rtorr.com/)
+- https://vim.rtorr.com/
+
 
 > [!NOTE] Very, Very, VERRRYYYYYY!!!!!!! IMPORTANT
 > :q is to exit vim

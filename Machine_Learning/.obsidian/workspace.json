@@ -1,18 +1,22 @@
 {
   "main": {
-    "id": "32275e1686df4416",
+    "id": "a12e2aaee0cce288",
     "type": "split",
     "children": [
       {
-        "id": "229a11e31ec75499",
+        "id": "67be357651c294bd",
         "type": "tabs",
         "children": [
           {
-            "id": "a54a2b72caa6a474",
+            "id": "b15409ea939676b1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "NETWORKING/Network_Protocols/NFS.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -21,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "a0242cf347b17844",
+    "id": "b4a42c1763b7a506",
     "type": "split",
     "children": [
       {
-        "id": "0201840417a4e864",
+        "id": "32e86666f7c30f1c",
         "type": "tabs",
         "children": [
           {
-            "id": "8f9b3a5e0114c22d",
+            "id": "cbf68360a1bdeb53",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,26 +43,26 @@
             }
           },
           {
-            "id": "abc776649cecd4a5",
+            "id": "12eecdc40f775861",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "10a88ddee50d2ab9",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ports",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "a5c5d4c56460edd5",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
             }
           }
         ]
@@ -68,19 +72,20 @@
     "width": 300
   },
   "right": {
-    "id": "571aad9cc9876871",
+    "id": "2cac4bd4c268b9f0",
     "type": "split",
     "children": [
       {
-        "id": "e22b890441c3e15d",
+        "id": "531a06019a483921",
         "type": "tabs",
         "children": [
           {
-            "id": "40eae0480b2b804e",
+            "id": "3d49db7278a47ce1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "NETWORKING/Network_Protocols/NFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +97,19 @@
             }
           },
           {
-            "id": "9a4932fc49182f10",
+            "id": "912a936e33384f87",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "NETWORKING/Network_Protocols/NFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "79fc9c3f90806ffe",
+            "id": "57046e02ee6fd24f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,11 +120,13 @@
             }
           },
           {
-            "id": "373819c0be71c06e",
+            "id": "bf3c145175b207c2",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "NETWORKING/Network_Protocols/NFS.md"
+              }
             }
           }
         ]
@@ -138,6 +146,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a54a2b72caa6a474",
-  "lastOpenFiles": []
+  "active": "b15409ea939676b1",
+  "lastOpenFiles": [
+    "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
+    "NETWORKING/Network_Protocols/NFS.md",
+    "Attachment_Folder/Screenshot from 2024-07-27 17-22-41.png",
+    "Screenshot from 2024-07-27 17-22-41.png",
+    "Attachment_Folder/Screenshot from 2024-07-27 16-53-04.png",
+    "Screenshot from 2024-07-27 16-53-04.png",
+    "NETWORKING/Network_Protocols/FTP.md",
+    "NETWORKING/Network_Protocols/HTTP.md",
+    "NETWORKING/Network_Protocols/Telnet.md",
+    "NETWORKING/Network_Protocols/SMB.md",
+    "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
+    "Attachment_Folder/Screenshot from 2024-07-07 16-48-31.png",
+    "Screenshot from 2024-07-07 16-48-31.png",
+    "Attachment_Folder/Screenshot from 2024-07-07 16-40-56.png",
+    "Screenshot from 2024-07-07 16-40-56.png",
+    "Attachment_Folder/Screenshot from 2024-07-07 16-18-16.png",
+    "Screenshot from 2024-07-07 16-18-16.png",
+    "NETWORKING/Network_Addressing/port_addressing.md",
+    "ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md",
+    "NETWORKING/Wi-Fi/wifi.md",
+    "NETWORKING/Network_Protocols/UDP.md",
+    "NETWORKING/Network_Topology.md",
+    "NETWORKING/Network_Models/Basics_NetworkModels.md",
+    "ISC2_CC/4)Network_Security/0_Overview.md",
+    "NETWORKING/wireless_networks.md",
+    "misc.md",
+    "tools/Wireshark.md",
+    "tools/nmap.md",
+    "NETWORKING/Network_Protocols/SMTP.md",
+    "Introductory_CyberSecurity/Basics/Vocabulary.md",
+    "Introductory_CyberSecurity/Basics/subnet.md",
+    "Introductory_CyberSecurity/Basics/Vocabulary",
+    "LINUX/Fundamentals.md",
+    "Introductory_CyberSecurity/Basics/Linux_Commands.md",
+    "NETWORKING/Network_Protocols/ICMP.md",
+    "NETWORKING/ICMP.md",
+    "vapt/vulnerability_assessment.md",
+    "writeups",
+    "vapt",
+    "laws_and_regulations",
+    "Introductory_CyberSecurity/Ethical_Hacking",
+    "Introductory_CyberSecurity/Introductory_researching",
+    "malware",
+    "android_security",
+    "cryptography",
+    "NETWORKING/Network_Protocols/email_sec"
+  ]
 }

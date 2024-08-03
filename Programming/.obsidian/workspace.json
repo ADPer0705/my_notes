@@ -1,35 +1,52 @@
 {
   "main": {
-    "id": "66722be6111ecf1d",
+    "id": "a12e2aaee0cce288",
     "type": "split",
     "children": [
       {
-        "id": "4e9d7d8665c6ebc3",
+        "id": "67be357651c294bd",
         "type": "tabs",
         "children": [
           {
-            "id": "1c39655edf268f8b",
+            "id": "b15409ea939676b1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Git_&_GitHub.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "75238be899661447",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Languages/python.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "8d1b994c679d85f2",
+    "id": "b4a42c1763b7a506",
     "type": "split",
     "children": [
       {
-        "id": "96bc3dc9f7136f85",
+        "id": "32e86666f7c30f1c",
         "type": "tabs",
         "children": [
           {
-            "id": "d88aed1f9782d136",
+            "id": "cbf68360a1bdeb53",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,26 +56,26 @@
             }
           },
           {
-            "id": "e68ee02800f340c7",
+            "id": "12eecdc40f775861",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "10a88ddee50d2ab9",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "ports",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
-            }
-          },
-          {
-            "id": "4b3684c05afd8a9d",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
             }
           }
         ]
@@ -68,19 +85,20 @@
     "width": 300
   },
   "right": {
-    "id": "918fbfad9df5f8bd",
+    "id": "2cac4bd4c268b9f0",
     "type": "split",
     "children": [
       {
-        "id": "bb77871eb5d6d442",
+        "id": "531a06019a483921",
         "type": "tabs",
         "children": [
           {
-            "id": "d797871e6ed0c1a6",
+            "id": "3d49db7278a47ce1",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Languages/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -92,18 +110,19 @@
             }
           },
           {
-            "id": "cecfdcfd1377c223",
+            "id": "912a936e33384f87",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Languages/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "ba9146586542aa78",
+            "id": "57046e02ee6fd24f",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,11 +133,13 @@
             }
           },
           {
-            "id": "8bfaf0fb555279f1",
+            "id": "bf3c145175b207c2",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Languages/python.md"
+              }
             }
           }
         ]
@@ -138,6 +159,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1c39655edf268f8b",
-  "lastOpenFiles": []
+  "active": "75238be899661447",
+  "lastOpenFiles": [
+    "Languages/C++.md",
+    "Attachment_Folder/atomicsymbol.jpg",
+    "Attachment_Folder/Screenshot from 2024-05-14 19-36-30.png",
+    "Attachment_Folder/Screenshot from 2024-05-12 18-57-06.png",
+    "Attachment_Folder/Screenshot from 2024-05-12 18-53-15.png",
+    "Attachment_Folder/Screenshot from 2024-04-07 19-46-33.png",
+    "Attachment_Folder/Screenshot from 2024-04-07 19-38-06.png",
+    "Attachment_Folder/Screenshot from 2024-04-04 13-22-23.png",
+    "Attachment_Folder/Screenshot from 2024-03-20 04-07-33.png",
+    "Attachment_Folder/Screenshot from 2024-03-15 21-18-42.png",
+    "Attachment_Folder/Screenshot 2024-05-11 193400.jpg",
+    "old_eng_attachment_folder",
+    "markdown.md",
+    "Git_&_GitHub.md",
+    "Languages/python.md",
+    "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
+    "NETWORKING/Network_Protocols/NFS.md",
+    "NETWORKING/Network_Protocols/FTP.md",
+    "NETWORKING/Network_Protocols/HTTP.md",
+    "NETWORKING/Network_Protocols/Telnet.md",
+    "NETWORKING/Network_Protocols/SMB.md",
+    "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
+    "NETWORKING/Network_Addressing/port_addressing.md",
+    "ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md",
+    "NETWORKING/Wi-Fi/wifi.md",
+    "NETWORKING/Network_Protocols/UDP.md",
+    "NETWORKING/Network_Topology.md",
+    "NETWORKING/Network_Models/Basics_NetworkModels.md",
+    "ISC2_CC/4)Network_Security/0_Overview.md",
+    "NETWORKING/wireless_networks.md",
+    "misc.md",
+    "tools/Wireshark.md",
+    "tools/nmap.md",
+    "NETWORKING/Network_Protocols/SMTP.md",
+    "Introductory_CyberSecurity/Basics/Vocabulary.md",
+    "Introductory_CyberSecurity/Basics/subnet.md",
+    "Introductory_CyberSecurity/Basics/Vocabulary",
+    "LINUX/Fundamentals.md",
+    "writeups",
+    "vapt",
+    "laws_and_regulations",
+    "Introductory_CyberSecurity/Ethical_Hacking",
+    "Introductory_CyberSecurity/Introductory_researching",
+    "malware",
+    "android_security",
+    "cryptography"
+  ]
 }
