@@ -346,6 +346,7 @@ The above code will make a list of `options` and then randomly make a choice fro
 	- This can also be used to modify the lists using indexing
 	- just as strings, these also support negative indexing
 - `len(list_name)` gives the length of the list 
+- lists can be concatenated using the `+` operator 
 
 Adding items to the list
 - `listname.append(<_ item to be added _>)` => add items to the end of the list 
@@ -370,6 +371,9 @@ sorting without modifying
 - copy the list onto another list then sort that
 - if we don't want to sort the list, just want to access a sorted version of the list 
 	- `print(sorted(items, key=str.lower()))` will print a sorted version of the list `items` and sort it according to `key=str.lower()`
+	- we can also assign a sorted version of the list to another list as follows :       `newlist = sorted(listname)`
+
+- `mylist = [0] * 5` will give `[0, 0, 0, 0, 0]`
 
 ---
 # Tuples

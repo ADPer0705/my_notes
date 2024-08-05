@@ -111,4 +111,35 @@ Cloud-based assets include any resources that an organization accesses using clo
 	- *Usage is metered and priced according to units (or instances) consumed*. This can also be billed back to specific departments or functions.
 	- *Reduced cost of ownership*. There is no need to buy any assets for everyday use, no loss of asset value over time and a reduction of other related costs of maintenance and support.
 	- *Reduced energy and cooling costs*, along with *“green IT” environment effect* with optimum use of IT resources and systems.
-	- Allows an enterprise to *scale up* new software or data-based services/solutions through cloud systems quickly and *without having to install massive hardware locally*.
+	- Allows an enterprise to *scale up* new software or data-based services/solutions through cloud systems quickly and *without having to install massive hardware locally* 
+
+## Service Models 
+Some cloud based services only provide data storage and access. 
+- When storing data in cloud, organization must ensure that security controls are in place to prevent unauthorized access to the data 
+
+There are varying levels of responsibility for assets depending on the service model. This includes : 
+- maintaining the assets
+- ensuring they remain functional 
+- keeping the systems and applications up to date with current patches 
+In some cases, the cloud service provider is responsible for these steps. In other cases, the consumer is responsible for these steps 
+
+Types of cloud computing service models include 
+- *Software as a Service (SaaS)*
+	- The cloud customer uses the cloud provider's application running within a cloud infrastructure
+	- The application from various client devices through either a thin client interface, such as a web browser, or a program interface
+	- SaaS is a distributed model where software applications are hosted by a vendor or cloud service provider and made available to customers over a network resources
+	- The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities with the possible exception of limited user-specific applications configuration settings
+	- SaaS has many benefits for organizations, which include but are not limited to 
+		- Ease of use and limited/minimal administration 
+		- Automatic updates 
+		- patch management 
+	- Derived from NIST 800-145
+- *Platform as a Service (PaaS)*
+	- The web-authoring or application development middleware environment that allows applications to be built in the cloud before they're deployed as SaaS assets
+	- A cloud provides an environment for customers to use to build and operate their own software
+- *Infrastructure as a Service (IaaS)*
+	- The provider of the core computing, storage and network hardware and software that is the foundation upon which organizations can build and then deploy applications
+	- IaaS is popular in the data center where software and servers are purchased as a fully outsourced service and usually billed on usage and how much of the resource is used 
+
+## Deployment Models
+- There are four cloud deployment models. The cloud deployment model also affects the breakdown of responsibilities of the cloud-based assets

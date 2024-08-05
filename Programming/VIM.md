@@ -132,3 +132,8 @@ consider a character, say `a`
 `G` => jumps to the end of the file 
 `123G` => jumps to the line 123
 `:123` => also jumps to the line 123
+
+
+
+---
+

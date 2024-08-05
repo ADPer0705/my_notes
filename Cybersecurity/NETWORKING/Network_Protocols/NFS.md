@@ -29,7 +29,7 @@ First, the client will request to mount a directory from a remote host on a loca
 
 The server checks if the user has permissions to mount whatever directory has been requested. It will then return a file handle which uniquely identifies each file and directory that is on the server 
 
-If someone want to access a file using NFS, an RPS call is placed to NFSD (NFS daemon) on the server. This call takes parameters such as : 
+If someone want to access a file using NFS, an RPC call is placed to NFSD (NFS daemon) on the server. This call takes parameters such as : 
 - The file handle
 - The name of the file to be accessed 
 - The user's user ID 
@@ -74,7 +74,7 @@ These are used in determining access rights to the specified file. This is what 
 1. User ID Mapping:
 	- NFS uses UID (User ID) and GID (Group ID) to map users between the client and server.
 3. Secure NFS with Kerberos:
-	- NFSv4 supports Kerberos authentication to enhance security.
+	- NFSv4 supports [[kerberos]] authentication to enhance security.
 
 ## Performance Considerations
 1. Asynchronous vs. Synchronous Writes:

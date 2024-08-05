@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/Network_Protocols/NFS.md",
+                "file": "NETWORKING/Network_Protocols/Network_Authentication_Protocol/kerberos.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKING/Network_Protocols/NFS.md",
+                "file": "NETWORKING/Network_Protocols/Network_Authentication_Protocol/kerberos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKING/Network_Protocols/NFS.md",
+                "file": "NETWORKING/Network_Protocols/Network_Authentication_Protocol/kerberos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORKING/Network_Protocols/NFS.md"
+                "file": "NETWORKING/Network_Protocols/Network_Authentication_Protocol/kerberos.md"
               }
             }
           }
@@ -148,8 +148,10 @@
   },
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
-    "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
     "NETWORKING/Network_Protocols/NFS.md",
+    "NETWORKING/Network_Protocols/Network_Authentication_Protocol/kerberos.md",
+    "NETWORKING/Network_Protocols/Network_Authentication_Protocol",
+    "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
     "Attachment_Folder/Screenshot from 2024-07-27 17-22-41.png",
     "Screenshot from 2024-07-27 17-22-41.png",
     "Attachment_Folder/Screenshot from 2024-07-27 16-53-04.png",
@@ -184,7 +186,6 @@
     "Introductory_CyberSecurity/Basics/Linux_Commands.md",
     "NETWORKING/Network_Protocols/ICMP.md",
     "NETWORKING/ICMP.md",
-    "vapt/vulnerability_assessment.md",
     "writeups",
     "vapt",
     "laws_and_regulations",
@@ -192,7 +193,6 @@
     "Introductory_CyberSecurity/Introductory_researching",
     "malware",
     "android_security",
-    "cryptography",
-    "NETWORKING/Network_Protocols/email_sec"
+    "cryptography"
   ]
 }
