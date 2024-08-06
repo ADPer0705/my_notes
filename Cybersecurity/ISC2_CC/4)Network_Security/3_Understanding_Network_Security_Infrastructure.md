@@ -133,13 +133,36 @@ Types of cloud computing service models include
 		- Ease of use and limited/minimal administration 
 		- Automatic updates 
 		- patch management 
+			- The user will always be running the latest version and most up-to-date deployment of the software release, as well as any relevant security updates, with no manual patching required 
+		- Standardization and Compatibility 
+			- All users will have the same version of the software release 
 	- Derived from NIST 800-145
 - *Platform as a Service (PaaS)*
 	- The web-authoring or application development middleware environment that allows applications to be built in the cloud before they're deployed as SaaS assets
 	- A cloud provides an environment for customers to use to build and operate their own software
+	- PaaS is a way for the customer to rent hardware, operating systems, storage and network capacity over the internet fro a cloud service provider
+	- The consumer down not manage or control the underlying cloud infrastructure, including network, servers, operating systems, or storage, but has control over the deployed application and possibly application-hosting environment configurations 
+	- A PaaS cloud provides a toolkit for conveniently developing, deploying and administering application software that is structured to support large numbers of consumers, process very large quantities of data and potentially be accessed from any point on the internet
+	- PaaS clouds will typically provide a set of software building blocks and a set of development tools such as programming languages and supporting run-time environments that facilitate the construction of high-quality, scalable applications
+	- Additionally, PaaS clouds will typically provide tools that assist with the deployment of new applications
+	- PaaS clouds will also generally provide and maintain the computing resources (e.g., processing, storage and networking) that consumer applications need to operate
+	- PaaS clouds provide many benefits for developers, including that the operating system can be changed and upgraded frequently, along with associated features and system services
 - *Infrastructure as a Service (IaaS)*
 	- The provider of the core computing, storage and network hardware and software that is the foundation upon which organizations can build and then deploy applications
-	- IaaS is popular in the data center where software and servers are purchased as a fully outsourced service and usually billed on usage and how much of the resource is used 
+	- IaaS models provide basic computing resources to consumers. This includes servers, storage, and in some cases, networking resources. 
+	- Consumers install operating systems and applications and perform all required maintenance on the operating systems and applications.
+	- IaaS is popular in the data center where software and servers are purchased as a fully outsourced service and usually billed on usage and how much of the resource is used
+	- Although the consumer has use of the related equipment, the cloud service provider retains ownership and is ultimately responsible for hosting, running and maintenance of the hardware.
+	- IaaS is also referred to as hardware as a service 
+	- Benefits includes 
+		- Ability to scale up and down infrastructure service based on actual usage. This is particularly useful and beneficial where there are significant spikes and dips withing the usage curve for infrastructure 
+		- Retain system control at the operating system level 
 
 ## Deployment Models
 - There are four cloud deployment models. The cloud deployment model also affects the breakdown of responsibilities of the cloud-based assets
+
+The four models are : 
+- *public*
+- *private*
+- *hybrid*
+- *community*

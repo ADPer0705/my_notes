@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/Network_Protocols/Network_Authentication_Protocol/kerberos.md",
+                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ports",
+                "query": "enumeration",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKING/Network_Protocols/Network_Authentication_Protocol/kerberos.md",
+                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKING/Network_Protocols/Network_Authentication_Protocol/kerberos.md",
+                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORKING/Network_Protocols/Network_Authentication_Protocol/kerberos.md"
+                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md"
               }
             }
           }
@@ -149,17 +149,21 @@
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
     "NETWORKING/Network_Protocols/NFS.md",
+    "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
+    "laws_and_regulations/infosec.md",
+    "Introductory_CyberSecurity/Basics/Vocabulary.md",
+    "NETWORKING/Network_Protocols/SMB.md",
+    "tools/nmap.md",
+    "LINUX/Fundamentals.md",
+    "NETWORKING/Network_Protocols/FTP.md",
     "NETWORKING/Network_Protocols/Network_Authentication_Protocol/kerberos.md",
     "NETWORKING/Network_Protocols/Network_Authentication_Protocol",
-    "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
     "Attachment_Folder/Screenshot from 2024-07-27 17-22-41.png",
     "Screenshot from 2024-07-27 17-22-41.png",
     "Attachment_Folder/Screenshot from 2024-07-27 16-53-04.png",
     "Screenshot from 2024-07-27 16-53-04.png",
-    "NETWORKING/Network_Protocols/FTP.md",
     "NETWORKING/Network_Protocols/HTTP.md",
     "NETWORKING/Network_Protocols/Telnet.md",
-    "NETWORKING/Network_Protocols/SMB.md",
     "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
     "Attachment_Folder/Screenshot from 2024-07-07 16-48-31.png",
     "Screenshot from 2024-07-07 16-48-31.png",
@@ -177,15 +181,11 @@
     "NETWORKING/wireless_networks.md",
     "misc.md",
     "tools/Wireshark.md",
-    "tools/nmap.md",
     "NETWORKING/Network_Protocols/SMTP.md",
-    "Introductory_CyberSecurity/Basics/Vocabulary.md",
     "Introductory_CyberSecurity/Basics/subnet.md",
     "Introductory_CyberSecurity/Basics/Vocabulary",
-    "LINUX/Fundamentals.md",
     "Introductory_CyberSecurity/Basics/Linux_Commands.md",
     "NETWORKING/Network_Protocols/ICMP.md",
-    "NETWORKING/ICMP.md",
     "writeups",
     "vapt",
     "laws_and_regulations",

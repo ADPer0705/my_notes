@@ -80,6 +80,7 @@ This separation of command information and data into separate channels is a way 
 ---
 
 # Enumerating FTP 
+#enumeration 
 
 1. **Banner Grabbing**
 	- Banner grabbing helps identify the FTP server software and version 

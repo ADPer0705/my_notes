@@ -51,6 +51,7 @@ once they have established a connection, clients can then send commands (*SMBs*)
 ---
 
 # Enumerating SMB
+#enumeration 
 Typically, there are SMB share drives on a server that can be connected to and used to view or transfer files. SMB can often be a great starting point for an attacker looking to discover sensitive information 
 
 #### Port Scanning 

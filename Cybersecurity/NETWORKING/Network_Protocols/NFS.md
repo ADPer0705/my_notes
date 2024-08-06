@@ -3,7 +3,7 @@
 
 ---
 
-**NETWORK FILE SYSTEM**
+# NETWORK FILE SYSTEM
 - a distributed file system protocol 
 - originally developed by Sun Microsystems in 1984
 - allows users to access to files over a network in a manner similar to how local storage is accessed 
@@ -114,3 +114,113 @@ Using the NFS protocol, you can transfer files between computer running windows 
 	sudo systemctl status nfs-kernel-server
 	
 	```
+
+# Enumerating NFS
+#enumeration 
+
+> [!NOTE] ENUMERATION
+> Enumeration is defined as "a process which establishes an active connection to the target hosts to discover potential attack vectors in the system, and the same can be used for further exploitation of the system"
+
+In order to do a more advanced enumeration of NFS server, and shares - we're going to need a few tools
+
+#### nfs-common
+It is key to interacting with any NFS share from your local machine. It is important to have this package installed on any machine that uses NFS - either as client or server.
+
+It includes programs such as 
+- lockd
+- statd
+- showmount
+- nfsstat
+- gssd
+- idmapd
+- mount.nfs
+Primarily showmount and mount.nfs are going to be most useful in extracting information from the NFS share. 
+
+#### Port Scanning
+done using nmap
+
+### Mounting NFS Shares
+The client's system needs a directory where all the content shared by the host server in the export folder can be accessed
+Once this folder is created in the system, it can be mounted as : 
+```bash
+sudo mount -t nfs IP:share /tmp/mount/ -nolock
+```
+
+
+|   Tag    |                                   Function                                   |
+| :------: | :--------------------------------------------------------------------------: |
+|   sudo   |                                 Run as root                                  |
+|  mount   |                          Execute the mount command                           |
+|  -t nfs  |            Type of device to mount, then specifying that it's NFS            |
+| IP:share | The IP Address of the NFS server, and the name of the share we wish to mount |
+| -nolock  |                       Specifies not to use NLM locking                       |
+
+# Exploiting NFS
+
+### root_squash
+By default, on NFS shares root squashing is enabled, and prevents anyone connecting to the NFS share from having root access to the NFS volume. This feature helps to mitigate potential security risks by mapping requests from the root user on the client machine to a less privileged user on the server, typically the `nobody` user
+
+#### How root-squashing works : 
+- when an NFS client makes a request to the server, the server checks the user ID (UID) of the requesting user 
+- If the request comes from the root user (UID 0) on the client, the NFS server maps this request to a less privileged user, often the `nobody` user, which has minimal permissions
+- This mapping ensures that the root user on the client does not have root privileges on the server 
+
+#### Configuring root-squashing 
+1. Setting Up Root Squashing:
+	- Root squashing is configured in the NFS server’s export file, typically `/etc/exports`.
+	- The `root_squash` option is used to enable root squashing.
+		Example Configuration in `/etc/exports`:
+```bash
+/home/shared 192.168.1.0/24(rw,sync,no_subtree_check,root_squash)
+```
+- In this example, the `/home/shared` directory is exported to the network `192.168.1.0/24` with read-write access. The `root_squash` option is enabled, so any request from the root user on any client in this network will be mapped to the `nobody` user.
+2. Disabling Root Squashing
+	- If you want to disable root squashing (not recommended unless you fully trust all clients), you can use the `no_root_squash` option.
+```bash
+/home/shared 192.168.1.0/24(rw,sync,no_subtree_check,no_root_squash)
+```
+- In this case, root users on clients will have root privileges on the NFS server, which can pose significant security risks.
+
+#### Advantages and Disadvantages
+- Advantages:
+	1. **Enhanced Security:** Prevents root users on client machines from having unrestricted access to the server’s file system.
+	2. **Controlled Access:** Ensures that sensitive files and directories are protected from unauthorized modifications by remote root users.
+- Disadvantages:
+	1. **Limited Administrative Capabilities:** Root squashing can limit legitimate administrative tasks that require root access from the client side.
+	2. **Complexity in Management:** May require additional management and configuration to ensure the correct permissions are set for other users.
+
+#### Use Cases 
+1. **Multi-User Environments:** In environments where multiple users and systems access shared resources, root squashing adds a layer of security to protect the server’s file system.
+2. **Heterogeneous Networks:** In networks with different operating systems and varying security levels, root squashing helps mitigate potential risks from less secure clients.
+
+
+
+Remote users are assigned a user "nfsnobody" when connected, which has the least local privileges. If this is turned off, it can allow the creation of SUID bit files, allowing a remote user root access to the connected system
+
+### SUID
+**SUID (Set User ID)** is a special file permission if Unix and Unix-like operating systems that allows a file to be executed with the privileges of the file owner, rather than the privileges of the user who is running the file. This feature often allows users to execute programs with temporarily elevated privileges, typically for administrative tasks that requires root access 
+
+- Basic Concept:
+	- **Standard Execution:** Normally, when a user runs a file, it executes with the permissions of that user.
+	- **SUID Execution:** When a file with the SUID bit set is executed, it runs with the permissions of the file's owner, not the user executing the file.
+- How SUID Works
+	1. Setting the SUID Bit
+		- The SUID bit can be set using the `chmod` command.
+		- The symbolic representation is `s` in the owner’s execute position.
+		- The octal representation is `4`.
+		- This command sets the SUID bit on the specified file
+	```bash
+	chmod u+s /path/to/file
+	```
+	2. Checking the SUID Bit 
+		- You can check if a file has the SUID bit set using the `ls -l` command.
+		- The `s` character will appear in the owner’s execute position
+		- The `s` in `-rwsr-xr-x` indicates that the SUID bit is set and the file will execute with the owner's (root's) privileges.
+		```bash
+		ls -l /path/to/file
+		```
+		The output might look like this : 
+		```bash
+		-rwsr-xr-x 1 root root 12345 Jan 01 12:34 /path/to/file
+		```
+		
