@@ -223,4 +223,12 @@ Remote users are assigned a user "nfsnobody" when connected, which has the least
 		```bash
 		-rwsr-xr-x 1 root root 12345 Jan 01 12:34 /path/to/file
 		```
-		
+
+
+
+We can leverage SUID to get a shell with these privileges 
+#privilege_escalation
+
+### Method
+
+We're able to upload files to the NFS share, and control the permissions of these files thanks to a misconfigured root-squash. We can set the permissions of whatever we upload. We can then log in through SSH and execute files like a bash shell executable to gain a root shell

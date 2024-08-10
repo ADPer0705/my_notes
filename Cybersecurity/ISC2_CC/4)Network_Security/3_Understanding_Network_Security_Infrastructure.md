@@ -163,6 +163,166 @@ Types of cloud computing service models include
 
 The four models are : 
 - *public*
+	- NIST SP 800-145
+		- The cloud infrastructure is provisioned for open use by the general public
+		- It may be owned, managed, and operated by a business, academic, or government organization, or some combination of them
+		- It exists on the premises of the cloud provider
+	- commonly referred to as "cloud for the public"
+	- There is no real mechanism, other than applying for and paying for the cloud service
+	- A public cloud deployment model includes assets available for any consumer to rent or lease and is hosted by an external cloud service provider (CSP)
+	- Service level agreements can be effective at ensuring the CSP provides the cloud-based services at a level acceptable to the organization
 - *private*
+	- The phrase used to describe a cloud computing platform that is implemented within the corporate firewall, under the control of the IT department 
+	- Private clouds begin with the same technical concepts as public clouds, except that instead of being shared with the public, they are generally developed and deployed for a private organization that builds its own cloud 
+	- A private cloud is designed to offer the same features and benefits of cloud systems, but removes a number of objections to the cloud computing model, including control over enterprise and customer data, worries about security, and issues connected to regulatory compliance 
+	- An organization can also rent resources from a third party and split maintenance requirements based on the service model (IaaS, PaaS, or SaaS)
 - *hybrid*
+	- A combination of public cloud storage and private cloud storage where some critical data resides in the enterprise's private cloud while other data is stored and accessible from a public cloud storage provider 
+	- Hybrid cloud computing is gaining popularity with organizations by providing them with the ability to retain control of their IT environments, conveniently allowing them to use public cloud service to fulfill non-mission-critical workloads, and taking advantage of flexibility, scalability and cost savings
+	- Important drivers or benefits of hybrid cloud deployments include : 
+		- Retaining ownership and oversight or critical tasks and processes related to technology
+		- reusing previous investments in technology within the organization 
+		- Control over the most critical business components and systems
+		- Cost-effective means to fulfilling non-critical business functions (utilizing public cloud components)
 - *community*
+	- NIST 800-45
+		- A system in which the cloud infrastructure is provisioned for exclusive use by a specific community of consumers from organizations that have shared concerns (e.g. mission, security requirements, policy and compliance considerations)
+		- It may be owned, managed and operated by one or more of the organizations in the community, a third party or some combination of them, and it may exist on or off premises 
+	- community clouds can be either public or private
+	- What makes them unique is that they are generally developed for a particular community. 
+		- An example could be a public community cloud focused primarily on organic food, or maybe a community cloud focused specifically on financial services. 
+	- The idea behind the community cloud is that people of like minds or similar interests can get together, share IT capabilities and services, and use them in a way that is beneficial for the particular interests that they share
+
+
+---
+
+# Managed Service Provider (MSP)
+A managed service provider (MSP) is a company that *manages information technology assets* for another company. Small- and medium-sized businesses commonly outsource part or all of their information technology functions to an MSP to manage day-to-day operations or to provide expertise in areas the company does not have. Organizations may also use an MSP to provide *network and security monitoring and patching services*. 
+
+Today, many MSPs offer *cloud-based services augmenting SaaS solutions* with *active incident investigation and response activities*. 
+- One such example is a *managed detection and response (MDR) service*, where a vendor monitors firewall and other security tools to provide expertise in triaging events. 
+
+Some other common MSP implementations are: 
+- Augment in-house staff for projects
+- Utilize expertise for implementation of a product or service
+- Provide payroll services
+- Provide Help Desk service management
+- Monitor and respond to security incidents
+- Manage all in-house IT infrastructure
+
+---
+
+# Service Level Agreement (SLA)
+The *cloud computing service-level agreement (cloud SLA)* is an agreement between a cloud service provider and a cloud service customer *based on a taxonomy of cloud computing– specific terms to set the quality of the cloud services delivered*. It characterizes quality of the cloud services delivered in terms of 
+- a set of measurable properties specific to cloud computing (business and technical) and 
+- a given set of cloud computing roles (cloud service customer, cloud service provider, and related sub-roles).
+
+Think of a rule book and legal contract—that combination is what you have in a service-level agreement (SLA). 
+- In it, the minimum level of service, availability, security, controls, processes, communications, support and many other crucial business elements are stated and agreed to by both parties.  
+
+The purpose of an SLA is to 
+- document specific parameters, 
+- minimum service levels and 
+- remedies for any failure to meet the specified requirements. 
+It should also affirm data ownership and specify data return and destruction details. 
+
+Other important SLA points to consider include the following:
+- Cloud system infrastructure details and security standards
+- Customer right to audit legal and regulatory compliance by the CSP         
+- Rights and costs associated with continuing and discontinuing service use
+- Service availability
+- Service performance
+- Data security and privacy
+- Disaster recovery processes
+- Data location
+- Data access
+- Data portability
+- Problem identification and resolution expectations
+- Change management processes
+- Dispute mediation processes
+- Exit strategy
+
+
+---
+
+# Network Design
+The objective of network design is to satisfy data communication requirements and results in efficient overall performance
+
+## Network Segmentation
+Network segmentation involves controlling traffic among networked devices. 
+
+![[Screenshot from 2024-08-08 09-14-03.png]]
+
+Complete or physical network segmentation occurs when a network is isolated from all outside communication, so transactions can only occur between devices within the segmented network
+
+## Demilitarized Zone
+A *DMZ* is a network area that is designed to be accessed by outside visitors but still isolated from the private network of the organization
+
+![[Screenshot from 2024-08-08 09-18-27.png]]
+
+The DMZ is often the host of public web, email, file and other resource servers
+
+## Virtual Local Area Network (VLAN)
+
+![[Screenshot from 2024-08-08 09-20-21.png]]
+
+VLANs are created by switches to logically segment a network without altering its physical topology
+
+## Virtual Private Network (VPN)
+
+![[Screenshot from 2024-08-08 09-22-09.png]]
+
+A Virtual Private Network is a communication tunnel that provide point-to-point transmission of both authentication and data traffic over an untrusted network
+
+## Defense in Depth
+Defense in depth uses multiple types of access controls in literal or theoretical layers to help an organization avoid a monolithic security stance
+
+## Network Access Control (NAC)
+
+![[Screenshot from 2024-08-08 09-33-02.png]]
+
+Network Access Control (NAC) is a concept of controlling access to an environment through strict adherence to and implementation of security policy
+
+## Defense in Depth
+Defense in depth uses a layered approach when designing the security posture of an organization. Using layers of security will deter many attackers and encourage them to focus on other, easier target.
+
+Defense in depth provides more of a starting point for considering all types of controls -- administrative, technological, and physical -- that empowers insiders and operators to work together to protect their organization and its systems
+
+Here are some examples that further explain the concept of defense in depth
+- **Data** : 
+	- Controls that protect the actual data with technologies such as encryption, data leak prevention, identity and access management and data controls.
+- **Application** : 
+	- Controls that protect the application itself with technologies such as data leak prevention, application firewalls and database monitors.
+- **Host** : 
+	- Every control that is placed at the endpoint level, such as antivirus, endpoint firewall, configuration and patch management.
+- **Internal network** : 
+	- Controls that are in place to protect uncontrolled data flow and user access across the organizational network. Relevant technologies include intrusion detection systems, intrusion prevention systems, internal firewalls and network access controls.
+- **Perimeter** : 
+	- Controls that protect against unauthorized access to the network. 
+	- This level includes the use of technologies such as gateway firewalls, honeypots, malware analysis and secure demilitarized zones (DMZs).
+- **Physical** : 
+	- Controls that provide a physical barrier, such as locks, walls or access control.
+- **Policies, procedures and awareness** : 
+	- Administrative controls that reduce insider threats (intentional and unintentional) and identify risks as soon as they appear
+
+![[Screenshot from 2024-08-10 12-00-57.png]]
+
+## Zero Trust
+
+
+> [!NOTE]
+> Removing the design belied that the network has any trusted space. Security is managed at each possible level, representing the most granular asset. Micro-segmentation of workloads is a tool of the model.
+
+- Zero trust networks are often microsegmented networks, with firewalls at nearly every connecting point
+- Zero trust encapsulates information assets, the services that apply to them and their security properties
+
+This concept recognizes that once inside a trust-but-verify environment , a user has perhaps unlimited capabilities to roam around, identify assets and systems and potentially find exploitable vulnerabilities.
+
+Zero trust is an evolving design approach which recognizes that even the most robust access control systems have their weaknesses. It adds defenses at the user, asset and data level, rather than relying on perimeter defense. In the extreme, it insists that every process or action a user attempts to take must be authenticated and authorized; the window of trust becomes vanishingly small
+
+While microsegmentation adds internal perimeters, zero trust places the focus on the assets, or data, rather than the perimeter. Zero trust builds more effective gates to protect the assets directly rather than building additional or higher walls
+- Microsegmentation is a part of the zero-trust strategy that breaks LANs into very small, highly localized zones using firewalls or similar technologies. At the limits, this places firewall at every connection point
+
+![[Screenshot from 2024-08-10 12-23-07.png]]
+
+## Network Access Control (NAC)
