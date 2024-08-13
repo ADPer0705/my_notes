@@ -14,8 +14,8 @@ when many systems are guests, it is difficult to make sure that none of them are
 
 - *Personally Identifiable Information (PII)*
 	- It pertains to any data about an individual that could be used to identify them 
-	1. any information that can be used to distinguish or trace an individual's identity, such as name, social security number, date and place of birth, mother's maiden name, or bio-metrics records; and 
-	2. any other information that is linked or linkable to an individual, such as medical, educational, financial and employment information 
+		1. any information that can be used to distinguish or trace an individual's identity, such as name, social security number, date and place of birth, mother's maiden name, or bio-metrics records; and 
+		2. any other information that is linked or linkable to an individual, such as medical, educational, financial and employment information 
 	NIST SP800-122
 	- at times, a collection of information might be considered a PII but the individual elements might not be, for example date of birth.
 - *Protected Health Information (PHI)*

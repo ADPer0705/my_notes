@@ -326,3 +326,89 @@ While microsegmentation adds internal perimeters, zero trust places the focus on
 ![[Screenshot from 2024-08-10 12-23-07.png]]
 
 ## Network Access Control (NAC)
+It is important that we both know and control access to an organization's network, both from insides (e.g. employees, contractors) and from outsiders (e.g. customers, corporate partners, vendors). We need to be able to see who or what is attempting to make a network connection
+
+At one time, network access was limited to internal devices. Gradually, that was extended to remote connections, although initially those were the exceptions rather than the norm. This started to change with the concepts of bring your own device (BYOD) and Internet of Things (IoT)
+
+Having identified the need for a NAC solution, we need to identify what capabilities a solution may provide. 
+- As we know, everything begins with a policy. 
+	- The organization’s access control policies and associated security policies should be enforced via the NAC device(s)
+- The NAC device will provide 
+	- the network visibility needed for access security and 
+	- may later be used for incident response. 
+- Aside from identifying connections, it should also be able to provide isolation for non-compliant devices within a quarantined network and provide a mechanism to “fix” the non-compliant elements, such as turning on endpoint protection. 
+In short, the goal is to ensure that all devices wishing to join the network do so only when they comply with the requirements laid out in the organization policies. This visibility will encompass internal users as well as any temporary users such as guests or contractors, etc., and any devices they may bring with them into the organization
+
+Ideally each time a network connection is made, and that the device is identified and interrogated to ensure the organization's policies are being met
+
+![[Screenshot from 2024-08-10 15-52-35.png]]
+
+
+## Network Segmentation (Demilitarized Zone (DMZ))
+Network Segmentation is also an effective way to achieve defense in depth for distributed or multi-tiered applications
+
+The use of a DMZ is a common practice in security architecture
+- with a DMZ, host systems that are accessible through the firewall are physically separated from the internal network by means of secured switches or by using an additional firewall to control traffic between the web server and the internal network
+- Application DMZs (or semi-trusted networks) are frequently used today to access to application server to those networks or systems that have a legitimate need to connect 
+
+![[Screenshot from 2024-08-10 15-58-05.png]]
+
+## Segmentation for Embedded Systems and IoT
+An embedded system is a computer implemented as a part of a larger system
+- The embedded system is typically designed around a limited set of specific functions in relation to the larger product of which it is a component. 
+- Examples of embedded systems include network-attached printers, smart TVs, HVAC controls, smart appliances, smart thermostats and medical devices
+
+Network-enabled devices are any type of portable or non-portable device that has native network capabilities
+- This generally assumes the network in question is a wireless type of network, typically provided by a mobile telecommunications company
+- Network-enabled devices include smartphones, mobile phones, tablets, smart TVs or streaming media player, network-attached printers, game systems, and much more
+
+The Internet of Things (IoT) is the collection of devices that can communicate over the internet with one another or with a control console in order to affect and monitor the real world. 
+- IoT devices might be labeled as smart devices or smart-home equipment
+- Many of the ideas of industrial environmental control found in office buildings are finding their way into more consumer-available solutions for small offices or personal homes
+
+Embedded systems and network-enabled devices that communicate with the internet are considered IoT devices and need special attention to ensure that communication is not used in a malicious manner. 
+- Because an embedded system is often in control of a mechanism in the physical world, a security breach could cause harm to people and property. 
+- Since many of these devices have multiple access routes, such as ethernet, wireless, Bluetooth, etc., special care should be taken to isolate them from other devices on the network. 
+- You can impose logical network segmentation with switches using VLANs, or through other traffic-control means, including MAC addresses, IP addresses, physical ports, protocols, or application filtering, routing, and access control management. 
+- Network segmentation can be used to isolate IoT environments
+
+![[Screenshot from 2024-08-10 16-06-17.png]]
+
+
+
+## Microsegmentation
+The toolsets of current adversaries are polymorphic in nature and allow threats to bypass static security controls. 
+- Modern cyber-attacks take advantage of traditional security models to move easily between systems within a data center. 
+- Microsegmentation aids in protecting against these threats. 
+- A fundamental design requirement of microsegmentation is to understand the protection requirements for traffic within a data center and traffic to and from the internet traffic flows. 
+
+When organizations avoid infrastructure-centric design paradigms, they are more likely to become more efficient at service delivery in the data center and become apt at detecting and preventing advanced persistent threats
+
+## Virtual Local Area Networks (VLANs)
+
+
+> [!NOTE]
+> A virtual local area network (VLAN) is a logical group of workstations, servers, and network devices that appears to be on the same LAN despite their geographical distribution
+
+Virtual local area networks (VLANs) allow network administrators to use switches to create software-based LAN segments, which can segregate or consolidate traffic across multiple switch ports. 
+- Devices that share a VLAN communicate through switches as if they were on the same Layer 2 network. 
+- This image shows different VLANs — red, green and blue — connecting separate sets of ports together, while sharing the same network segment (consisting of the two switches and their connection). 
+- Since VLANs act as discrete networks, communications between VLANs must be enabled. 
+- Broadcast traffic is limited to the VLAN, reducing congestion and reducing the effectiveness of some attacks. 
+- Administration of the environment is simplified, as the VLANs can be reconfigured when individuals change their physical location or need access to different services. 
+- VLANs can be configured based on switch port, IP subnet, MAC address and protocols.
+
+VLANs do not guarantee a network’s security. At first glance, it may seem that traffic cannot be intercepted because communication within a VLAN is restricted to member devices. However, there are attacks that allow a malicious user to see traffic from other VLANs (so-called VLAN hopping). The VLAN technology is only one tool that can improve the overall security of the network environment
+
+![[Screenshot from 2024-08-10 16-17-57.png]]
+
+## Virtual Private Network (VPN)
+
+
+> [!NOTE] 
+> A Virtual Private Network (VPN), built on top of existing networks, that can provide a secure communications mechanism for transmission between networks
+
+- A virtual private network (VPN) is not necessarily an encrypted tunnel. It is simply a point-to-point connection between two hosts that allows them to communicate
+- Secure communications can, of course, be provided by the VPN, but only if the security protocols have been selected and correctly configured to provide a trusted path over an untrusted network, such as the internet
+- Remote users employ VPNs to access their organization’s network, and depending on the VPN’s implementation, they may have most of the same resources available to them as if they were physically at the office. 
+- As an alternative to expensive dedicated point-to-point connections, organizations use gateway-to-gateway VPNs to securely transmit information over the internet between sites or even with business partners

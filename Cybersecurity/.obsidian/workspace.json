@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
+                "file": "ISC2_CC/1)Security_Principles/1_Understanding_The_Security_Concepts_of_Information_Assurance.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
+                "file": "ISC2_CC/1)Security_Principles/1_Understanding_The_Security_Concepts_of_Information_Assurance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
+                "file": "ISC2_CC/1)Security_Principles/1_Understanding_The_Security_Concepts_of_Information_Assurance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md"
+                "file": "ISC2_CC/1)Security_Principles/1_Understanding_The_Security_Concepts_of_Information_Assurance.md"
               }
             }
           }
@@ -146,23 +146,78 @@
       "command-palette:Open command palette": false
     }
   },
+  "floating": {
+    "id": "864571a2147a6526",
+    "type": "floating",
+    "children": [
+      {
+        "id": "37207a81156f28c4",
+        "type": "window",
+        "children": [
+          {
+            "id": "b4e0100460fcb665",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "ad9351b458c66d20",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "ISC2_CC/Misc.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 29,
+        "width": 1280,
+        "height": 1571,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
-    "Attachment_Folder/Screenshot from 2024-08-10 12-23-07.png",
-    "Attachment_Folder/Screenshot from 2024-08-10 12-00-57.png",
-    "Screenshot from 2024-08-10 12-23-07.png",
-    "Screenshot from 2024-08-10 12-00-57.png",
-    "Attachment_Folder/Screenshot from 2024-08-08 09-33-02.png",
-    "Screenshot from 2024-08-08 09-33-02.png",
-    "Attachment_Folder/Screenshot from 2024-08-08 09-22-09.png",
-    "Screenshot from 2024-08-08 09-22-09.png",
-    "Attachment_Folder/Screenshot from 2024-08-08 09-20-21.png",
-    "Screenshot from 2024-08-08 09-20-21.png",
-    "Attachment_Folder/Screenshot from 2024-08-08 09-18-27.png",
+    "ISC2_CC/Misc.md",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/a.html",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/anchor_data/a.html",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/anchor.html",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps.html",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/ccLogo-300x300.png",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/ccLogo-75x75.png",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/contact-form-7.min.css",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/ccLogo.png",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/ccLogo-150x150.png",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/wpforms-modern.min.js",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/api.js",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/woocommerce-layout.min.css",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/imagesloaded.min.js",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/rs6.min.js",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5_002.jpeg",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/footer_logo.png",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5.jpeg",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/submit-spin.svg",
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/WEB_LOGO-1.png",
+    "ISC2_CC/CertPrep_mock/CC5 – CertPreps_files/ccLogo-300x300.png",
+    "ISC2_CC/1)Security_Principles/1_Understanding_The_Security_Concepts_of_Information_Assurance.md",
+    "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
+    "ISC2_CC/5)Security_Operations/0_overview.md",
+    "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
+    "ISC2_CC/5)Security_Operations/5_Summary.md",
+    "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
+    "ISC2_CC/5)Security_Operations/3_Understanding_Best_Practices_Security_Policies.md",
+    "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md",
+    "ISC2_CC/5)Security_Operations/2.Understanding_System_Hardening.md",
     "ISC2_CC/4)Network_Security/4_Summary.md",
     "NETWORKING/Network_Protocols/SMTP.md",
     "NETWORKING/Network_Protocols/NFS.md",
-    "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
     "laws_and_regulations/infosec.md",
     "Introductory_CyberSecurity/Basics/Vocabulary.md",
     "NETWORKING/Network_Protocols/SMB.md",
@@ -170,29 +225,11 @@
     "LINUX/Fundamentals.md",
     "NETWORKING/Network_Protocols/FTP.md",
     "NETWORKING/Network_Protocols/Network_Authentication_Protocol/kerberos.md",
-    "NETWORKING/Network_Protocols/Network_Authentication_Protocol",
     "NETWORKING/Network_Protocols/HTTP.md",
     "NETWORKING/Network_Protocols/Telnet.md",
     "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
     "NETWORKING/Network_Addressing/port_addressing.md",
     "ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md",
-    "NETWORKING/Wi-Fi/wifi.md",
-    "NETWORKING/Network_Protocols/UDP.md",
-    "NETWORKING/Network_Topology.md",
-    "NETWORKING/Network_Models/Basics_NetworkModels.md",
-    "ISC2_CC/4)Network_Security/0_Overview.md",
-    "NETWORKING/wireless_networks.md",
-    "misc.md",
-    "tools/Wireshark.md",
-    "Introductory_CyberSecurity/Basics/subnet.md",
-    "Introductory_CyberSecurity/Basics/Vocabulary",
-    "writeups",
-    "vapt",
-    "laws_and_regulations",
-    "Introductory_CyberSecurity/Ethical_Hacking",
-    "Introductory_CyberSecurity/Introductory_researching",
-    "malware",
-    "android_security",
-    "cryptography"
+    "NETWORKING/Wi-Fi/wifi.md"
   ]
 }

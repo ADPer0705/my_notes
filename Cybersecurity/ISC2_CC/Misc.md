@@ -1,1 +1,1 @@
-- go through all the videos at last in sequence 
+- risk acceptance, avoidance, tolerance, etc.
