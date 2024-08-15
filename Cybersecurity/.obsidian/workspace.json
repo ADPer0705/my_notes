@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2_CC/1)Security_Principles/1_Understanding_The_Security_Concepts_of_Information_Assurance.md",
-                "mode": "source",
+                "file": "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISC2_CC/1)Security_Principles/1_Understanding_The_Security_Concepts_of_Information_Assurance.md",
+                "file": "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISC2_CC/1)Security_Principles/1_Understanding_The_Security_Concepts_of_Information_Assurance.md",
+                "file": "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISC2_CC/1)Security_Principles/1_Understanding_The_Security_Concepts_of_Information_Assurance.md"
+                "file": "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md"
               }
             }
           }
@@ -146,45 +146,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "864571a2147a6526",
-    "type": "floating",
-    "children": [
-      {
-        "id": "37207a81156f28c4",
-        "type": "window",
-        "children": [
-          {
-            "id": "b4e0100460fcb665",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "ad9351b458c66d20",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "ISC2_CC/Misc.md",
-                    "mode": "source",
-                    "source": false
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 0,
-        "y": 29,
-        "width": 1280,
-        "height": 1571,
-        "maximize": false,
-        "zoom": 0
-      }
-    ]
-  },
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
+    "ISC2_CC/5)Security_Operations/3_Understanding_Best_Practices_Security_Policies.md",
+    "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md",
+    "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
+    "ISC2_CC/5)Security_Operations/0_overview.md",
+    "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
+    "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
+    "ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md",
+    "ISC2_CC/4)Network_Security/0_Overview.md",
+    "ISC2_CC/3)Access_Control_Concepts/EDU-CC-70255-ch03_Takeaway.pdf",
+    "ISC2_CC/3)Access_Control_Concepts/4_Summary.md",
+    "ISC2_CC/3)Access_Control_Concepts/3_Understand_Logical_Access_Control.md",
+    "ISC2_CC/3)Access_Control_Concepts/2_Understand_Physical_Access_Control.md",
+    "ISC2_CC/3)Access_Control_Concepts/1_Understand_Access_Control_Concepts.md",
+    "ISC2_CC/3)Access_Control_Concepts/0_Overview.md",
+    "ISC2_CC/1)Security_Principles/6_Summary.md",
+    "ISC2_CC/2)Incident_Response_Business_Continuity_and_Disaster_Response_Concepts/4_Summary.md",
+    "ISC2_CC/2)Incident_Response_Business_Continuity_and_Disaster_Response_Concepts/3_Understanding_Disaster_Recovery_(DR).md",
+    "ISC2_CC/2)Incident_Response_Business_Continuity_and_Disaster_Response_Concepts/2_Understanding_Business_Continuity(BC).md",
+    "ISC2_CC/2)Incident_Response_Business_Continuity_and_Disaster_Response_Concepts/1_Understanding_Incident_Response.md",
+    "ISC2_CC/2)Incident_Response_Business_Continuity_and_Disaster_Response_Concepts/0_Overview.md",
+    "ISC2_CC/1)Security_Principles/5_Understanding_ISC2_CodeOfEthics.md",
+    "ISC2_CC/1)Security_Principles/4_Understanding_Governance_Elements_and_Processes.md",
+    "ISC2_CC/1)Security_Principles/3_Understanding_Security_Controls.md",
+    "ISC2_CC/1)Security_Principles/2_Understanding_The_Risk_Management_Process.md",
+    "ISC2_CC/1)Security_Principles/1_Understanding_The_Security_Concepts_of_Information_Assurance.md",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/a.html",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/anchor_data/a.html",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/anchor.html",
@@ -198,38 +186,13 @@
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/api.js",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/woocommerce-layout.min.css",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/imagesloaded.min.js",
-    "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/rs6.min.js",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5_002.jpeg",
-    "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/mfn-responsive.min.css",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/footer_logo.png",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5.jpeg",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/submit-spin.svg",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/WEB_LOGO-1.png",
     "ISC2_CC/Misc.md",
     "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/ccLogo-300x300.png",
-    "ISC2_CC/1)Security_Principles/1_Understanding_The_Security_Concepts_of_Information_Assurance.md",
-    "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
-    "ISC2_CC/5)Security_Operations/0_overview.md",
-    "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
-    "ISC2_CC/5)Security_Operations/5_Summary.md",
-    "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
-    "ISC2_CC/5)Security_Operations/3_Understanding_Best_Practices_Security_Policies.md",
-    "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md",
-    "ISC2_CC/5)Security_Operations/2.Understanding_System_Hardening.md",
-    "ISC2_CC/4)Network_Security/4_Summary.md",
-    "NETWORKING/Network_Protocols/SMTP.md",
-    "NETWORKING/Network_Protocols/NFS.md",
-    "laws_and_regulations/infosec.md",
-    "Introductory_CyberSecurity/Basics/Vocabulary.md",
-    "NETWORKING/Network_Protocols/SMB.md",
-    "tools/nmap.md",
-    "LINUX/Fundamentals.md",
-    "NETWORKING/Network_Protocols/FTP.md",
-    "NETWORKING/Network_Protocols/Network_Authentication_Protocol/kerberos.md",
-    "NETWORKING/Network_Protocols/HTTP.md",
-    "NETWORKING/Network_Protocols/Telnet.md",
-    "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
-    "NETWORKING/Network_Addressing/port_addressing.md",
-    "ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md"
+    "ISC2_CC/5)Security_Operations/5_Summary.md"
   ]
 }

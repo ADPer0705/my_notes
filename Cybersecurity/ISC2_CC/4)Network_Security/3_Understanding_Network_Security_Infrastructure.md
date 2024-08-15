@@ -99,7 +99,7 @@ There are various definitions of what cloud computing means according to the lea
 
 This image depicts cloud computing characteristics, service and deployment models
 
-![[Screenshot from 2024-07-27 17-22-41.png | 650]]
+![[Screenshot from 2024-07-27 17-22-41.png | 450]]
 
 
 ## Cloud Characteristics

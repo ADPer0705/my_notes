@@ -8,7 +8,7 @@ Whereas physical access controls are tangible methods or mechanisms that limit s
 These types of electronic tools limit who can get logical access to an asset, even if the person already has physical access.
 
 ---
-# # Discretionary Access Control (DAC)
+# Discretionary Access Control (DAC)
 
 *Discretionary access control (DAC)* is a specific type of access control policy that is enforced over all subjects and objects in an information system. In DAC, the policy specifies that a subject who has been granted access to information can do one or more of the following:
 
