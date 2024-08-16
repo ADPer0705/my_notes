@@ -40,9 +40,11 @@ different ways of entering the insert mode
 	- upon : 
 		- i => 1234*5*6789
 			- so typing x would give 1234x*5*6789
-		- a => 12345*6*789
+		- a => 1234*5*6789
 			- so typing x would give 12345x*6*789
-		- o simply gives a new line, it is to be noted it is not necessary to be at the end of the line, unlike hitting enter, you can be anywhere in the line 
+		- o simply gives a new line
+			- it is to be noted it is not necessary to be at the end of the line, unlike hitting enter, you can be anywhere in the line
+			- it wouldn't break the line where the cursor is, it will leave the existing line as it is, neither will it start modifying the line below, o will give a new line between the two, as if hitting enter at the end of the current line 
 - I (capital I) => goes to the beginning of the line and starts typing before the first alphabet
 - A => goes to the end of the line and starts typing after the last alphabet 
 
@@ -68,35 +70,57 @@ this is good for jumping
 	- default
 	- elflord
 	- slate
+	- desert
+	- habamax
+	- murphy
 
 settings are lost once you exit vim
 to prevent this you want to have a settings file, a configuration file to save your preferences 
 - go to, using vim,  `vim ~/.vimrc`
 - The below code gives the file I made 
+```vim
+set mouse=a
+set number
+set relativenumber
+set tabstop=4
+set shiftwidth=4
+set autoindent
+colorscheme elflord
+```
+
 
 `u` => undo
-`ctrl+r` => redo
+`ctrl + R` => redo
 again, for repetition go `3u` or `3 + ctrl + r` 
 
 `v` => goes into visual mode
+now wherever we move the the cursor the portion gets selected 
 - `d` deletes the selection 
 - `esc` leaves but sometimes take 2
 - `y` => yanking (copying in vim lingo)
 - `p` => pastes what was yanked
 	- again, try `10p` to paste 10 times 
 
+below are in normal mode : 
 `dd` => deletes line
 - `5dd` deletes five lines, the one your'e in and 4 below it
 `yy` or `Y` => yanks full line, including the line break
 pasting 
-- `p` pastes below the current line
-- `P` pastes above the current line 
+- `p` pastes below the current line, 
+	- basically the line break is at the start of the line
+	- in case of a yanked word, it goes after "the cursor"
+- `P` pastes above the current line, 
+	- basically the line break is at the end of the line
+	- in case of a yanked word, it goes before "the cursor"
 `cc` deletes the content of the current line but not the line itself and then enters insert mode in that line
+- the line number does not change for the lines below it 
+- we can use the visual mode to change the selected text using `c` 
 `D` deletes the part of the line after the cursor, including the character currently highlighted by the cursor 
 `C` does `cc` on the part of the line after the cursor
 `r` replaces the highlighted character by the character following the r
 
 `w` jumps to the next word
+- an underscore does not count as a word break
 `W` jumps across special characters as well
 `b` and `B` goes back words 
 `e` jumps to the end of a word
