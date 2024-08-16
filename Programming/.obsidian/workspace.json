@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Git_&_GitHub.md",
+                "file": "VIM.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git_&_GitHub.md",
+                "file": "VIM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git_&_GitHub.md",
+                "file": "VIM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git_&_GitHub.md"
+                "file": "VIM.md"
               }
             }
           }
@@ -161,6 +161,9 @@
   },
   "active": "75238be899661447",
   "lastOpenFiles": [
+    "Git_&_GitHub.md",
+    "Languages/java.md",
+    "Languages/java",
     "VIM.md",
     "Languages/python.md",
     "Languages/C++.md",
@@ -176,7 +179,6 @@
     "Attachment_Folder/Screenshot 2024-05-11 193400.jpg",
     "old_eng_attachment_folder",
     "markdown.md",
-    "Git_&_GitHub.md",
     "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
     "NETWORKING/Network_Protocols/NFS.md",
     "NETWORKING/Network_Protocols/FTP.md",
@@ -197,7 +199,6 @@
     "tools/nmap.md",
     "NETWORKING/Network_Protocols/SMTP.md",
     "Introductory_CyberSecurity/Basics/Vocabulary.md",
-    "Introductory_CyberSecurity/Basics/subnet.md",
     "Introductory_CyberSecurity/Basics/Vocabulary",
     "writeups",
     "vapt",
@@ -205,7 +206,6 @@
     "Introductory_CyberSecurity/Ethical_Hacking",
     "Introductory_CyberSecurity/Introductory_researching",
     "malware",
-    "android_security",
-    "cryptography"
+    "android_security"
   ]
 }

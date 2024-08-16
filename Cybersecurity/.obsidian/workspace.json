@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
-                "mode": "preview",
+                "file": "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
+                "file": "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
+                "file": "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md"
+                "file": "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
+    "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
     "ISC2_CC/5)Security_Operations/3_Understanding_Best_Practices_Security_Policies.md",
     "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md",
     "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
@@ -192,7 +193,6 @@
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/submit-spin.svg",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/WEB_LOGO-1.png",
     "ISC2_CC/Misc.md",
-    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/ccLogo-300x300.png",
-    "ISC2_CC/5)Security_Operations/5_Summary.md"
+    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/ccLogo-300x300.png"
   ]
 }
