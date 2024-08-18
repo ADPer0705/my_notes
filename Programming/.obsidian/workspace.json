@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "VIM.md",
+                "file": "Languages/java.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "VIM.md",
+                "file": "Languages/java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "VIM.md",
+                "file": "Languages/java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "VIM.md"
+                "file": "Languages/java.md"
               }
             }
           }
@@ -161,10 +161,10 @@
   },
   "active": "75238be899661447",
   "lastOpenFiles": [
+    "VIM.md",
     "Git_&_GitHub.md",
     "Languages/java.md",
     "Languages/java",
-    "VIM.md",
     "Languages/python.md",
     "Languages/C++.md",
     "Attachment_Folder/atomicsymbol.jpg",

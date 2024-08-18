@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
+                "file": "NETWORKING/Network_Protocols/email_sec/SMTP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
+                "file": "NETWORKING/Network_Protocols/email_sec/SMTP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
+                "file": "NETWORKING/Network_Protocols/email_sec/SMTP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md"
+                "file": "NETWORKING/Network_Protocols/email_sec/SMTP.md"
               }
             }
           }
@@ -148,10 +148,21 @@
   },
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
+    "Attachment_Folder/Screenshot from 2024-08-17 11-10-00.png",
+    "NETWORKING/Network_Protocols/email_sec/IMAP.md",
+    "NETWORKING/Network_Protocols/email_sec/POP.md",
+    "NETWORKING/Network_Protocols/SMB.md",
+    "NETWORKING/Network_Protocols/SMTP.md",
+    "NETWORKING/Network_Protocols/email_sec/SMTP.md",
+    "NETWORKING/Network_Protocols/SNMP.md",
+    "NETWORKING/Network_Protocols/email_sec/SMIME.md",
+    "NETWORKING/Network_Protocols/email_sec/basics.md",
+    "NETWORKING/Network_Protocols/email_sec/PGP.md",
+    "NETWORKING/Network_Protocols/NFS.md",
+    "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
     "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
     "ISC2_CC/5)Security_Operations/3_Understanding_Best_Practices_Security_Policies.md",
     "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md",
-    "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
     "ISC2_CC/5)Security_Operations/0_overview.md",
     "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
     "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
@@ -164,16 +175,6 @@
     "ISC2_CC/3)Access_Control_Concepts/1_Understand_Access_Control_Concepts.md",
     "ISC2_CC/3)Access_Control_Concepts/0_Overview.md",
     "ISC2_CC/1)Security_Principles/6_Summary.md",
-    "ISC2_CC/2)Incident_Response_Business_Continuity_and_Disaster_Response_Concepts/4_Summary.md",
-    "ISC2_CC/2)Incident_Response_Business_Continuity_and_Disaster_Response_Concepts/3_Understanding_Disaster_Recovery_(DR).md",
-    "ISC2_CC/2)Incident_Response_Business_Continuity_and_Disaster_Response_Concepts/2_Understanding_Business_Continuity(BC).md",
-    "ISC2_CC/2)Incident_Response_Business_Continuity_and_Disaster_Response_Concepts/1_Understanding_Incident_Response.md",
-    "ISC2_CC/2)Incident_Response_Business_Continuity_and_Disaster_Response_Concepts/0_Overview.md",
-    "ISC2_CC/1)Security_Principles/5_Understanding_ISC2_CodeOfEthics.md",
-    "ISC2_CC/1)Security_Principles/4_Understanding_Governance_Elements_and_Processes.md",
-    "ISC2_CC/1)Security_Principles/3_Understanding_Security_Controls.md",
-    "ISC2_CC/1)Security_Principles/2_Understanding_The_Risk_Management_Process.md",
-    "ISC2_CC/1)Security_Principles/1_Understanding_The_Security_Concepts_of_Information_Assurance.md",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/a.html",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/anchor_data/a.html",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/anchor.html",
@@ -192,7 +193,6 @@
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5.jpeg",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/submit-spin.svg",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/WEB_LOGO-1.png",
-    "ISC2_CC/Misc.md",
     "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/ccLogo-300x300.png"
   ]
 }
