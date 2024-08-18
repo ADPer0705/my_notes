@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/Network_Protocols/email_sec/SMTP.md",
+                "file": "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKING/Network_Protocols/email_sec/SMTP.md",
+                "file": "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKING/Network_Protocols/email_sec/SMTP.md",
+                "file": "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORKING/Network_Protocols/email_sec/SMTP.md"
+                "file": "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md"
               }
             }
           }
@@ -148,18 +148,24 @@
   },
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
+    "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
+    "Attachment_Folder/Screenshot from 2024-08-18 11-22-35.png",
+    "Attachment_Folder/Screenshot from 2024-08-18 11-10-57.png",
+    "Attachment_Folder/Screenshot from 2024-08-18 11-00-14.png",
+    "Screenshot from 2024-08-18 11-00-14.png",
+    "Attachment_Folder/Screenshot from 2024-08-18 10-48-29.png",
+    "Attachment_Folder/EDU-CCSP-71155-image-raw_log-v01.png",
+    "NETWORKING/Network_Protocols/email_sec/SMTP.md",
     "Attachment_Folder/Screenshot from 2024-08-17 11-10-00.png",
     "NETWORKING/Network_Protocols/email_sec/IMAP.md",
     "NETWORKING/Network_Protocols/email_sec/POP.md",
     "NETWORKING/Network_Protocols/SMB.md",
     "NETWORKING/Network_Protocols/SMTP.md",
-    "NETWORKING/Network_Protocols/email_sec/SMTP.md",
     "NETWORKING/Network_Protocols/SNMP.md",
     "NETWORKING/Network_Protocols/email_sec/SMIME.md",
     "NETWORKING/Network_Protocols/email_sec/basics.md",
     "NETWORKING/Network_Protocols/email_sec/PGP.md",
     "NETWORKING/Network_Protocols/NFS.md",
-    "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
     "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
     "ISC2_CC/5)Security_Operations/3_Understanding_Best_Practices_Security_Policies.md",
     "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md",
@@ -183,16 +189,9 @@
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo-75x75.png",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/contact-form-7.min.css",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo.png",
-    "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo-150x150.png",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/wpforms-modern.min.js",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/api.js",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/woocommerce-layout.min.css",
-    "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/imagesloaded.min.js",
-    "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5_002.jpeg",
-    "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/footer_logo.png",
-    "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5.jpeg",
-    "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/submit-spin.svg",
-    "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/WEB_LOGO-1.png",
-    "ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/ccLogo-300x300.png"
+    "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/imagesloaded.min.js"
   ]
 }
