@@ -1,2 +1,3 @@
  - Type Naming Convention
-
+ 
+ - rpm vs other packge managers
