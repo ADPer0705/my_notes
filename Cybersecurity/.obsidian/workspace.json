@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md",
+                "file": "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md",
+                "file": "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md",
+                "file": "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md"
+                "file": "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md"
               }
             }
           }
@@ -148,6 +148,8 @@
   },
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
+    "ISC2_CC/5)Security_Operations/3_Understanding_Best_Practices_Security_Policies.md",
+    "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md",
     "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
     "Attachment_Folder/Screenshot from 2024-08-18 11-22-35.png",
     "Attachment_Folder/Screenshot from 2024-08-18 11-10-57.png",
@@ -167,8 +169,6 @@
     "NETWORKING/Network_Protocols/email_sec/PGP.md",
     "NETWORKING/Network_Protocols/NFS.md",
     "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
-    "ISC2_CC/5)Security_Operations/3_Understanding_Best_Practices_Security_Policies.md",
-    "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md",
     "ISC2_CC/5)Security_Operations/0_overview.md",
     "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
     "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
