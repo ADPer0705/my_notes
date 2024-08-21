@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Languages/java.md",
+                "file": "Git_&_GitHub.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Languages/java.md",
+                "file": "Git_&_GitHub.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Languages/java.md"
+                "file": "Git_&_GitHub.md"
               }
             }
           }
@@ -159,18 +159,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75238be899661447",
+  "active": "cbf68360a1bdeb53",
   "lastOpenFiles": [
-    "Concepts/Variables.md",
-    "Concepts/Programming Terms.md",
-    "Concepts/Programming.md",
+    "Languages/C++.md",
+    "DSA/sorting.md",
+    "DSA/searching.md",
     "Languages/java.md",
+    "DSA",
+    "Concepts/classes.md",
+    "Concepts/functions.md",
+    "Concepts/Programming.md",
+    "Concepts/Variables.md",
+    "Concepts/Object_Oriented_Programming.md",
+    "Concepts/Programming Terms.md",
     "VIM.md",
     "2024-08-18.md",
     "Git_&_GitHub.md",
     "Languages/java",
     "Languages/python.md",
-    "Languages/C++.md",
     "Attachment_Folder/atomicsymbol.jpg",
     "Attachment_Folder/Screenshot from 2024-05-14 19-36-30.png",
     "Attachment_Folder/Screenshot from 2024-05-12 18-57-06.png",
@@ -194,18 +200,12 @@
     "ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md",
     "NETWORKING/Wi-Fi/wifi.md",
     "NETWORKING/Network_Protocols/UDP.md",
-    "NETWORKING/Network_Topology.md",
-    "NETWORKING/Network_Models/Basics_NetworkModels.md",
-    "ISC2_CC/4)Network_Security/0_Overview.md",
-    "NETWORKING/wireless_networks.md",
-    "misc.md",
     "Introductory_CyberSecurity/Basics/Vocabulary",
     "writeups",
     "vapt",
     "laws_and_regulations",
     "Introductory_CyberSecurity/Ethical_Hacking",
     "Introductory_CyberSecurity/Introductory_researching",
-    "malware",
-    "android_security"
+    "malware"
   ]
 }

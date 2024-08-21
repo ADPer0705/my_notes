@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "NETWORKING/Network_Protocols/email_sec/SMTP.md",
+                "file": "tools/metasploit.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKING/Network_Protocols/email_sec/SMTP.md",
+                "file": "tools/metasploit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKING/Network_Protocols/email_sec/SMTP.md",
+                "file": "tools/metasploit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "NETWORKING/Network_Protocols/email_sec/SMTP.md"
+                "file": "tools/metasploit.md"
               }
             }
           }
@@ -146,15 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cbf68360a1bdeb53",
+  "active": "b15409ea939676b1",
   "lastOpenFiles": [
+    "ISC2_CC/glossary.md",
+    "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
+    "ISC2_CC/5)Security_Operations/0_overview.md",
+    "NETWORKING/Network_Protocols/email_sec/SMTP.md",
     "tools/metasploit.md",
     "NETWORKING/Network_Protocols/FTP.md",
     "LINUX/Fundamentals.md",
     "LINUX/File_System.md",
     "LINUX/commands.md",
     "android_security/android.md",
-    "ISC2_CC/5)Security_Operations/4_Understanding_Security_Awareness_Training.md",
     "ISC2_CC/5)Security_Operations/3_Understanding_Best_Practices_Security_Policies.md",
     "ISC2_CC/5)Security_Operations/2_Understanding_System_Hardening.md",
     "ISC2_CC/5)Security_Operations/1_Understanding_Data_Security.md",
@@ -164,7 +167,6 @@
     "Screenshot from 2024-08-18 11-00-14.png",
     "Attachment_Folder/Screenshot from 2024-08-18 10-48-29.png",
     "Attachment_Folder/EDU-CCSP-71155-image-raw_log-v01.png",
-    "NETWORKING/Network_Protocols/email_sec/SMTP.md",
     "Attachment_Folder/Screenshot from 2024-08-17 11-10-00.png",
     "NETWORKING/Network_Protocols/email_sec/IMAP.md",
     "NETWORKING/Network_Protocols/email_sec/POP.md",
@@ -175,13 +177,11 @@
     "NETWORKING/Network_Protocols/email_sec/basics.md",
     "NETWORKING/Network_Protocols/email_sec/PGP.md",
     "NETWORKING/Network_Protocols/NFS.md",
-    "ISC2_CC/5)Security_Operations/0_overview.md",
     "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
     "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
     "ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md",
     "ISC2_CC/4)Network_Security/0_Overview.md",
     "ISC2_CC/3)Access_Control_Concepts/EDU-CC-70255-ch03_Takeaway.pdf",
-    "ISC2_CC/3)Access_Control_Concepts/4_Summary.md",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/a.html",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/anchor_data/a.html",
     "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/anchor.html",

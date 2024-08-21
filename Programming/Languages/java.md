@@ -61,3 +61,18 @@ variable identifiers :
 - cannot be a keyword 
 
 camel casing is to be followed as a convention when naming variables with multi word identifiers
+
+
+---
+
+
+| Primitive Data Type | Wrapper Class |
+| ------------------- | ------------- |
+| char                | Character     |
+| byte                | Byte          |
+| short               | Short         |
+| long                | Integer       |
+| float               | Float         |
+| double              | Double        |
+| boolean             | Boolean       |
+**NOTE** : `boolean` is the keyword here, not bool
