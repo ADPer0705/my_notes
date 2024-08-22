@@ -1,3 +1,22 @@
+ Developed by Sun Microsystems in 1995, Java is a highly popular, object-oriented programming language. This platform independent programming language is utilized for Android development, web development, artificial intelligence, cloud applications, and much more.
+- Developed by James Gosling in May 1995 at sun Microsystems and was later acquired by Oracle Corporation
+
+OOPS in Java refers to Object-Oriented Programming concepts implemented in the Java programming language. Java’s OOP features include classes, objects, inheritance, polymorphism, and encapsulation, enabling modular and efficient code development. Understanding OOPS in Java is essential for building robust, scalable, and maintainable software applications.
+
+- class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible
+- It is intended for WORA (Write Once Run Anywhere)
+	- Java application are compiled to byte code that can run on any Java Virtual Machine
+- Java was designed with core principles : 
+	- simplicity
+	- robustness 
+	- security
+	- high performance
+	- portability
+	- multi-threading
+	- dynamic interpretation 
+	These principles have made java a preferred 
+
+---
 source files in java end with the extension `.java` 
 compiled bytecodes ends with the extension `.class`
 
@@ -76,3 +95,4 @@ camel casing is to be followed as a convention when naming variables with multi 
 | double              | Double        |
 | boolean             | Boolean       |
 **NOTE** : `boolean` is the keyword here, not bool
+

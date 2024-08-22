@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Languages/java.md",
+                "file": "Concepts/classes.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Git_&_GitHub.md",
+                "file": "Concepts/classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Git_&_GitHub.md",
+                "file": "Concepts/classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Git_&_GitHub.md"
+                "file": "Concepts/classes.md"
               }
             }
           }
@@ -159,12 +159,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cbf68360a1bdeb53",
+  "active": "75238be899661447",
   "lastOpenFiles": [
+    "Languages/java.md",
+    "Languages/bash.md",
+    "Git_&_GitHub.md",
     "Languages/C++.md",
     "DSA/sorting.md",
     "DSA/searching.md",
-    "Languages/java.md",
     "DSA",
     "Concepts/classes.md",
     "Concepts/functions.md",
@@ -174,7 +176,6 @@
     "Concepts/Programming Terms.md",
     "VIM.md",
     "2024-08-18.md",
-    "Git_&_GitHub.md",
     "Languages/java",
     "Languages/python.md",
     "Attachment_Folder/atomicsymbol.jpg",
@@ -199,7 +200,6 @@
     "NETWORKING/Network_Addressing/port_addressing.md",
     "ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md",
     "NETWORKING/Wi-Fi/wifi.md",
-    "NETWORKING/Network_Protocols/UDP.md",
     "Introductory_CyberSecurity/Basics/Vocabulary",
     "writeups",
     "vapt",
