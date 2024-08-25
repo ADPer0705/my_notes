@@ -11,12 +11,8 @@
             "id": "b15409ea939676b1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "NETWORKING/Network_Protocols/NFS.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "NETWORKING/Network_Protocols/NFS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "NETWORKING/Network_Protocols/NFS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "NETWORKING/Network_Protocols/NFS.md"
-              }
+              "state": {}
             }
           }
         ]

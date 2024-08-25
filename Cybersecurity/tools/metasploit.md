@@ -248,6 +248,56 @@ post/
 12 directories, 0 files
 ```
 
+### Payloads
+In metasploit, a payload is the piece of code that runs on the target system after successfully exploiting a vulnerability. Payloads allow you to take specific actions o the target, like opening a remote shell or uploading files. 
+#### Classification of Payloads
+1. **Single Payload**
+	- A single payload is a self-contained, standalone piece of code. 
+		- Everything needed for the payload to execute is in a single package
+	- E.g. If you use a simple reverse shell payload, it will contain all the instructions to open a connection back to your machine in one step
+	- Advantages of Single payloads :
+		- *Simplicity*
+			- Everything is in one place, making it easier to deploy and quicker to execute
+		- *No additional communication needed*
+			- Since it's all in one go, there's no need for additional steps to establish a channel for further payload delivery
+1. **Staged Payload**
+	- A staged payload works in two parts : 
+		1. **Stager**
+			- The initial, smaller piece of code that sets up a communication channel between the attacker and the target machine
+			- e.g. a reverse TCP stager will open a connection back to the attacker's machine
+		1. **Stage**
+			- Once the stager is successfully executed, it downloads or delivers the larger, more complex payload (the stage)
+			- e.g. The `windows/meterpreter/reverse_tcp` payload delivers the initial stager to open the connection and then delivers the full Meterpreter shell once the connection is established.
+	- Why use staged payloads ??
+		- *Size Limitation bypass* 
+			- They help bypass size restrictions by delivering the main functionality after initial execution 
+		- *Flexibility* 
+			- The attacker can adapt and decide what final payload (stage) to deliver after the initial stager is in place
+		- *Modularity*
+			- Stager can be used with various stages, so they can be mixed and matched for different situations 
+
+#### Common Payload Types
+1. **Meterpreter Payload**
+	- Meterpreter is an advanced, interactive payload that provides a lot of post-exploitation capabilities
+	- This includes file system access, process manipulation, privilege escalation, etc.
+	- It's modular, meaning you can run various scripts and modules while connected to the target without sending a new payload each time
+2. **Shell Payload**
+	- A basic shell payload opens a single command-line interface (like 'bash' or 'cmd' shell) on the target system
+	- Types of shell payloads 
+		- *Bind Shell*
+			- The target system listens for an incoming connection from the attacker
+		- *Reverse Shell*
+			- The target system initiates a connection back to the attacker's machine
+
+#### Adapters
+- These provide additional flexibility and customization when using payloads
+- This is less common in typical user scenarios but involves modifying how payloads behave
+- e.g by encrypting or encoding them to evade detection
+- Adapter might help :
+	- Create polymorphic payloads to bypass antivirus or intrusion detection 
+	- Encapsulation payloads with custom obfuscation techniques
+
+
 ### Key Metasploit Components
 1. **Exploit Database**
 	- Metasploit houses a massive database of publicly know exploits
@@ -338,3 +388,53 @@ sessions -i <session_id>
 ```bash
 db_nmap <options>
 ```
+---
+# msfconsole
+Once launched, the command line changes to msf6 (or msf5 depending on the installed version of metasploit). The metasploit console (*msfconsole*) can be used just like a regular command-line shell. It supports many features of the regular command-line
+
+msfconsole is managed by context; this means that unless set as a global variable, all parameter settings will be lost if you change the module you have decided to use. For example consider that we have used the ms17_010_eternalblue exploit, and set parameters such as `RHOSTS`. If we were to switch to another module (e.g. a port scanner), we would need to set the RHOSTS value again as all changes we have made remained in the context of the ms17_010_eternalblue exploit.
+
+Once you type the `use exploit/windows/smb/ms17_010_eternalblue` command, you will see the command line prompt change from msf6 to 
+```msfconsole
+msf6 exploit(windows/smb/ms17_010_eternalblue)
+```
+- `use`
+	- The module to be used can also be selected with the `use` command followed by the number at the beginning of the search result line.
+	- While the prompt has changed, you will notice we can still run the commands previously mentioned. This means we did not "enter" a folder as you would typically expect in an operating system command line. 
+	- The prompt tells us we now have a context set in which we will work. You can see this by typing the `show options` command.
+- `show options`
+	- This will print options related to the exploit we have chosen earlier. 
+	- The show options command will have different outputs depending on the context it is used in. 
+		- In some examples it will shows that this exploit will require we set variables like RHOSTS and RPORT. On the other hand, a post-exploitation module may only need us to set a SESSION IDA session is an existing connection to the target system that the post-exploitation module will use.
+- The `show` command can be used in any context followed by a module type (auxiliary, payload, exploit, etc.) to list available modules. 
+	- If used from the msfconsole prompt, the `show` command will list all modules. 
+- The `use` and `show options` commands we have seen so far are identical for all modules in Metasploit. 
+- You can leave the context using the `back` command. 
+- Further information on any module can be obtained by typing the `info` command within its context. 
+	- Alternatively, you can use the `info` command followed by the module’s path from the msfconsole prompt (e.g. `info exploit/windows/smb/ms17_010_eternalblue`). 
+	- Info is not a help menu; it will display detailed information on the module such as its author, relevant sources, etc.
+- `search`
+	- This command will search the Metasploit Framework database for modules relevant to the given search parameter. 
+	- You can conduct searches using CVE numbers, exploit names (eternalblue, heartbleed, etc.), or target system.
+	- The output of the `search` command provides an overview of each returned module. 
+		- You may notice the “name” column already gives more information than just the module name. 
+		- You can see the type of module (auxiliary, exploit, etc.) and the category of the module (scanner, admin, windows, Unix, etc.). 
+	- You can use any module returned in a search result with the command use followed by the number at the beginning of the result line.
+	- Another essential piece of information returned is in the “rank” column. 
+		- Exploits are rated based on their reliability. 
+		- The table below provides their respective descriptions.
+	- You can direct the search function using keywords such as type and platform. 
+		- For example, if we wanted our search results to only include auxiliary modules, we could set the type to auxiliary.
+		- e.g. `msf6 > search type:auxiliary telnet`
+Please remember that exploits take advantage of a vulnerability on the target system and may always show unexpected behavior. A low-ranking exploit may work perfectly, and an excellent ranked exploit may not, or worse, crash the target system.
+
+
+| RANKING   | DESCIPTION                                                                                                                                                                                                                  |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Excellent | The exploit will never crash the service. This is the case for SQL injection, CMD execution, RFI, LFI, etc. No typical memory corruption exploits should be given this ranking unless there are extraordinary circumstances |
+| Great     | The exploit has a default targt AND either auto-detects the appropriate target or uses an application specific return address AFTER a version check                                                                         |
+| Good      | The exploit has a default target and it is the "common case" for this type of software (English, Windows 7 for a desktop app, 2012 for server, etc.)                                                                        |
+| Normal    | The exploit is otherwise reliable, but depends on a specific version and can't (or doesn't reliably) autodetect                                                                                                             |
+| Average   | The exploit is generally unreliable or difficult to exploit                                                                                                                                                                 |
+| Low       | The exploit is nearly impossible to exploit (or under 50% success rate) for common platforms                                                                                                                                |
+| Manual    | The exploit is unstable or difficult to exploit and is basically a DoS. This ranking is also used when the module has no use specifically configured by the user                                                            |

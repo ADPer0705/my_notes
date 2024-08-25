@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Concepts/classes.md",
+                "file": "Languages/python.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2cac4bd4c268b9f0",
@@ -98,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Concepts/classes.md",
+                "file": "Languages/python.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Concepts/classes.md",
+                "file": "Languages/python.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Concepts/classes.md"
+                "file": "Languages/python.md"
               }
             }
           }
@@ -161,6 +162,7 @@
   },
   "active": "75238be899661447",
   "lastOpenFiles": [
+    "Concepts/classes.md",
     "Languages/java.md",
     "Languages/bash.md",
     "Git_&_GitHub.md",
@@ -168,7 +170,6 @@
     "DSA/sorting.md",
     "DSA/searching.md",
     "DSA",
-    "Concepts/classes.md",
     "Concepts/functions.md",
     "Concepts/Programming.md",
     "Concepts/Variables.md",
