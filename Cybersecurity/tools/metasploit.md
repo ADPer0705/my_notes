@@ -222,6 +222,11 @@ payloads/
 	- Downloaded by the stager. 
 	- This will allow you to use larger sized payloads.
 
+Metasploit has a subtle way to help you identify single (also called “inline”) payloads and staged payloads.
+- generic/shell_reverse_tcp
+- windows/x64/shell/reverse_tcp\
+Both are reverse Windows shells. The former is an inline (or single) payload, as indicated by the “`_`” between “shell” and “reverse”. While the latter is a staged payload, as indicated by the “/” between “shell” and “reverse”
+
 #### Post
 - will be useful on the final stage of the penetration testing process, post-exploitation
 ```bash
