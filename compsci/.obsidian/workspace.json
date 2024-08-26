@@ -138,6 +138,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df78396d7b351863",
-  "lastOpenFiles": []
+  "active": "c3df52984eb36f0c",
+  "lastOpenFiles": [
+    "DSA/algorithms",
+    "DSA/dataStructures",
+    "DSA/algorithms.md",
+    "DSA/dataStructures.md",
+    "DSA/{dataStructures,algorithms"
+  ]
 }

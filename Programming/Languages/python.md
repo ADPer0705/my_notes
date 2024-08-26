@@ -1,3 +1,7 @@
+TO DO : 
+- https://docs.python.org/3/tutorial/
+
+---
 # Introduction
 ## What is Python?
 

@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b15409ea939676b1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Git_&_GitHub.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "75238be899661447",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2cac4bd4c268b9f0",
@@ -101,7 +87,7 @@
               "state": {
                 "file": "Languages/python.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -143,12 +129,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,10 +148,10 @@
   },
   "active": "75238be899661447",
   "lastOpenFiles": [
+    "Git_&_GitHub.md",
     "Concepts/classes.md",
     "Languages/java.md",
     "Languages/bash.md",
-    "Git_&_GitHub.md",
     "Languages/C++.md",
     "DSA/sorting.md",
     "DSA/searching.md",

@@ -11,8 +11,12 @@
             "id": "b15409ea939676b1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "tools_and_libraries/keras.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "tools_and_libraries/keras.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "tools_and_libraries/keras.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "tools_and_libraries/keras.md"
+              }
             }
           }
         ]
@@ -140,6 +148,37 @@
   },
   "active": "b15409ea939676b1",
   "lastOpenFiles": [
+    "tools_and_libraries/tensorflow.md",
+    "tools_and_libraries/keras.md",
+    "tools_and_libraries/scikit_learn.md",
+    "introduction_to_ml/types_of_ml.md",
+    "introduction_to_ml/introduction_to_ml.md",
+    "machine_learning.md",
+    "data_preprocessing/data_sources.md",
+    "tools_and_libraries/pytorch.md",
+    "tools_and_libraries/pytorch.nd",
+    "tools_and_libraries/tensorflow.nd",
+    "tools_and_libraries/scikit_learn.nd",
+    "evaluation_metrics/cross_validation.md",
+    "evaluation_metrics/confusion_matrix.md",
+    "evaluation_metrics/accuracy_precision_recall.md",
+    "data_preprocessing/dimensionality_reduction.md",
+    "data_preprocessing/feature_selection.md",
+    "data_preprocessing/feature_scaling.md",
+    "data_preprocessing/data_cleaning.md",
+    "algorithms/neural_networks.md",
+    "algorithms/support_vector_machines.md",
+    "algorithms/k_nearest_neighbour.md",
+    "algorithms/decision_tree.md",
+    "algorithms/logistic_regression.md",
+    "algorithms/linear_regression.md",
+    "introduction_to_ml/key_concepts.md",
+    "introduction_to_ml/{introduction_to_ml,types_of_ml,key_concepts].md",
+    "tools_and_libraries",
+    "evaluation_metrics",
+    "data_preprocessing",
+    "algorithms",
+    "introduction_to_ml",
     "ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
     "NETWORKING/Network_Protocols/NFS.md",
     "Attachment_Folder/Screenshot from 2024-07-27 17-22-41.png",
@@ -147,44 +186,13 @@
     "Attachment_Folder/Screenshot from 2024-07-27 16-53-04.png",
     "Screenshot from 2024-07-27 16-53-04.png",
     "NETWORKING/Network_Protocols/FTP.md",
-    "NETWORKING/Network_Protocols/HTTP.md",
-    "NETWORKING/Network_Protocols/Telnet.md",
-    "NETWORKING/Network_Protocols/SMB.md",
-    "ISC2_CC/4)Network_Security/2_Understanding_Network_Threats_and_Attacks.md",
     "Attachment_Folder/Screenshot from 2024-07-07 16-48-31.png",
     "Screenshot from 2024-07-07 16-48-31.png",
     "Attachment_Folder/Screenshot from 2024-07-07 16-40-56.png",
     "Screenshot from 2024-07-07 16-40-56.png",
     "Attachment_Folder/Screenshot from 2024-07-07 16-18-16.png",
     "Screenshot from 2024-07-07 16-18-16.png",
-    "NETWORKING/Network_Addressing/port_addressing.md",
-    "ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md",
-    "NETWORKING/Wi-Fi/wifi.md",
-    "NETWORKING/Network_Protocols/UDP.md",
-    "NETWORKING/Network_Topology.md",
-    "NETWORKING/Network_Models/Basics_NetworkModels.md",
-    "ISC2_CC/4)Network_Security/0_Overview.md",
-    "NETWORKING/wireless_networks.md",
-    "misc.md",
-    "tools/Wireshark.md",
-    "tools/nmap.md",
-    "NETWORKING/Network_Protocols/SMTP.md",
-    "Introductory_CyberSecurity/Basics/Vocabulary.md",
-    "Introductory_CyberSecurity/Basics/subnet.md",
     "Introductory_CyberSecurity/Basics/Vocabulary",
-    "LINUX/Fundamentals.md",
-    "Introductory_CyberSecurity/Basics/Linux_Commands.md",
-    "NETWORKING/Network_Protocols/ICMP.md",
-    "NETWORKING/ICMP.md",
-    "vapt/vulnerability_assessment.md",
-    "writeups",
-    "vapt",
-    "laws_and_regulations",
-    "Introductory_CyberSecurity/Ethical_Hacking",
-    "Introductory_CyberSecurity/Introductory_researching",
-    "malware",
-    "android_security",
-    "cryptography",
-    "NETWORKING/Network_Protocols/email_sec"
+    "writeups"
   ]
 }
