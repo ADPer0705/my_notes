@@ -1,8 +1,6 @@
 Metasploit is a powerful and versatile penetration testing framework that allows you to exploit vulnerabilities in system, conduct reconnaissance, and perform post-exploitation tasks
 
 Metasploit is an open-source penetration testing framework that helps security professionals find and exploit vulnerabilities in computer systems. It includes a database of known vulnerabilities and tools and scripts for exploiting them. It is a powerful tool that can support all phases of a penetration testing engagement, from information gathering to post-exploitation.
-
-Metasploit has two main versions : 
 - **Metasploit Pro**: The commercial version that facilitates the automation and management of tasks. This version has a graphical user interface (GUI).
 - **Metasploit Framework**: The open-source version that works from the command line. 
 
@@ -438,3 +436,79 @@ Please remember that exploits take advantage of a vulnerability on the target sy
 | Average   | The exploit is generally unreliable or difficult to exploit                                                                                                                                                                 |
 | Low       | The exploit is nearly impossible to exploit (or under 50% success rate) for common platforms                                                                                                                                |
 | Manual    | The exploit is unstable or difficult to exploit and is basically a DoS. This ranking is also used when the module has no use specifically configured by the user                                                            |
+
+#### Types of Command Prompts
+When dealing with Metasploit, you may see five different prompts:
+- **The regular command prompt:** You can not use Metasploit commands here.
+```msfconsole
+root@ip-10-10-XX-XX:~#
+```        
+- **The msfconsole prompt:** msf6 (or msf5 depending on your installed version) is the msfconsole prompt. As you can see, no context is set here, so context-specific commands to set parameters and run modules can not be used here.
+```msfconsole
+msf6 >
+```
+- **A context prompt:** Once you have decided to use a module and used the set command to chose it, the msfconsole will show the context. You can use context-specific commands (e.g. set RHOSTS 10.10.x.x) here.
+```msfconsole
+msf6 exploit(windows/smb/ms17_010_eternalblue) >
+```
+- **The Meterpreter prompt:** Meterpreter is an important payload. This means a Meterpreter agent was loaded to the target system and connected back to you. You can use Meterpreter specific commands here.
+```msfconsole
+meterpreter >
+```
+- **A shell on the target system:** Once the exploit is completed, you may have access to a command shell on the target system. This is a regular command line, and all commands typed here run on the target system.  
+```msfconsole
+C:\Windows\system32>
+
+```
+### Setting the Parameters
+Once you have entered the context of a module using the `use`, you'll need to set parameters based on the module in use. 
+- It is a good practice to use the `show optiions` command to list the required parameters 
+- All parameters are set using the same command syntax : 
+	```msfconsole
+	set PARAMETER_NAME VALUE
+    ```
+Remember always to check the msfconsole prompt to ensure you are in the right context. 
+
+Here are some of the often used parameters : 
+- **RHOSTS**
+	- Remote host
+	- the IP address of the target system 
+	- A single IP address or a network range can be set 
+	- This will support the CIDR (Classless Inter-Domain Routing) notation (/24, /16 etc.) or a network range (10.10.10.x - 10.10.10.y)
+	- You can also use a file where targets are listed, one target per line using `file:/path/of/the/target_file.txt` 
+- **RPORT**
+	- Remote port
+	- the port on the target system the vulnerable application is running on
+- **PAYLOAD**
+	- The payload you will use with the exploit
+- **LHOST**
+	- Local Host
+	- The attacking machine IP address
+- **LPORT**
+	- Local port
+	- the port you will use for the reverse shell to connect back to 
+	- This is a port on your attacking machine, and you can set it to any port not used by any other application 
+- **SESSION**
+	- Each connection established to the target system using metasploit will have a session ID
+	- You will use this with post-exploitation modules that will connect to the target system using an existing connection
+any of these parameters' values can be overridden with the `set` command. This value can also be cleared using the `unset` command or clear all set parameters with the `unset all` command 
+
+`setg` command can be used to set values that will be used for all modules. This way when modules are changed the parameter value does not need to be set again with a `set` command. The `setg` values can be unset with the `unsetg` command 
+
+### Using the Modules
+Once all the parameters are set, the module can be launched using the `exploit` command. Metasploit also supports the `run` command which is an alias for the `exploit` command as the word exploit does not make sense when using non-exploit modules
+
+The `exploit` command can be used without any parameters or using the `-z` parameter
+- The `exploit -z` command will run the exploit and background the session as soon as it opens. This will return the context prompt form where the exploit was run
+- Some modules support the `check` option. This will check if the target system is vulnerable without exploiting it
+
+### Sessions
+Once a vulnerability has been successfully exploited, a session will be created.
+- This is the communication channel established between the target system and metasploit
+- `background` command can be used to background the session prompt and go back to the msfconsole prompt
+	- alternatively `ctrl + z` can be used to background sessions
+- The `sessions` command can be used from the msfconsole prompt or any context to see the existing sessions 
+- To interact with any session the `session -i` command can be used following the session number
+```msfconsole
+session -i 2
+```

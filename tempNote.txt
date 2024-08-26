@@ -2,4 +2,4 @@
  
  - rpm vs other packge managers
 
- 
+ - follow the python tutorial mentioned at the beginning of python.md
