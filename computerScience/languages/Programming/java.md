@@ -1,4 +1,4 @@
- Developed by Sun Microsystems in 1995, Java is a highly popular, object-oriented programming language. This platform independent programming language is utilized for Android development, web development, artificial intelligence, cloud applications, and much more.
+2Developed by Sun Microsystems in 1995, Java is a highly popular, object-oriented programming language. This platform independent programming language is utilized for Android development, web development, artificial intelligence, cloud applications, and much more.
 - Developed by James Gosling in May 1995 at sun Microsystems and was later acquired by Oracle Corporation
 
 OOPS in Java refers to Object-Oriented Programming concepts implemented in the Java programming language. Java’s OOP features include classes, objects, inheritance, polymorphism, and encapsulation, enabling modular and efficient code development. Understanding OOPS in Java is essential for building robust, scalable, and maintainable software applications.
@@ -96,3 +96,12 @@ camel casing is to be followed as a convention when naming variables with multi 
 | boolean             | Boolean       |
 **NOTE** : `boolean` is the keyword here, not bool
 
+---
+
+
+| Access Specifier | within class | within package | outside package by subclass only | outside package |
+| ---------------- | ------------ | -------------- | -------------------------------- | --------------- |
+| private          | Y            | N              | N                                | N               |
+| default          | Y            | Y              | N                                | N               |
+| protected        | Y            | Y              | Y                                | N               |
+| public           | Y            | Y              | Y                                | Y               |
