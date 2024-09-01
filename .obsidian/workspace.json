@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "tempNote.md",
+                "file": "computerScience/Cybersecurity/NETWORKING/Network_Services/DNS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tempNote.md",
+                "file": "computerScience/Cybersecurity/NETWORKING/Network_Services/DNS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tempNote.md",
+                "file": "computerScience/Cybersecurity/NETWORKING/Network_Services/DNS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "tempNote.md"
+                "file": "computerScience/Cybersecurity/NETWORKING/Network_Services/DNS.md"
               }
             }
           }
@@ -148,51 +148,51 @@
   },
   "active": "74670bb72102b4d3",
   "lastOpenFiles": [
-    "computerScience/DBMS/DBMS.md",
-    "tempNote.md",
-    "computerScience/DBMS/MySQL.md",
-    "computerScience/languages/Programming/C++_Book.md",
-    "computerScience/languages/Programming/C++.md",
-    "computerScience/languages/Programming/java.md",
-    "computerScience/languages/assembly",
-    "computerScience/languages/configuration",
-    "computerScience/languages/domainSpecificLanguages",
-    "computerScience/languages/scripting",
-    "computerScience/languages/query",
-    "computerScience/languages/markup",
-    "computerScience/languages/{markup,q",
-    "computerScience/DSA/algorithms/sorting.md",
-    "computerScience/languages/Languages/java.md",
-    "computerScience/languages/Programming/python.md",
-    "computerScience/languages/scripting/bash.md",
-    "computerScience/languages/query/SQL.md",
-    "computerScience/languages/Programming",
-    "Electrical_and_Electronics/computerOrganizationAndArchitecture",
-    "computerScience/Programming/markdown.md",
-    "computerScience/languages/Concepts/functions.md",
-    "computerScience/languages/Concepts/Variables.md",
-    "computerScience/languages/Concepts/classes.md",
-    "computerScience/languages/Concepts/Programming.md",
-    "computerScience/languages/Languages/bash.md",
-    "computerScience/languages/Concepts/Object_Oriented_Programming.md",
-    "computerScience/languages/Languages/SQL.md",
-    "computerScience/languages/Languages/python.md",
-    "computerScience/languages/Languages/C++_Book.md",
-    "computerScience/languages/Languages/C++.md",
+    "note.md~",
+    "Attachment_Folder/Screenshot from 2024-09-02 00-44-02.png",
+    "Attachment_Folder/Screenshot from 2024-09-02 00-14-50.png",
+    "computerScience/Cybersecurity/tools/dnsenum.md",
+    "computerScience/Cybersecurity/tools/dnsdumpster.md",
+    "computerScience/Cybersecurity/tools/host.md",
+    "computerScience/Cybersecurity/tools/nslookup.md",
+    "computerScience/Cybersecurity/tools/hosts.md",
+    "computerScience/Cybersecurity/tools/dig.md",
+    "computerScience/Cybersecurity/NETWORKING/Network_Services/DNS.md",
+    "computerScience/Cybersecurity/websec/basics.md",
+    "computerScience/languages/domainSpecificLanguages/HTML.md",
+    "computerScience/Cybersecurity/NETWORKING/Network_Services/SNMP.md",
+    "computerScience/Cybersecurity/NETWORKING/Network_Services/VPN.md",
+    "computerScience/Cybersecurity/NETWORKING/Network_Services/NTP.md",
+    "computerScience/Cybersecurity/NETWORKING/Network_Services",
+    "computerScience/Cybersecurity/websec/HTMLInjection.md",
+    "Attachment_Folder/Screenshot from 2024-08-31 16-48-27.png",
+    "computerScience/webdev/intro.md",
+    "computerScience/languages/programming/python.md",
+    "computerScience/languages/programming/java.md",
+    "computerScience/languages/programming/basics.md",
+    "computerScience/languages/programming",
+    "computerScience/languages/scripting/JavaScript.md",
+    "computerScience/languages/styling/CSS.md",
+    "computerScience/languages/styling",
+    "computerScience/languages/Programming/object_oriented",
+    "computerScience/languages/Programming/procedural",
+    "computerScience/languages/Programming/functional",
+    "computerScience/languages/Programming/basics.md",
+    "computerScience/languages/Programming/{basics.md}",
     "computerScience/languages/markdown.md",
-    "computerScience/languages/misc.md",
-    "computerScience/languages/Git_&_GitHub.md",
-    "computerScience/languages/VIM.md",
-    "computerScience/languages/Languages",
+    "computerScience/languages/markup/markdown.md",
+    "computerScience/languages/markup/HTML.md",
+    "computerScience/Cybersecurity/databaseSecurity/MySQL.md",
+    "computerScience/webdev",
+    "computerScience/Cybersecurity/websec",
+    "note.md",
+    "tempNote.txt",
     "Attachment_Folder/Screenshot from 2024-08-18 11-22-35.png",
     "Attachment_Folder/Screenshot from 2024-08-18 11-10-57.png",
     "Attachment_Folder/Screenshot from 2024-08-18 11-00-14.png",
     "Screenshot from 2024-08-18 11-00-14.png",
     "Attachment_Folder/Screenshot from 2024-08-18 10-48-29.png",
     "Attachment_Folder/EDU-CCSP-71155-image-raw_log-v01.png",
-    "Attachment_Folder/Screenshot from 2024-08-17 11-10-00.png",
-    "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo-300x300.png",
-    "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo-75x75.png",
-    "ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo.png"
+    "Attachment_Folder/Screenshot from 2024-08-17 11-10-00.png"
   ]
 }
