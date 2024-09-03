@@ -1,7 +1,5 @@
- 
- - explain various DNS servers elaboratively
- - why AAAA Record ??
- - what is recursive DNS server
+clear 
+
 
 ---
 

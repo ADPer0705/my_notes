@@ -63,12 +63,16 @@ DNS works as a distributed, hierarchical naming system and relies on name *serve
 	- You can use multiple subdomains split with periods to create longer names, such as `jupiter.server.tryhackme.com` but the length must be kept to 253 characters or less
 	- There is no limit to the number of subdomains you can create for you domain
 
+---
+
 # DNS Records
 DNS relies on different types of records to manage the translation of domain names : 
 - *A (Address) Record*
 	- Maps a domain name to an IPv4 address
+	- 'A' stands for address
 - *AAAA Record*
-	- Maps a domain name to an IPv6 address 
+	- Maps a domain name to an IPv6 address
+	- 'AAAA' since four times storage space is required as the address is four times as long
 - *CNAME (Canonical Name) Record*
 	- Alias for one domain to another
 		- e.g. TryHackMe's online shop has the subdomain `store.tryhackme.com` which returns a CNAME record `shops.shopify.com` 
@@ -114,11 +118,38 @@ When you type a URL into the browser, the following steps occurs :
 	- The authoritative server is often also known as the *nameserver* for the domain
 	- For example, the name server for [tryhackme.com](http://tryhackme.com) is [kip.ns.cloudflare.com](http://kip.ns.cloudflare.com) and [uma.ns.cloudflare.com](http://uma.ns.cloudflare.com)
 	- You'll often find multiple nameservers for a domain name to act as a backup in case one goes down
-5. An Authoritative DNS serve is the server that is responsible for storing the DNS records for a particular domain name and where any updates to you domain name DNS records would be made
+5. An Authoritative DNS server is the server that is responsible for storing the DNS records for a particular domain name and where any updates to you domain name DNS records would be made
 	- Depending on the record type, the DNS record is then sent back to the Recursive DNS Server, where a local copy will be cached for future requests and then relayed back to the original client that made the request. 
 	- DNS records all come with a TTL (Time To Live) value. 
 		- This value is a number *represented in seconds* that the response should be saved for locally until you have to look it up again. 
 		- Caching saves on having to make a DNS request every time you communicate with a server.
+
+---
+
+# Types of DNS Servers
+1. *Recursive DNS Resolver (Caching DNS Resolver)*
+	- Purpose
+		- This is the DNS server your computer interacts with first when making a DNS query
+		- Its job is to "resolve" the query by communicating with other DNS servers (like root, TLD and authoritative) until it finds the answer
+	- Recursive DNS servers are often targeted in DNS amplification attacks 
+2. *Root Name Server*
+	- Purpose
+		- These are the backbone of the DNS system
+		- They don't hold domain-specific records but direct queries to the appropriate TLD (Top-Level Domain) servers
+	- The root servers are critical infrastructure and often targeted by large-scale DDoS attacks 
+3. *TLD (Top-Level Domain) Name Servers*
+	- Purpose
+		- These servers store information for Top-Level domain and country code TLDs (ccTLDs)
+		- They direct queries to the authoritative name servers
+4. *Authoritative DNS Servers*
+	- Purpose
+		- These servers store the actual DNS records (A, AAAA, MX, TXT, etc.) for a domain and provide the definitive answer when a DNS query reaches them
+	- misconfiguration here can lead to data leaks, zone hijacking, or poisoning
+5. *Forwarding DNS server*
+	- Purpose
+		- These servers forward queries to an upstream DNS server, such as a recursive DNS resolver
+		- They help reduce traffic by caching frequently requested domains
+	- Forwarding DNS Servers can be vulnerable to attacks like DNS cache poisoning if not properly secured
 
 ---
 
