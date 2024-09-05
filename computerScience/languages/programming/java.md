@@ -14,7 +14,30 @@ OOPS in Java refers to Object-Oriented Programming concepts implemented in the J
 	- portability
 	- multi-threading
 	- dynamic interpretation 
-	These principles have made java a preferred 
+
+
+- **Java is a simple language:** 
+	- Java is easy to learn and its syntax is clear and concise. 
+	- It is based on C++ (so it is easier for programmers who know C++). 
+	- Java has removed many confusing and rarely-used features e.g. explicit pointers, operator overloading, etc. 
+	- Java also takes care of memory management and it also provides an automatic garbage collector. This collects the unused objects automatically.
+- **Java is a platform-independent language:** 
+	- The programs written in Java language, after compilation, are converted into an intermediate level language called the **bytecode** which is a part of the Java platform irrespective of the machine on which the programs run. 
+	- This makes java highly portable as its bytecodes can be run on any machine by an interpreter called the Java Virtual Machine(JVM) and thus java provides ‘reusability of code’.
+- **Java is an object-oriented programming language:** 
+	- OOP makes the complete program simpler by dividing it into a number of objects. 
+	- The objects can be used as a bridge to have data flow from one function to another. We can easily modify data and function’s as per the requirements of the program.
+- **Java is a robust language:** 
+	- Java programs must be reliable because they are used in both consumer and mission-critical applications, ranging from Blu-ray players to navigation systems.
+- **Java is a multithreaded language:** 
+	- Java can perform many tasks at once by defining multiple threads. 
+		- For example, a program that manages a Graphical User Interface (GUI) while waiting for input from a network connection uses another thread to perform and wait’s instead of using the default GUI thread for both tasks. 
+		- This keeps the GUI responsive.
+- **Java programs can create applets:** 
+	- Applets are programs that run in web browsers. 
+	- But applets support was deprecated in **Java 9** release and **has been removed in Java 11** release due to waning browser support for the Java plugin.
+- **Java does not require any preprocessor:** 
+	- It does not require inclusion of header files for creating a Java application.
 
 ---
 source files in java end with the extension `.java` 

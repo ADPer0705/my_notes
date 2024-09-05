@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "note.md",
+                "file": "computerScience/languages/programming/java.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "note.md",
+                "file": "computerScience/languages/programming/java.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "note.md",
+                "file": "computerScience/languages/programming/java.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "note.md"
+                "file": "computerScience/languages/programming/java.md"
               }
             }
           }
@@ -148,11 +148,19 @@
   },
   "active": "74670bb72102b4d3",
   "lastOpenFiles": [
-    "Pytech.md",
+    "computerScience/Cybersecurity/NETWORKING/Network_Protocols/HTTP.md",
+    "Attachment_Folder/Screenshot from 2024-09-05 16-18-08.png",
+    "computerScience/webdev/URL.md",
+    "Attachment_Folder/Screenshot from 2024-09-04 19-45-19.png",
+    "Attachment_Folder/Screenshot from 2024-09-04 19-37-47.png",
+    "computerScience/DSA/algorithms/sorting.md",
+    "computerScience/DBMS/DBMS.md",
+    "computerScience/languages/programming/java.md",
+    "computerScience/languages/programming/C++.md",
     "note.md",
+    "Pytech.md",
     "README.md",
     "computerScience/Cybersecurity/NETWORKING/Network_Services/DNS.md",
-    "computerScience/languages/programming/java.md",
     "note.md~",
     "Attachment_Folder/Screenshot from 2024-09-02 00-44-02.png",
     "Attachment_Folder/Screenshot from 2024-09-02 00-14-50.png",
@@ -174,25 +182,16 @@
     "computerScience/languages/programming/python.md",
     "computerScience/languages/programming/basics.md",
     "computerScience/languages/programming",
-    "computerScience/languages/scripting/JavaScript.md",
-    "computerScience/languages/styling/CSS.md",
     "computerScience/languages/styling",
     "computerScience/languages/Programming/object_oriented",
     "computerScience/languages/Programming/procedural",
     "computerScience/languages/Programming/functional",
-    "computerScience/languages/Programming/basics.md",
     "computerScience/languages/Programming/{basics.md}",
-    "computerScience/languages/markdown.md",
-    "computerScience/languages/markup/markdown.md",
-    "computerScience/languages/markup/HTML.md",
     "computerScience/webdev",
     "computerScience/Cybersecurity/websec",
     "Attachment_Folder/Screenshot from 2024-08-18 11-22-35.png",
     "Attachment_Folder/Screenshot from 2024-08-18 11-10-57.png",
     "Attachment_Folder/Screenshot from 2024-08-18 11-00-14.png",
-    "Screenshot from 2024-08-18 11-00-14.png",
-    "Attachment_Folder/Screenshot from 2024-08-18 10-48-29.png",
-    "Attachment_Folder/EDU-CCSP-71155-image-raw_log-v01.png",
-    "Attachment_Folder/Screenshot from 2024-08-17 11-10-00.png"
+    "Screenshot from 2024-08-18 11-00-14.png"
   ]
 }

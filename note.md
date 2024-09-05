@@ -1,5 +1,7 @@
-clear 
-
+ - what is 
+ 	- vbnet
+	- less
+ - What is the difference between POST and PUT
 
 ---
 
@@ -30,3 +32,9 @@ TO DO :
 			- like in metasploit banner
 	- give me the to-do then ask what I am focusing on
 - Connect to the university WiFi if in range and not connected 
+- stop the current terminal session from giving unwanted messages from running processes launched, even though disownes from the terminal session
+	- try closing the terminal session and opening a new one 
+
+---
+
+ - be less accessible 
