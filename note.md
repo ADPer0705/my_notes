@@ -1,3 +1,7 @@
+ - 
+
+---
+
  - what is 
  	- vbnet
 	- less
@@ -17,6 +21,8 @@ TO DO :
  - https://www.geekfforgeeks.org/linux-tutorial/
  - https://www.geeksforgeeks.org/java/
  - https://www.geeksforgeeks.org/c-programming-language/
+ - deepracer ai 
+ - google cybersecurity coursera
 
 ---
 
@@ -37,4 +43,11 @@ TO DO :
 
 ---
 
- - be less accessible 
+ - be less accessible
+
+---
+
+# JAVA
+
+ - Remote Method Invocation
+ - complete the overview of java from GFG 
