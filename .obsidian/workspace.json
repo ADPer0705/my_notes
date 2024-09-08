@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "edfe76a50f7ab4c4",
+        "id": "c36f7e43d20ee753",
         "type": "tabs",
         "children": [
           {
-            "id": "74670bb72102b4d3",
+            "id": "a984f51e7749e08e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computerScience/languages/programming/java.md",
+                "file": "computerScience/DBMS/DBMS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computerScience/languages/programming/java.md",
+                "file": "computerScience/DBMS/DBMS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computerScience/languages/programming/java.md",
+                "file": "computerScience/DBMS/DBMS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computerScience/languages/programming/java.md"
+                "file": "computerScience/DBMS/DBMS.md"
               }
             }
           }
@@ -146,10 +146,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74670bb72102b4d3",
+  "active": "a984f51e7749e08e",
   "lastOpenFiles": [
-    "Attachment_Folder/History-of-Java.jpg",
     "computerScience/languages/programming/java.md",
+    "Attachment_Folder/History-of-Java.jpg",
     "computerScience/Cybersecurity/NETWORKING/Network_Protocols/HTTP.md",
     "Attachment_Folder/Screenshot from 2024-09-05 16-18-08.png",
     "computerScience/webdev/URL.md",
