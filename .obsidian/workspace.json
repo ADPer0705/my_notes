@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computerScience/DBMS/DBMS.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computerScience/DBMS/DBMS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computerScience/DBMS/DBMS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computerScience/DBMS/DBMS.md"
+                "file": "T.A.1.md"
               }
             }
           }
@@ -146,8 +144,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a984f51e7749e08e",
+  "active": "cbf68360a1bdeb53",
   "lastOpenFiles": [
+    "COA.md",
+    "README.md",
+    "T.A.1.md",
+    "note.md",
+    "computerScience/DBMS/DBMS.md",
     "computerScience/languages/programming/java.md",
     "Attachment_Folder/History-of-Java.jpg",
     "computerScience/Cybersecurity/NETWORKING/Network_Protocols/HTTP.md",
@@ -156,11 +159,8 @@
     "Attachment_Folder/Screenshot from 2024-09-04 19-45-19.png",
     "Attachment_Folder/Screenshot from 2024-09-04 19-37-47.png",
     "computerScience/DSA/algorithms/sorting.md",
-    "computerScience/DBMS/DBMS.md",
     "computerScience/languages/programming/C++.md",
-    "note.md",
     "Pytech.md",
-    "README.md",
     "computerScience/Cybersecurity/NETWORKING/Network_Services/DNS.md",
     "note.md~",
     "Attachment_Folder/Screenshot from 2024-09-02 00-44-02.png",
@@ -181,7 +181,6 @@
     "Attachment_Folder/Screenshot from 2024-08-31 16-48-27.png",
     "computerScience/webdev/intro.md",
     "computerScience/languages/programming/python.md",
-    "computerScience/languages/programming/basics.md",
     "computerScience/languages/programming",
     "computerScience/languages/styling",
     "computerScience/languages/Programming/object_oriented",
