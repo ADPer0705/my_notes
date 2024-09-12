@@ -1,11 +1,7 @@
- - burch et al
+ - burch et alD
 
 ---
-
- - 
-
----
-
+ 
  - what is 
  	- vbnet
 	- less
@@ -56,3 +52,10 @@ TO DO :
 
  - Remote Method Invocation
  - complete the overview of java from GFG 
+
+
+---
+
+# My Ideas 
+
+ - Make a program to let the users make a UML model like circuits in logisim and instead of just giving them the UML model, you give them the complete code executing the UML

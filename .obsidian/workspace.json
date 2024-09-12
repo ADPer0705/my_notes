@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "T.A.1.md"
+                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md"
               }
             }
           }
@@ -144,51 +146,51 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "cbf68360a1bdeb53",
+  "active": "a984f51e7749e08e",
   "lastOpenFiles": [
+    "computerScience/Machine_Learning/introduction_to_ml/types_of_ml.md",
+    "computerScience/Machine_Learning/introduction_to_ml/key_concepts.md",
+    "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
+    "computerScience/Cybersecurity/tools/burpSuite.md",
+    "computerScience/Machine_Learning/evaluation_metrics/cross_validation.md",
+    "computerScience/Machine_Learning/evaluation_metrics/confusion_matrix.md",
+    "computerScience/Machine_Learning/evaluation_metrics/accuracy_precision_recall.md",
+    "computerScience/Machine_Learning/tools_and_libraries/tensorflow.md",
+    "computerScience/Machine_Learning/tools_and_libraries/scikit_learn.md",
+    "computerScience/Machine_Learning/tools_and_libraries/pytorch.md",
+    "computerScience/Machine_Learning/tools_and_libraries/keras.md",
+    "computerScience/Machine_Learning/algorithms/support_vector_machines.md",
+    "computerScience/Machine_Learning/algorithms/linear_regression.md",
+    "computerScience/Machine_Learning/algorithms/neural_networks.md",
+    "computerScience/Machine_Learning/algorithms/k_nearest_neighbour.md",
+    "computerScience/Machine_Learning/algorithms/decision_tree.md",
+    "computerScience/Machine_Learning/algorithms/logistic_regression.md",
+    "computerScience/Machine_Learning/data_preprocessing/feature_selection.md",
+    "computerScience/Machine_Learning/data_preprocessing/dimensionality_reduction.md",
+    "computerScience/Machine_Learning/data_preprocessing/data_sources.md",
+    "computerScience/Machine_Learning/data_preprocessing/feature_scaling.md",
+    "computerScience/Machine_Learning/data_preprocessing/data_cleaning.md",
+    "computerScience/Machine_Learning/tools_and_libraries",
+    "computerScience/Machine_Learning/algorithms",
+    "computerScience/Machine_Learning/introduction_to_ml",
+    "computerScience/Machine_Learning/evaluation_metrics",
+    "computerScience/Machine_Learning/data_preprocessing",
+    "computerScience/Machine_Learning",
     "COA.md",
+    "Electrical_and_Electronics/COA/COA.md",
+    "Electrical_and_Electronics/COA",
     "README.md",
     "T.A.1.md",
-    "note.md",
-    "computerScience/DBMS/DBMS.md",
-    "computerScience/languages/programming/java.md",
     "Attachment_Folder/History-of-Java.jpg",
-    "computerScience/Cybersecurity/NETWORKING/Network_Protocols/HTTP.md",
     "Attachment_Folder/Screenshot from 2024-09-05 16-18-08.png",
-    "computerScience/webdev/URL.md",
     "Attachment_Folder/Screenshot from 2024-09-04 19-45-19.png",
     "Attachment_Folder/Screenshot from 2024-09-04 19-37-47.png",
-    "computerScience/DSA/algorithms/sorting.md",
-    "computerScience/languages/programming/C++.md",
-    "Pytech.md",
-    "computerScience/Cybersecurity/NETWORKING/Network_Services/DNS.md",
     "note.md~",
     "Attachment_Folder/Screenshot from 2024-09-02 00-44-02.png",
     "Attachment_Folder/Screenshot from 2024-09-02 00-14-50.png",
-    "computerScience/Cybersecurity/tools/dnsenum.md",
-    "computerScience/Cybersecurity/tools/dnsdumpster.md",
-    "computerScience/Cybersecurity/tools/host.md",
-    "computerScience/Cybersecurity/tools/nslookup.md",
-    "computerScience/Cybersecurity/tools/hosts.md",
-    "computerScience/Cybersecurity/tools/dig.md",
-    "computerScience/Cybersecurity/websec/basics.md",
-    "computerScience/languages/domainSpecificLanguages/HTML.md",
-    "computerScience/Cybersecurity/NETWORKING/Network_Services/SNMP.md",
-    "computerScience/Cybersecurity/NETWORKING/Network_Services/VPN.md",
-    "computerScience/Cybersecurity/NETWORKING/Network_Services/NTP.md",
     "computerScience/Cybersecurity/NETWORKING/Network_Services",
-    "computerScience/Cybersecurity/websec/HTMLInjection.md",
     "Attachment_Folder/Screenshot from 2024-08-31 16-48-27.png",
-    "computerScience/webdev/intro.md",
-    "computerScience/languages/programming/python.md",
     "computerScience/languages/programming",
-    "computerScience/languages/styling",
-    "computerScience/languages/Programming/object_oriented",
-    "computerScience/languages/Programming/procedural",
-    "computerScience/languages/Programming/functional",
-    "computerScience/languages/Programming/{basics.md}",
-    "computerScience/webdev",
-    "computerScience/Cybersecurity/websec",
     "Attachment_Folder/Screenshot from 2024-08-18 11-22-35.png",
     "Attachment_Folder/Screenshot from 2024-08-18 11-10-57.png",
     "Attachment_Folder/Screenshot from 2024-08-18 11-00-14.png"

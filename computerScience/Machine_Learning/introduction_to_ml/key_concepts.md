@@ -1,5 +1,4 @@
-**Machine Learning** is a subdomain of computer science that *focuses on algorithms* which help a computer *learn from data without explicit programming*
-
+#### Artificial Intelligence vs Machine Learning vs Data Science
 - AI vs ML vs DS
 	- *Artificial Intelligence* is an area of computer science, where the goal is to enable computers and machines to perform human-like tasks and simulate human behavior
 	- *Machine Learning* is a subset of AI that tries to solve a specific problem and make predictions using data
