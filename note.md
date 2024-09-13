@@ -1,4 +1,4 @@
- - burch et alD
+ - burch et al
 
 ---
  
@@ -27,6 +27,7 @@ TO DO :
 ---
 
 # wakeupdaddyshome.sh
+ - make a directory where all there are various bash files all representing the various cases and remove case from the main code
  - add the following more working scenarios 
 	 - Subjects
 	 - Languages

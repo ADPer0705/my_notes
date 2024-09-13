@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c36f7e43d20ee753",
+        "id": "5f125f553c4c1b33",
         "type": "tabs",
         "children": [
           {
-            "id": "a984f51e7749e08e",
+            "id": "ee8a0d18cc9a21fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
+                "file": "computerScience/Cybersecurity/tools/burpSuite.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
+                "file": "computerScience/Cybersecurity/tools/burpSuite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
+                "file": "computerScience/Cybersecurity/tools/burpSuite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md"
+                "file": "computerScience/Cybersecurity/tools/burpSuite.md"
               }
             }
           }
@@ -146,12 +146,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a984f51e7749e08e",
+  "active": "ee8a0d18cc9a21fb",
   "lastOpenFiles": [
+    "computerScience/Cybersecurity/tools/burpSuite.md",
+    "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
+    "4913",
     "computerScience/Machine_Learning/introduction_to_ml/types_of_ml.md",
     "computerScience/Machine_Learning/introduction_to_ml/key_concepts.md",
-    "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
-    "computerScience/Cybersecurity/tools/burpSuite.md",
     "computerScience/Machine_Learning/evaluation_metrics/cross_validation.md",
     "computerScience/Machine_Learning/evaluation_metrics/confusion_matrix.md",
     "computerScience/Machine_Learning/evaluation_metrics/accuracy_precision_recall.md",
@@ -180,7 +181,6 @@
     "Electrical_and_Electronics/COA/COA.md",
     "Electrical_and_Electronics/COA",
     "README.md",
-    "T.A.1.md",
     "Attachment_Folder/History-of-Java.jpg",
     "Attachment_Folder/Screenshot from 2024-09-05 16-18-08.png",
     "Attachment_Folder/Screenshot from 2024-09-04 19-45-19.png",
@@ -190,7 +190,6 @@
     "Attachment_Folder/Screenshot from 2024-09-02 00-14-50.png",
     "computerScience/Cybersecurity/NETWORKING/Network_Services",
     "Attachment_Folder/Screenshot from 2024-08-31 16-48-27.png",
-    "computerScience/languages/programming",
     "Attachment_Folder/Screenshot from 2024-08-18 11-22-35.png",
     "Attachment_Folder/Screenshot from 2024-08-18 11-10-57.png",
     "Attachment_Folder/Screenshot from 2024-08-18 11-00-14.png"
