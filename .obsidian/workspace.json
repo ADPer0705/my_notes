@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computerScience/Cybersecurity/tools/burpSuite.md",
+                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computerScience/Cybersecurity/tools/burpSuite.md",
+                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computerScience/Cybersecurity/tools/burpSuite.md",
+                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computerScience/Cybersecurity/tools/burpSuite.md"
+                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md"
               }
             }
           }
@@ -148,6 +148,10 @@
   },
   "active": "ee8a0d18cc9a21fb",
   "lastOpenFiles": [
+    "Attachment_Folder/Screenshot from 2024-09-13 17-54-56.png",
+    "Attachment_Folder/Screenshot from 2024-09-13 17-49-10.png",
+    "Attachment_Folder/Screenshot from 2024-09-13 17-43-17.png",
+    "Screenshot from 2024-09-13 17-43-17.png",
     "computerScience/Cybersecurity/tools/burpSuite.md",
     "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
     "4913",
@@ -189,9 +193,6 @@
     "Attachment_Folder/Screenshot from 2024-09-02 00-44-02.png",
     "Attachment_Folder/Screenshot from 2024-09-02 00-14-50.png",
     "computerScience/Cybersecurity/NETWORKING/Network_Services",
-    "Attachment_Folder/Screenshot from 2024-08-31 16-48-27.png",
-    "Attachment_Folder/Screenshot from 2024-08-18 11-22-35.png",
-    "Attachment_Folder/Screenshot from 2024-08-18 11-10-57.png",
-    "Attachment_Folder/Screenshot from 2024-08-18 11-00-14.png"
+    "Attachment_Folder/Screenshot from 2024-08-31 16-48-27.png"
   ]
 }
