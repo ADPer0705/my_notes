@@ -73,7 +73,91 @@ Finally, machine learning algorithms can help humans learn. ML algorithms can be
 ![[Screenshot from 2024-09-13 17-54-56.png]]
 
 To summarize machine learning is great for : 
-- Problems for which existing solutions require a lot of fine-tuning or long lists of rules: one Machine Learning algorithm can often simplify code and perform better than the traditional approach.
-- Complex problems for which using a traditional approach yields no good solution: the best Machine Learning techniques can perhaps find a solution.
-- Fluctuating environments: a Machine Learning system can adapt to new data. 
-- Getting insights about complex problems and large amounts of data
+- *Problems for which existing solutions require a lot of fine-tuning or long lists of rules* 
+	- one Machine Learning algorithm can often simplify code and perform better than the traditional approach.
+- *Complex problems for which using a traditional approach yields no good solution* 
+	- the best Machine Learning techniques can perhaps find a solution.
+- *Fluctuating environments* 
+	- a Machine Learning system can adapt to new data. 
+- *Getting insights about complex problems and large amounts of data*
+
+## Examples of Applications 
+- Analyzing images of products on a production line to automatically classify them 
+	- This is image classification 
+	- Typically performed using convolutional neural networks 
+- Detecting tumors in brain scans
+	- This is semantic segmentation
+	- here each pixel in the image is classified (as we want to determine the exact location and shape of tumor)
+	- Typically uses CNNs as well
+- Automatically classify news articles
+	- This is natural language processing (NLP), more specifically text classification
+	- This can be tackled using recurrent neural networks (RNNs), CNNs or Transformers 
+- Automatically flagging offensive comments on discussion forums 
+	- This is also text classification, using the same NLP tools
+- Summarizing long documents automatically
+	- This is a branch of NLP called text summarization, again using the same tools
+- Creating a chatbot or a personal assistant 
+	- This involves many NLP components, including natural language understanding (NLU) and question-answering modules
+- Forecasting your company’s revenue next year, based on many performance metrics 
+	- This is a regression task (i.e., predicting values) that may be tackled using any regression model, such as a Linear Regression or Polynomial Regression model, a regression SVM, a regression Random Forest, or an artificial neural network. 
+	- If you want to take into account sequences of past performance metrics, you may want to use RNNs, CNNs, or Transformers 
+- Making your app react to voice commands 
+	- This is speech recognition
+	- This requires processing audio samples
+		- since they are long and complex sequences, they are typically processed using RNNs, CNNs, or Transformers 
+- Detecting credit card fraud 
+	- This is anomaly detection 
+- Segmenting clients based on their purchases so that you can design a different marketing strategy for each segment 
+	- This is clustering 
+- Representing a complex, high-dimensional dataset in a clear and insightful diagram 
+	- This is data visualization
+	- often involves dimensionality reduction techniques 
+- Recommending a product that a client may be interested in, based on past purchases 
+	- This is a recommender system. 
+	- One approach is to feed past purchases (and other information about the client) to an artificial neural network and get it to output the most likely next purchase. 
+	- This neural net would typically be trained on past sequences of purchases across all clients. 
+- Building an intelligent bot for a game 
+	- This is often tackled using Reinforcement Learning (RL)
+	- It is a branch of Machine Learning that trains agents (such as bots) to pick the actions that will maximize their rewards over time (e.g., a bot may get a reward every time the player loses some life points), within a given environment (such as the game). 
+	- The famous AlphaGo program that beat the world champion at the game of Go was built using RL.
+
+---
+
+# Types of Machine Learning Systems
+
+There are so many machine learning systems that it is useful to classify them in broad categories, based on the following criteria 
+- Whether or not they are trained with human supervision 
+	- supervised, unsupervised, semi-supervised, and reinforcement learning
+- Whether or not they can learn incrementally on the fly 
+	- online vs batch learning
+- Whether they work by simply comparing new data points to know data points, or instead by detecting patterns in the training data and building a predictive model, much like scientists do 
+	- instance-based vs model-based learning
+
+These criteria are no exclusive; you can combine them in any way you like 
+
+## Supervised / Unsupervised Learning
+Machine learning systems can be classified according to the amount and type of supervision they get during training, mainly into four categories : 
+1. Supervised Learning 
+2. Unsupervised Learning 
+3. Semi-supervised Learning 
+4. Reinforcement Learning
+
+#### Supervised Learning 
+
+> [!NOTE]
+> Supervised learning uses labeled inputs (meaning the input has a corresponding output label) to train models and learn outputs. 
+
+- Here the training set you feed to the algorithm includes the desired solutions, called *labels*. 
+- A typical supervised learning task is *classification*.
+	- e.g. spam filter is trained with many example emails along with their *class* (spam or ham), and it must learn how to classify new emails
+- Another typical task is to predict a *target* numeric value, such as the price of a car, given a set of features (mileage, age, brand, etcl.) called *predictors*
+	- This sort of task is called *regression*
+
+
+> [!NOTE] 
+> In machine learning an *attribute* is a data type (e.g. "mileage"), while a *feature* has several meanings, depending on the context, but generally means an attribute plus its value (e.g. "mileage = 15,000"). Many people use the words attribute and feature interchangeably
+
+Note that some regression models can be used for classification as well, e.g. logistic regression is commonly used for classification, as it can output a value that corresponds to the probability of belonging to a given call (e.g. 20% chance of being spam)
+
+![[Screenshot from 2024-09-14 17-20-27.png]]
+

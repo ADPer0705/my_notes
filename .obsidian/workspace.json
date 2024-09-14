@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
+                "file": "computerScience/Cybersecurity/tools/burpSuite.md",
                 "mode": "source",
                 "source": false
               }
@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "enumeration",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
+                "file": "computerScience/Cybersecurity/tools/burpSuite.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
+                "file": "computerScience/Cybersecurity/tools/burpSuite.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md"
+                "file": "computerScience/Cybersecurity/tools/burpSuite.md"
               }
             }
           }
@@ -148,12 +148,19 @@
   },
   "active": "ee8a0d18cc9a21fb",
   "lastOpenFiles": [
+    "computerScience/Cybersecurity/LINUX/regular_expressions.md",
+    "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
+    "Attachment_Folder/Screenshot from 2024-09-14 17-20-27.png",
+    "ignore/note.md",
+    "README.md",
+    "note.md",
+    "ignore",
+    "gitignore",
     "Attachment_Folder/Screenshot from 2024-09-13 17-54-56.png",
     "Attachment_Folder/Screenshot from 2024-09-13 17-49-10.png",
     "Attachment_Folder/Screenshot from 2024-09-13 17-43-17.png",
     "Screenshot from 2024-09-13 17-43-17.png",
     "computerScience/Cybersecurity/tools/burpSuite.md",
-    "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
     "4913",
     "computerScience/Machine_Learning/introduction_to_ml/types_of_ml.md",
     "computerScience/Machine_Learning/introduction_to_ml/key_concepts.md",
@@ -181,18 +188,11 @@
     "computerScience/Machine_Learning/evaluation_metrics",
     "computerScience/Machine_Learning/data_preprocessing",
     "computerScience/Machine_Learning",
-    "COA.md",
-    "Electrical_and_Electronics/COA/COA.md",
     "Electrical_and_Electronics/COA",
-    "README.md",
     "Attachment_Folder/History-of-Java.jpg",
     "Attachment_Folder/Screenshot from 2024-09-05 16-18-08.png",
     "Attachment_Folder/Screenshot from 2024-09-04 19-45-19.png",
     "Attachment_Folder/Screenshot from 2024-09-04 19-37-47.png",
-    "note.md~",
-    "Attachment_Folder/Screenshot from 2024-09-02 00-44-02.png",
-    "Attachment_Folder/Screenshot from 2024-09-02 00-14-50.png",
-    "computerScience/Cybersecurity/NETWORKING/Network_Services",
-    "Attachment_Folder/Screenshot from 2024-08-31 16-48-27.png"
+    "Attachment_Folder/Screenshot from 2024-09-02 00-44-02.png"
   ]
 }

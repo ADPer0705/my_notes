@@ -109,3 +109,49 @@ If you prefer to view multiple tabs separately, you can detach them into separat
 ---
 
 # Options
+Following are the available options for configuring Burp Suite. There are two types of settings : 
+- **Global Settings**
+	- affect the entire Burp Suite installation and are applied every time you start the application
+	- They provide a baseline configuration for your Burp Suite environment 
+- **Project Settings**
+	- These settings are specific to the current project and apply only during the session 
+	- Burp Suite community edition doesn't support saving any projects, so any project-specific options will be lost when you close Burp
+
+---
+
+# Introduction to Burp Proxy
+It enables the capture of requests and responses between the user and the target web server. This intercepted traffic can be manipulated, sent to other tools for further processing, or explicitly allowed to continue to its destination
+
+## Key Points about Proxy
+#### Intercepting Requests
+- When requests are made through the Burp Proxy, they are intercepted and help back from reaching the target server
+- The requests appear in the proxy tab, allowing for further actions such as forwarding, dropping, editing, or sending them to other Burp modules
+- To disable the intercept and allow the requests to pass through the proxy without interruption, click the `Intercept is on` button
+
+#### Taking Control
+- The ability to intercept requests empowers testers to gain complete control over web traffic, making it invaluable for testing web applications 
+
+#### Capture and Logging
+- Burp Suite captures and logs requests make through the proxy by default, even when the interception is turned off
+- The logging functionality can be helpful for later analysis and review of prior requests 
+
+#### WebSocket Support
+- Burp Suite also captures and logs WebSocket communications, providing additional assistance when analyzing web applications
+
+#### Logs and History
+- The captured requests can be viewed in the *HTTP history* and *WebSockets history* sub-tabs, allowing for retrospective analysis and sending the requests to other Burp Suite modules as needed 
+
+Proxy-specific options can be accessed by clicking the **Proxy settings** button. These options provide extensive control over the Proxy’s behaviour and functionality. Familiarise yourself with these options to optimize your Burp Proxy usage.
+### Some Notable Features in the Proxy Settings
+#### Responses Interception 
+- By default, the proxy does not intercept server responses unless explicitly requested on a per-request basis
+- The "Intercept responses based on the following rules" checkbox, along with the defined rules, allows for a more flexible response interception
+
+#### Match and Replace 
+- The "Match and Replace" section in the **Proxy settings** enables the use of regular expressions (regex) to modify incoming and outgoing requests. 
+- This feature allows for dynamic changes, such as modifying the user agent or manipulating cookies.
+
+---
+
+# Connecting through the Proxy (FoxyProxy)
+git 
