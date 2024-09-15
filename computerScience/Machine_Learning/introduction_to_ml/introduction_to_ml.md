@@ -152,6 +152,7 @@ Machine learning systems can be classified according to the amount and type of s
 	- e.g. spam filter is trained with many example emails along with their *class* (spam or ham), and it must learn how to classify new emails
 - Another typical task is to predict a *target* numeric value, such as the price of a car, given a set of features (mileage, age, brand, etcl.) called *predictors*
 	- This sort of task is called *regression*
+	- To train the system, you need to give it many examples of cars, including both their predictors and their labels (i.e. their prices)
 
 
 > [!NOTE] 
@@ -160,4 +161,59 @@ Machine learning systems can be classified according to the amount and type of s
 Note that some regression models can be used for classification as well, e.g. logistic regression is commonly used for classification, as it can output a value that corresponds to the probability of belonging to a given call (e.g. 20% chance of being spam)
 
 ![[Screenshot from 2024-09-14 17-20-27.png]]
+
+here are some of the most important supervised learning algorithms :
+- k-Nearest Neighbours
+- Linear Regression 
+- Logistic Regression
+- Support Vector Machines (SVMs)
+- Decision Trees and Random Forests
+- Neural networks
+
+#### Unsupervised Learning 
+In unsupervised learning, as you might guess, the training data is unlabeled. The system tries to learn without a teacher
+
+Here are some of the most important unsupervised learning algorithms
+- Clustering  
+	- K-Means 
+	- DBSCAN 
+	- Hierarchical Cluster Analysis (HCA) 
+- Anomaly detection and novelty detection 
+	- One-class SVM 
+	- Isolation Forest 
+- Visualization and dimensionality reduction 
+	- Principal Component Analysis (PCA) 
+	- Kernel PCA 
+	- Locally Linear Embedding (LLE) 
+	- t-Distributed Stochastic Neighbor Embedding (t-SNE) 
+- Association rule learning 
+	- Apriori 
+	- Eclat
+
+for example, say you have a lot of data about your blog's visitors. 
+- You may want to run a *clustering* algorithms to try to detect groups of similar visitors
+	- At no point do you tell the algorithms which group a visitor belongs to, it finds those connection without any help
+		- For example, it might notice that 40% of your visitors are males who love comic books and generally read your blog in the evening, while 20% are young sci-fi lovers who visit during the weekends.
+	- If you use a hierarchical clustering algorithm
+		- it may also subdivide each group into smaller groups. This may help you target your posts for each group
+
+![[Screenshot from 2024-09-15 23-32-59.png]]
+
+Visualization algorithms are also good examples of unsupervised learning algorithms 
+- You feed them a lot of complex and unlabeled data, and they output a 2D or 3D representation of your data that can easily by plotted 
+- These algorithms try to preserve as much structure as they can 
+	- e.g. trying to keep separate clusters in the input space from overlapping in the visualization 
+	so that you can understand how the data is organized and perhaps identify unsuspected patterns 
+
+![[Screenshot from 2024-09-15 23-39-50.png]]
+
+A related task is *dimensionality reduction*, in which the goal is to simplify the data without losing too much information
+- One way to do this is to merge several correlated features into one
+	- for example, a car's mileage may be strongly correlated with its age, so the dimensionality reductions algorithms will merge them into one feature that represents the car's wear and tear 
+	- This is called *feature extraction*
+
+
+> [!NOTE] 
+> It is often a good idea to try to reduce the dimensions of your training data using a dimensionality reduction algorithm before you feed it to another Machine Learning algorithms (such as a supervised learning algorithm). It will run much faster, the data will take up less disk and memory space, and in some cases it may also perform better
+
 

@@ -154,4 +154,65 @@ Proxy-specific options can be accessed by clicking the **Proxy settings** button
 ---
 
 # Connecting through the Proxy (FoxyProxy)
-git 
+1. install foxyproxy extension on firefox
+2. Access FoxyProxy options 
+3. Create Burp Proxy configurations 
+	- from the options choose add proxy
+4. Add proxy details 
+	- TItle : `Burp`
+	- Proxy IP : `127.0.0.1`
+		- This IP address is the loopback address, commonly refereed to as `localhost`
+		- It is a special IP address used by a computer to refer to itself 
+		- Purpose 
+			- allows a computer to send network requests to itself 
+			- It's useful for testing and development without the need to communicate with external networks
+		- Loopback range 
+			- The entire range of addresses from `127.0.0.1` to `127.255.255.255` is reserved for loopback purposes, but `127.0.0.1` is the most commonly used one
+		- Communication
+			- It operates only within the host machine, meaning that packets sent to `127.0.0.1` never leaves the computer
+			- No external device or computer can reach it
+	- Port : `8080`
+		- often used for HTTP proxy traffic
+		- By default Burp Suite can handle both HTTP and HTTPS traffic 
+		- To intercept HTTPS traffic, Burp Suite uses its own SSL certificates, which you may need to install in your browser to avoid SSL warnings 
+5. Save Configuration 
+6. Activate Proxy Configuration
+7. Enable proxy intercept in Burp Suite
+8. Test the proxy 
+	- Open firefox and try accessing a website, such as the homepage for `http://10.10.219.215/`
+	- Your browser will hang, and the proxy will populate with the HTTP request. Congratulations, you have successfully intercepted your first request !
+
+**NOTE**
+- When the proxy configuration is active, and the intercept is switched on in Burp Suite, your browser will hang whenever you make a request.
+- Be cautious not to leave the intercept switched on unintentionally, as it can prevent your browser from making any requests.
+- Right-clicking on a request in Burp Suite allows you to perform various actions, such as forwarding, dropping, sending to other tools, or selecting options from the right-click menu.
+
+---
+
+# Site Map and Issue Definitions
+The `Target` tab in Burp Suite provides more than just control over the scope of our testing. It consists of three sub-tabs : 
+1. **Site Map**
+	- This sub tab allows us to map out the web application we are targeting in a tree structure 
+	- Every page we visit while the proxy is active will be displayed on the site map
+	- This enables us to automatically generate a site map by simply browsing the web application 
+	- In the Burp Suite Professional, we can also use the site map to perform automated crawling of the target, exploring links between pages and mapping out as much of the site as possible 
+	- Even with Burp Suite Community, we can still utilize the site map to accumulate data during our initial enumeration steps
+	- It is particularly useful for mapping out APIs, as any API endpoints accessed by the web application will be captured in the site map 
+2. **Issue definitions**
+	- Although Burp Community does not include the full vulnerability scanning functionality available in Burp Suite Professional, we still have access to a list of all the vulnerabilities that the scanner looks for 
+	- The *Issue definitions* section provides an extensive list of web vulnerabilities, complete with descriptions and references. 
+	- This resource can be valuable for referencing vulnerabilities in reports or assisting in describing a particular vulnerability that may have been identified during manual testing.
+3. **Scope Settings**
+	- This setting allows us to control the target scope in Burp Suite
+	- It enables us to include or exclude specific domains/IPs to define the scope of our testing
+	- By managing the scope, we can focus on the web application we are specifically targeting and avoiding capturing unnecessary traffic 
+
+---
+
+# The Burp Suite Browser
+In addition to modifying our regular web browser to work with the proxy, Burp Suite also includes a built-in Chromium browser that is pre-configured to use the proxy without any of the modifications we might have to do
+
+---
+
+# Scoping and Targeting
+Scoping is one of the most important aspects of using the Burp Proxy

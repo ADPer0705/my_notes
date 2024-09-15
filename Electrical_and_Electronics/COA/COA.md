@@ -1,8 +1,10 @@
-In computer science and engineering, computer architecture is the practical art of selecting and interconnecting hardware components to create computers that meet functional, performance and cost goals and the formal modeling of those systems
+> [!NOTE]
+> In computer science and engineering, computer architecture is the practical art of selecting and interconnecting hardware components to create computers that meet functional, performance and cost goals and the formal modeling of those systems
 
-The functional blocks in a computer are of four types : 
-1. Central Processing Unit
-2. Memory
-3. Input Unit
-4. Output Unit
+---
 
+# Organization and Architecture
+In describing computers, a distinction is often made between computer architecture and computer organization. Although it is difficult to give precise definitions for these terms, a consensus exists about the general areas covered by each
+
+**Computer Architecture**
+- refers to those attributes of a system visible to a programmer or, put another way, those attributes that have impact on the logical execution of a programmer
