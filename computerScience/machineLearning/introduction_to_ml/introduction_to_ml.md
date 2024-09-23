@@ -7,6 +7,11 @@
 	ALL fields may overlap !
 	ALL of them might use ML !
 
+
+> [!NOTE] 
+> Machine learning builds upon the language of mathematics to express concepts that seem intuitively obvious but that are surprisingly difficult to formalize
+
+
 ---
 
 following are some of the python frameworks used for machine learning : 
@@ -123,97 +128,17 @@ To summarize machine learning is great for :
 
 ---
 
-# Types of Machine Learning Systems
+# Main Challenges of Machine Learning
+since the main task is to select a learning algorithm and train it on some data, the two things that can go wrong are "bad algorithm" and "bad data"
 
-There are so many machine learning systems that it is useful to classify them in broad categories, based on the following criteria 
-- Whether or not they are trained with human supervision 
-	- supervised, unsupervised, semi-supervised, and reinforcement learning
-- Whether or not they can learn incrementally on the fly 
-	- online vs batch learning
-- Whether they work by simply comparing new data points to know data points, or instead by detecting patterns in the training data and building a predictive model, much like scientists do 
-	- instance-based vs model-based learning
+#### Insufficient Quantity of Training Data
+It takes a lot of data for most machine learning algorithms to work properly.
 
-These criteria are no exclusive; you can combine them in any way you like 
+*The Unreasonable Effectiveness of Data*
+- In a famous research paper published in 2001, Microsoft researchers Michele Banko and Eric Brill showed that very different machine learning algorithms, including fairly simple ones, performed almost identically well on a complex problem of natural language disambiguation once they were given enough data
+- As the authors put it 
+	  "these results suggest that we may want to reconsider the trade-off between spending time and money on algorithm development versus spending it on corpus development"
 
-## Supervised / Unsupervised Learning
-Machine learning systems can be classified according to the amount and type of supervision they get during training, mainly into four categories : 
-1. Supervised Learning 
-2. Unsupervised Learning 
-3. Semi-supervised Learning 
-4. Reinforcement Learning
+![[Screenshot from 2024-09-23 17-12-22.png]]
 
-#### Supervised Learning 
-
-> [!NOTE]
-> Supervised learning uses labeled inputs (meaning the input has a corresponding output label) to train models and learn outputs. 
-
-- Here the training set you feed to the algorithm includes the desired solutions, called *labels*. 
-- A typical supervised learning task is *classification*.
-	- e.g. spam filter is trained with many example emails along with their *class* (spam or ham), and it must learn how to classify new emails
-- Another typical task is to predict a *target* numeric value, such as the price of a car, given a set of features (mileage, age, brand, etcl.) called *predictors*
-	- This sort of task is called *regression*
-	- To train the system, you need to give it many examples of cars, including both their predictors and their labels (i.e. their prices)
-
-
-> [!NOTE] 
-> In machine learning an *attribute* is a data type (e.g. "mileage"), while a *feature* has several meanings, depending on the context, but generally means an attribute plus its value (e.g. "mileage = 15,000"). Many people use the words attribute and feature interchangeably
-
-Note that some regression models can be used for classification as well, e.g. logistic regression is commonly used for classification, as it can output a value that corresponds to the probability of belonging to a given call (e.g. 20% chance of being spam)
-
-![[Screenshot from 2024-09-14 17-20-27.png]]
-
-here are some of the most important supervised learning algorithms :
-- k-Nearest Neighbours
-- Linear Regression 
-- Logistic Regression
-- Support Vector Machines (SVMs)
-- Decision Trees and Random Forests
-- Neural networks
-
-#### Unsupervised Learning 
-In unsupervised learning, as you might guess, the training data is unlabeled. The system tries to learn without a teacher
-
-Here are some of the most important unsupervised learning algorithms
-- Clustering  
-	- K-Means 
-	- DBSCAN 
-	- Hierarchical Cluster Analysis (HCA) 
-- Anomaly detection and novelty detection 
-	- One-class SVM 
-	- Isolation Forest 
-- Visualization and dimensionality reduction 
-	- Principal Component Analysis (PCA) 
-	- Kernel PCA 
-	- Locally Linear Embedding (LLE) 
-	- t-Distributed Stochastic Neighbor Embedding (t-SNE) 
-- Association rule learning 
-	- Apriori 
-	- Eclat
-
-for example, say you have a lot of data about your blog's visitors. 
-- You may want to run a *clustering* algorithms to try to detect groups of similar visitors
-	- At no point do you tell the algorithms which group a visitor belongs to, it finds those connection without any help
-		- For example, it might notice that 40% of your visitors are males who love comic books and generally read your blog in the evening, while 20% are young sci-fi lovers who visit during the weekends.
-	- If you use a hierarchical clustering algorithm
-		- it may also subdivide each group into smaller groups. This may help you target your posts for each group
-
-![[Screenshot from 2024-09-15 23-32-59.png]]
-
-Visualization algorithms are also good examples of unsupervised learning algorithms 
-- You feed them a lot of complex and unlabeled data, and they output a 2D or 3D representation of your data that can easily by plotted 
-- These algorithms try to preserve as much structure as they can 
-	- e.g. trying to keep separate clusters in the input space from overlapping in the visualization 
-	so that you can understand how the data is organized and perhaps identify unsuspected patterns 
-
-![[Screenshot from 2024-09-15 23-39-50.png]]
-
-A related task is *dimensionality reduction*, in which the goal is to simplify the data without losing too much information
-- One way to do this is to merge several correlated features into one
-	- for example, a car's mileage may be strongly correlated with its age, so the dimensionality reductions algorithms will merge them into one feature that represents the car's wear and tear 
-	- This is called *feature extraction*
-
-
-> [!NOTE] 
-> It is often a good idea to try to reduce the dimensions of your training data using a dimensionality reduction algorithm before you feed it to another Machine Learning algorithms (such as a supervised learning algorithm). It will run much faster, the data will take up less disk and memory space, and in some cases it may also perform better
-
-
+- The idea that data matters more than algorithms for complex problems was further popularized by Peter Norvig et al. in a paper titled “The Unreasonable Effectiveness of Data”, published in 2009.10 It should be noted, however, that small- and mediumsized datasets are still very common, and it is not always easy or cheap to get extra training data—so don’t abandon algorithms just yet

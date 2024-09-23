@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
+                "file": "computerScience/machineLearning/introduction_to_ml/introduction_to_ml.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
+                "file": "computerScience/machineLearning/introduction_to_ml/introduction_to_ml.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
+                "file": "computerScience/machineLearning/introduction_to_ml/introduction_to_ml.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md"
+                "file": "computerScience/machineLearning/introduction_to_ml/introduction_to_ml.md"
               }
             }
           }
@@ -148,51 +148,52 @@
   },
   "active": "ee8a0d18cc9a21fb",
   "lastOpenFiles": [
-    "Attachment_Folder/Screenshot from 2024-09-15 23-39-50.png",
-    "Attachment_Folder/Screenshot from 2024-09-15 23-32-59.png",
-    "computerScience/Cybersecurity/tools/burpSuite.md",
-    "Electrical_and_Electronics/COA/COA.md",
-    "computerScience/Cybersecurity/LINUX/regular_expressions.md",
-    "computerScience/Machine_Learning/introduction_to_ml/introduction_to_ml.md",
-    "Attachment_Folder/Screenshot from 2024-09-14 17-20-27.png",
-    "ignore/note.md",
-    "README.md",
-    "note.md",
-    "ignore",
-    "gitignore",
-    "Attachment_Folder/Screenshot from 2024-09-13 17-54-56.png",
-    "Attachment_Folder/Screenshot from 2024-09-13 17-49-10.png",
-    "Attachment_Folder/Screenshot from 2024-09-13 17-43-17.png",
-    "Screenshot from 2024-09-13 17-43-17.png",
-    "4913",
-    "computerScience/Machine_Learning/introduction_to_ml/types_of_ml.md",
-    "computerScience/Machine_Learning/introduction_to_ml/key_concepts.md",
-    "computerScience/Machine_Learning/evaluation_metrics/cross_validation.md",
-    "computerScience/Machine_Learning/evaluation_metrics/confusion_matrix.md",
-    "computerScience/Machine_Learning/evaluation_metrics/accuracy_precision_recall.md",
-    "computerScience/Machine_Learning/tools_and_libraries/tensorflow.md",
-    "computerScience/Machine_Learning/tools_and_libraries/scikit_learn.md",
-    "computerScience/Machine_Learning/tools_and_libraries/pytorch.md",
-    "computerScience/Machine_Learning/tools_and_libraries/keras.md",
-    "computerScience/Machine_Learning/algorithms/support_vector_machines.md",
-    "computerScience/Machine_Learning/algorithms/linear_regression.md",
-    "computerScience/Machine_Learning/algorithms/neural_networks.md",
-    "computerScience/Machine_Learning/algorithms/k_nearest_neighbour.md",
-    "computerScience/Machine_Learning/algorithms/decision_tree.md",
-    "computerScience/Machine_Learning/algorithms/logistic_regression.md",
-    "computerScience/Machine_Learning/data_preprocessing/feature_selection.md",
-    "computerScience/Machine_Learning/data_preprocessing/dimensionality_reduction.md",
-    "computerScience/Machine_Learning/data_preprocessing/data_sources.md",
-    "computerScience/Machine_Learning/tools_and_libraries",
-    "computerScience/Machine_Learning/algorithms",
-    "computerScience/Machine_Learning/introduction_to_ml",
-    "computerScience/Machine_Learning/evaluation_metrics",
-    "computerScience/Machine_Learning/data_preprocessing",
-    "computerScience/Machine_Learning",
-    "Electrical_and_Electronics/COA",
-    "Attachment_Folder/History-of-Java.jpg",
-    "Attachment_Folder/Screenshot from 2024-09-05 16-18-08.png",
-    "Attachment_Folder/Screenshot from 2024-09-04 19-45-19.png",
-    "Attachment_Folder/Screenshot from 2024-09-04 19-37-47.png"
+    "Attachment_Folder/Screenshot from 2024-09-23 17-12-22.png",
+    "computerScience/machineLearning/machine_learning_systems.md",
+    "computerScience/machineLearning/data/features.md",
+    "computerScience/machineLearning/data/data_preprocessing.md",
+    "computerScience/machineLearning/data/dimensionality_reduction.md",
+    "computerScience/machineLearning/data/data_sources.md",
+    "computerScience/machineLearning/data_preprocessing/dimensionality_reduction.md",
+    "computerScience/machineLearning/data/feature_scaling.md",
+    "computerScience/machineLearning/data/feature_selection.md",
+    "computerScience/machineLearning/data/data_cleaning.md",
+    "computerScience/machineLearning/data",
+    "computerScience/machineLearning/data_preprocessing/features.md",
+    "computerScience/machineLearning/data_preprocessing/data_preprocessing.md",
+    "computerScience/machineLearning/data_preprocessing/feature_scaling.md",
+    "computerScience/machineLearning/data_preprocessing/feature_selection.md",
+    "computerScience/cybersecurity/database_security/MySQL.md",
+    "computerScience/cybersecurity/database_security",
+    "computerScience/cybersecurity/networking/Network_Protocols/Network_Authentication_Protocol/kerberos.md",
+    "computerScience/cybersecurity/networking/Network_Protocols/email_sec/SMTP.md",
+    "computerScience/cybersecurity/networking/Network_Protocols/email_sec/basics.md",
+    "computerScience/cybersecurity/networking/Network_Protocols/email_sec/SMIME.md",
+    "computerScience/cybersecurity/networking/Network_Protocols/email_sec/PGP.md",
+    "computerScience/cybersecurity/networking/Network_Protocols/email_sec/POP.md",
+    "computerScience/cybersecurity/networking/Network_Protocols/email_sec/IMAP.md",
+    "computerScience/cybersecurity/networking/Network_Protocols/IP_sec/basics.md",
+    "computerScience/cybersecurity/networking/Network_Protocols/IP_sec/AH.md",
+    "computerScience/cybersecurity/networking/Network_Protocols/IP_sec/ESP.md",
+    "computerScience/cybersecurity/networking/Network_Models/TCP-IP.md",
+    "computerScience/cybersecurity/networking/Network_Protocols/email_sec",
+    "computerScience/cybersecurity/networking/Network_Protocols/Network_Authentication_Protocol",
+    "computerScience/cybersecurity/networking/Network_Protocols/IP_sec",
+    "computerScience/cybersecurity/networking/Wi-Fi",
+    "computerScience/cybersecurity/networking/Network_Services",
+    "computerScience/cybersecurity/networking/Network_Protocols",
+    "computerScience/cybersecurity/networking/Network_Models",
+    "computerScience/cybersecurity/networking/Network_Devices",
+    "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/submit-spin.svg",
+    "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/footer_logo.png",
+    "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo.png",
+    "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo-75x75.png",
+    "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo-300x300.png",
+    "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo-150x150.png",
+    "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5_002.jpeg",
+    "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5.jpeg",
+    "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/WEB_LOGO-1.png",
+    "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC5 – CertPreps_files/submit-spin.svg",
+    "computerScience/DSA/Untitled.canvas"
   ]
 }

@@ -449,3 +449,18 @@ instance method
 non-static block 
 
 constructor
+
+---
+
+final 
+- variables
+- methods
+	- cannot be overwritten 
+- class
+	- cannot make a child class of the class
+
+
+---
+
+all the members of interface are public, static and 
+interface variables are final by default

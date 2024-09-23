@@ -101,3 +101,6 @@ There are three main types of meta data :
 - It is also defined as a collection of logically related data stored together that is designed to meet information requirement of an organization 
 - For example, university database organizes the data about students, faculty, and admin staff, etc
 - Database are organized by fields, records, and files
+
+---
+
