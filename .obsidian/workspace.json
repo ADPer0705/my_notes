@@ -56,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#StartByBelieving",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +87,7 @@
               "state": {
                 "file": "computerScience/machineLearning/introduction_to_ml/introduction_to_ml.md",
                 "collapseAll": false,
-                "extraContext": false,
+                "extraContext": true,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
@@ -148,9 +148,11 @@
   },
   "active": "ee8a0d18cc9a21fb",
   "lastOpenFiles": [
-    "Attachment_Folder/Screenshot from 2024-09-23 17-12-22.png",
-    "computerScience/machineLearning/machine_learning_systems.md",
     "computerScience/machineLearning/data/features.md",
+    "computerScience/machineLearning/introduction_to_ml/introduction_to_ml.md",
+    "computerScience/machineLearning/machine_learning_systems.md",
+    "Attachment_Folder/Screenshot from 2024-09-23 17-16-45.png",
+    "Attachment_Folder/Screenshot from 2024-09-23 17-12-22.png",
     "computerScience/machineLearning/data/data_preprocessing.md",
     "computerScience/machineLearning/data/dimensionality_reduction.md",
     "computerScience/machineLearning/data/data_sources.md",
@@ -192,8 +194,6 @@
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo-150x150.png",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5_002.jpeg",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5.jpeg",
-    "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/WEB_LOGO-1.png",
-    "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC5 – CertPreps_files/submit-spin.svg",
     "computerScience/DSA/Untitled.canvas"
   ]
 }

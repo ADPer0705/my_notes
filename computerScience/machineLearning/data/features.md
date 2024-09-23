@@ -70,3 +70,14 @@ consider the example of movies
 | ----------------------- | ------ | --------- | ------ |
 | Guardians of the Galaxy | 1      | 1         | 1      |
 | A serious man           | 0      | 0         | 1      |
+
+---
+
+# Feature Engineering
+A critical part of the machine learning project is coming up with a good set of features to train on. This process is called *Feature Engineering*, involves the following steps :
+- *Feature Selection*
+	- Selecting the most useful features to train on among existing features
+- *Feature Extraction*
+	- combining existing features to produce a more useful one
+	- here dimensionality reduction algorithms may help
+- Creating new features by gathering new data

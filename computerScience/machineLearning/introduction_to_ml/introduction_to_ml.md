@@ -142,3 +142,34 @@ It takes a lot of data for most machine learning algorithms to work properly.
 ![[Screenshot from 2024-09-23 17-12-22.png]]
 
 - The idea that data matters more than algorithms for complex problems was further popularized by Peter Norvig et al. in a paper titled “The Unreasonable Effectiveness of Data”, published in 2009.10 It should be noted, however, that small- and mediumsized datasets are still very common, and it is not always easy or cheap to get extra training data—so don’t abandon algorithms just yet
+
+#### Non-representative Training Data
+
+> [!NOTE]
+> In order to generalize well, it is crucial that your training data be representative of the new cases you want to generalize to
+
+This is true whether you use instance-based learning or model-based learning
+
+![[Screenshot from 2024-09-23 17-16-45.png]]
+- the dotted line is where some of the countries were missing
+- the dashed line is the line we get when using the complete representative data set
+
+It is crucial to use a training set that is representative of the cases you want to generalize to. This is often harder than it sounds : 
+- If the sample is too small, you will have *sampling noise*
+	- i.e. non-representative data as a result of chance
+- but even very large samples can be non-representative if the sampling method is flawed 
+	- this is called *sampling bias*
+
+#### Poor Quality Data
+If your data is full of errors, outliers, and noise, it will make it harder for the system to detect the underlying patterns, so your system is less likely to perform well.
+
+It is often well worth the effort to spend time cleaning up your training data. The truth is most data scientists spend a significant part of their time doing just that.
+- If some instances are clearly outliers, it may help to simply discard them or try to fix the errors manually. 
+- If some instances are missing a few features (e.g., 5% of your customers did not specify their age), you must decide whether you want to ignore this attribute alto‐ gether, ignore these instances, fill in the missing values (e.g., with the median age), or train one model with the feature and one model without it.
+
+#### Irrelevant Features
+Your system will only be capable of learning if the training data contains enough relevant features and not too many irrelevant ones.
+
+A critical part of the success of a machine learning project is coming up with a good set of features to train on. This process if called [feature Engineering](obsidian://open?vault=NOTES&file=computerScience%2FmachineLearning%2Fdata%2Ffeatures).
+
+#### Overfitting the training data
