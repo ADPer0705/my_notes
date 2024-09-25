@@ -231,7 +231,14 @@ Suppose you have a website that uses third-party libraries that are stored in so
 You can go to [https://www.srihash.org/](https://www.srihash.org/) to generate hashes for any library if needed.
 
 ## Data Integrity Failure
+**Cookies** are key-value pairs that a web application will store on the user's browser and that will be automatically repeated on each request to the website that issued them. E.g. if a username is stored in the cookies, in subsequent requests the browser would always send your username in the cookies so that your web application knows what user is connecting. This would be a terrible idea security-wise because cookies are stored on the user's browser, so if the user tampers with the cookies and changes the username, they could potentially impersonate someone else and read their emails or something.
+- This application would suffer from a data integrity failure, as it trusts data that an attacker can tamper with 
 
+One solution to maintain data integrity while avoiding re-inventing the wheel, we could use some token implementation that allows you to do this and deal with all of the cryptography to provide proof of integrity without you having bother with it, is *JSON Web Tokens (JWT)*
+
+JWTs are very simple tokens that allow you to store key-value pairs on a token that provides integrity as part of the token. 
+- The idea is that you can generate tokens that you can give your users with the certainty that they won't be able to alter the key-value pairs and pass the integrity check. 
+- The structure of a JWT token is formed of 3 parts
 
 
 

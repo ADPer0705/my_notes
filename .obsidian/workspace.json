@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computerScience/machineLearning/introduction_to_ml/introduction_to_ml.md",
+                "file": "computerScience/webdev/JWT.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computerScience/machineLearning/introduction_to_ml/introduction_to_ml.md",
+                "file": "computerScience/webdev/JWT.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computerScience/machineLearning/introduction_to_ml/introduction_to_ml.md",
+                "file": "computerScience/webdev/JWT.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computerScience/machineLearning/introduction_to_ml/introduction_to_ml.md"
+                "file": "computerScience/webdev/JWT.md"
               }
             }
           }
@@ -148,14 +148,25 @@
   },
   "active": "ee8a0d18cc9a21fb",
   "lastOpenFiles": [
+    "computerScience/cybersecurity/websec/OWASP.md",
+    "computerScience/webdev/JWT.md",
+    "computerScience/webdev/cookies.md",
+    "computerScience/cybersecurity/websec/basics.md",
+    "computerScience/webdev/session.md",
+    "computerScience/machineLearning/data/data_preprocessing.md",
+    "computerScience/machineLearning/data/data_sources.md",
     "computerScience/machineLearning/data/features.md",
+    "ignore/SSIP_Pitch/pitch.md",
+    "ignore/SSIP_Pitch/idea.md",
     "computerScience/machineLearning/introduction_to_ml/introduction_to_ml.md",
+    "ignore/SSIP_Pitch/idea",
+    "ignore/SSIP_Pitch",
+    "misc/SSIP_Pitch/idea",
+    "misc/SSIP_Pitch",
     "computerScience/machineLearning/machine_learning_systems.md",
     "Attachment_Folder/Screenshot from 2024-09-23 17-16-45.png",
     "Attachment_Folder/Screenshot from 2024-09-23 17-12-22.png",
-    "computerScience/machineLearning/data/data_preprocessing.md",
     "computerScience/machineLearning/data/dimensionality_reduction.md",
-    "computerScience/machineLearning/data/data_sources.md",
     "computerScience/machineLearning/data_preprocessing/dimensionality_reduction.md",
     "computerScience/machineLearning/data/feature_scaling.md",
     "computerScience/machineLearning/data/feature_selection.md",
@@ -171,21 +182,10 @@
     "computerScience/cybersecurity/networking/Network_Protocols/email_sec/SMTP.md",
     "computerScience/cybersecurity/networking/Network_Protocols/email_sec/basics.md",
     "computerScience/cybersecurity/networking/Network_Protocols/email_sec/SMIME.md",
-    "computerScience/cybersecurity/networking/Network_Protocols/email_sec/PGP.md",
-    "computerScience/cybersecurity/networking/Network_Protocols/email_sec/POP.md",
-    "computerScience/cybersecurity/networking/Network_Protocols/email_sec/IMAP.md",
-    "computerScience/cybersecurity/networking/Network_Protocols/IP_sec/basics.md",
-    "computerScience/cybersecurity/networking/Network_Protocols/IP_sec/AH.md",
-    "computerScience/cybersecurity/networking/Network_Protocols/IP_sec/ESP.md",
-    "computerScience/cybersecurity/networking/Network_Models/TCP-IP.md",
     "computerScience/cybersecurity/networking/Network_Protocols/email_sec",
     "computerScience/cybersecurity/networking/Network_Protocols/Network_Authentication_Protocol",
     "computerScience/cybersecurity/networking/Network_Protocols/IP_sec",
     "computerScience/cybersecurity/networking/Wi-Fi",
-    "computerScience/cybersecurity/networking/Network_Services",
-    "computerScience/cybersecurity/networking/Network_Protocols",
-    "computerScience/cybersecurity/networking/Network_Models",
-    "computerScience/cybersecurity/networking/Network_Devices",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/submit-spin.svg",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/footer_logo.png",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo.png",
