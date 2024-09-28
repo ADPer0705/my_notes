@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computerScience/webdev/JWT.md",
+                "file": "computerScience/cybersecurity/websec/OWASP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computerScience/webdev/JWT.md",
+                "file": "computerScience/cybersecurity/websec/OWASP.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computerScience/webdev/JWT.md",
+                "file": "computerScience/cybersecurity/websec/OWASP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computerScience/webdev/JWT.md"
+                "file": "computerScience/cybersecurity/websec/OWASP.md"
               }
             }
           }
@@ -148,8 +148,16 @@
   },
   "active": "ee8a0d18cc9a21fb",
   "lastOpenFiles": [
+    "Attachment_Folder/Screenshot from 2024-09-28 15-55-19.png",
+    "computerScience/cybersecurity/tools/burpSuite.md",
     "computerScience/cybersecurity/websec/OWASP.md",
+    "Attachment_Folder/Screenshot from 2024-09-28 15-13-57.png",
     "computerScience/webdev/JWT.md",
+    "ignore/aiml_culture/datacamp.md",
+    "ignore/aiml_culture/aiml_form.md",
+    "computerScience/machineLearning/introduction_to_ml/introduction_to_ml.md",
+    "electricalAndElectronics/COA/COA.md",
+    "ignore/aiml_culture",
     "computerScience/webdev/cookies.md",
     "computerScience/cybersecurity/websec/basics.md",
     "computerScience/webdev/session.md",
@@ -158,7 +166,6 @@
     "computerScience/machineLearning/data/features.md",
     "ignore/SSIP_Pitch/pitch.md",
     "ignore/SSIP_Pitch/idea.md",
-    "computerScience/machineLearning/introduction_to_ml/introduction_to_ml.md",
     "ignore/SSIP_Pitch/idea",
     "ignore/SSIP_Pitch",
     "misc/SSIP_Pitch/idea",
@@ -176,16 +183,10 @@
     "computerScience/machineLearning/data_preprocessing/data_preprocessing.md",
     "computerScience/machineLearning/data_preprocessing/feature_scaling.md",
     "computerScience/machineLearning/data_preprocessing/feature_selection.md",
-    "computerScience/cybersecurity/database_security/MySQL.md",
     "computerScience/cybersecurity/database_security",
-    "computerScience/cybersecurity/networking/Network_Protocols/Network_Authentication_Protocol/kerberos.md",
-    "computerScience/cybersecurity/networking/Network_Protocols/email_sec/SMTP.md",
-    "computerScience/cybersecurity/networking/Network_Protocols/email_sec/basics.md",
-    "computerScience/cybersecurity/networking/Network_Protocols/email_sec/SMIME.md",
     "computerScience/cybersecurity/networking/Network_Protocols/email_sec",
     "computerScience/cybersecurity/networking/Network_Protocols/Network_Authentication_Protocol",
     "computerScience/cybersecurity/networking/Network_Protocols/IP_sec",
-    "computerScience/cybersecurity/networking/Wi-Fi",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/submit-spin.svg",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/footer_logo.png",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo.png",
@@ -193,7 +194,6 @@
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo-300x300.png",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo-150x150.png",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5_002.jpeg",
-    "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5.jpeg",
     "computerScience/DSA/Untitled.canvas"
   ]
 }

