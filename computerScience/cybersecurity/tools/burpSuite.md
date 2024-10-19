@@ -286,4 +286,5 @@ You should find an alert box from the site indicating a successful XSS attack!
 ![Screenshot showing the successful XSS attack](https://tryhackme-images.s3.amazonaws.com/user-uploads/5d9e176315f8850e719252ed/room-content/0ee12f5040b4c2898a71c1300a76f03f.png)
 
 ----
+# Burp Suite : Repeater
 

@@ -102,5 +102,68 @@ There are three main types of meta data :
 - For example, university database organizes the data about students, faculty, and admin staff, etc
 - Database are organized by fields, records, and files
 
+#### Fields
+- lowest level of data item
+- alternatively called as attribute of that entity
+- A single item of data within a database or a software program. It is the smallest unit of data item
+
+e.g. a field may be a customer name, address or phone number
+
+#### Record
+
+> [!NOTE]
+> A record is a collection of logically related fields, and each field is possessing a fixed number of bytes and is of fixed data type 
+
+- we can say a record is one complete set of fields and each field has some value
+
+Records are of two types : 
+- fixed length records
+- variable length record 
+
+#### Database File 
+
+> [!NOTE]
+> File is a collection of records having the same set of fields arranged in the same sequence
+
+- Generally all the records in a file are of same size and record type but it is not always true
+	- The record in a file may be of fixed length of variable length *depending upon the size of the records contained in a file*
+
+#### Data Dictionary
+contains information of the data stored in a database and is consulted by the DBMS before any manipulation operation on the database
+- stores metadata
+
+Data dictionary is generated for each database and generally stores and manages various types of information
+- The complete information about physical database design 
+	- e.g. storage structures, access paths, and file sized 
+- The information about the database users, their responsibilities and access rights of each user
+- The complete information about the schema of the database
+- The information about the relationship between the data items referred by the database transactions 
+
+Data dictionaries are of two types : 
+1. **Active Data Dictionary**
+	- managed automatically by the database management system 
+	- always consistent with the current structure and definition of the database 
+	
+2. **Passive Data Dictionary**
+	- It is only for documentation purposes and the data about fields, files and people are maintained into the dictionary for cross-reference 
+	- generally managed by the users of the system
+
 ---
 
+# DBMS
+- The software used to manage database
+- acts as interface between users and database itself
+- record keeping system
+- allows data to be
+	- stored
+	- maintained 
+	- manipulated
+	- retrieved
+- It consists of DBMS utilities, database and data dictionary
+
+It's responsibilities are : 
+- multi-user access control
+- security management
+- backup and recovery management
+
+## File-Based System

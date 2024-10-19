@@ -4,19 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5f125f553c4c1b33",
+        "id": "f47efa50c6342e31",
         "type": "tabs",
         "children": [
           {
-            "id": "ee8a0d18cc9a21fb",
+            "id": "ee6b373ecbd0bcf6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "computerScience/cybersecurity/websec/OWASP.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -39,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -47,7 +47,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
@@ -62,7 +64,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           }
         ]
@@ -85,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "computerScience/cybersecurity/websec/OWASP.md",
+                "file": "ignore/DSA.md",
                 "collapseAll": false,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -93,7 +97,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for DSA"
             }
           },
           {
@@ -102,10 +108,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "computerScience/cybersecurity/websec/OWASP.md",
+                "file": "ignore/DSA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from DSA"
             }
           },
           {
@@ -116,7 +124,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +135,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computerScience/cybersecurity/websec/OWASP.md"
-              }
+                "file": "ignore/DSA.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of DSA"
             }
           }
         ]
@@ -146,14 +158,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ee8a0d18cc9a21fb",
+  "active": "cbf68360a1bdeb53",
   "lastOpenFiles": [
-    "Attachment_Folder/Screenshot from 2024-09-28 15-55-19.png",
+    "ignore/DSA.md",
+    "ignore/note.md",
+    "ignore/aiml_culture/datacamp.md",
+    "computerScience/DBMS/DBMS.md",
+    "computerScience/cybersecurity/cryptography/hash.md",
+    "computerScience/cybersecurity/cryptography/cryptography.md",
     "computerScience/cybersecurity/tools/burpSuite.md",
+    "ignore/ahamrootasmi/HackMetro.md",
+    "ignore/SSIP_Pitch/pitch.md",
+    "ignore/SSIP_Pitch/idea.md",
+    "ignore/ahamrootasmi",
+    "computerScience/cybersecurity/cryptography/symmetric_ciphers.md",
     "computerScience/cybersecurity/websec/OWASP.md",
+    "Attachment_Folder/Screenshot from 2024-09-28 15-55-19.png",
     "Attachment_Folder/Screenshot from 2024-09-28 15-13-57.png",
     "computerScience/webdev/JWT.md",
-    "ignore/aiml_culture/datacamp.md",
     "ignore/aiml_culture/aiml_form.md",
     "computerScience/machineLearning/introduction_to_ml/introduction_to_ml.md",
     "electricalAndElectronics/COA/COA.md",
@@ -164,8 +186,6 @@
     "computerScience/machineLearning/data/data_preprocessing.md",
     "computerScience/machineLearning/data/data_sources.md",
     "computerScience/machineLearning/data/features.md",
-    "ignore/SSIP_Pitch/pitch.md",
-    "ignore/SSIP_Pitch/idea.md",
     "ignore/SSIP_Pitch/idea",
     "ignore/SSIP_Pitch",
     "misc/SSIP_Pitch/idea",
@@ -176,24 +196,16 @@
     "computerScience/machineLearning/data/dimensionality_reduction.md",
     "computerScience/machineLearning/data_preprocessing/dimensionality_reduction.md",
     "computerScience/machineLearning/data/feature_scaling.md",
-    "computerScience/machineLearning/data/feature_selection.md",
-    "computerScience/machineLearning/data/data_cleaning.md",
     "computerScience/machineLearning/data",
-    "computerScience/machineLearning/data_preprocessing/features.md",
-    "computerScience/machineLearning/data_preprocessing/data_preprocessing.md",
-    "computerScience/machineLearning/data_preprocessing/feature_scaling.md",
-    "computerScience/machineLearning/data_preprocessing/feature_selection.md",
     "computerScience/cybersecurity/database_security",
     "computerScience/cybersecurity/networking/Network_Protocols/email_sec",
     "computerScience/cybersecurity/networking/Network_Protocols/Network_Authentication_Protocol",
-    "computerScience/cybersecurity/networking/Network_Protocols/IP_sec",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/submit-spin.svg",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/footer_logo.png",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo.png",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo-75x75.png",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo-300x300.png",
     "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/ccLogo-150x150.png",
-    "computerScience/cybersecurity/ISC2_CC/CertPrep_mock/CC3 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5_002.jpeg",
     "computerScience/DSA/Untitled.canvas"
   ]
 }

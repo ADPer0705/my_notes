@@ -64,6 +64,78 @@ Here are some differences between symmetric and asymmetric key cryptography :
 | symbols are permuted or substituted | numbers are manipulated         |
 Asymmetric and symmetric ciphers will exist in parallel and continue to serve the community. They are compliment of each other, the advantages of one can compensate for the disadvantages of other 
 
+### Encoding vs Encryption
+#### 1. Encoding*
+
+**Purpose:**
+
+- Encoding is used to **transform data** into a different format, primarily for compatibility, storage, or transmission purposes.
+- It ensures that data is in a format that can be correctly interpreted by different systems, devices, or protocols.
+
+**Characteristics:**
+
+- **No Security Focus:** Encoding is **not meant for security**. The main goal is to ensure that the data is in a consistent format that can be understood by different systems.
+- **Reversible Without a Key:** Anyone who knows the encoding scheme (e.g., Base64, URL encoding) can decode the information back to its original form.
+- **Common Use Cases:** Data encoding for transmission over networks (e.g., converting binary data into ASCII for email), representing special characters in URLs, or encoding text in formats like UTF-8 or Base64.
+
+**Example:**
+
+- **Base64 Encoding:** Used to encode binary data into ASCII characters, commonly seen in email attachments or within JSON web tokens (JWTs).
+    
+    - Original: `Hello, World!`
+    - Encoded (Base64): `SGVsbG8sIFdvcmxkIQ==`
+- **URL Encoding:** Special characters in a URL (like spaces or `&`) are replaced with a percentage sign (`%`) followed by their hexadecimal value.
+    
+    - Original: `Hello World`
+    - Encoded: `Hello%20World`
+
+#### 2. Encryption
+
+**Purpose:**
+
+- Encryption is used to **protect data** by converting it into an unreadable format unless the correct decryption key is provided.
+- The primary goal of encryption is **confidentiality**. It ensures that only authorized users with the correct decryption key can read the original data.
+
+**Characteristics:**
+
+- **Security-Focused:** Encryption is designed to make data **unreadable to unauthorized parties**. Even if someone intercepts encrypted data, they cannot understand it without the key.
+- **Reversible With a Key:** Data can only be decrypted and turned back into its original form using a decryption key (or in some cases, the same key used for encryption, as in symmetric encryption).
+- **Common Use Cases:** Securing sensitive information like passwords, banking data, communications, or files.
+
+**Types of Encryption:**
+
+- **Symmetric Encryption:** The same key is used for both encryption and decryption. Examples include AES (Advanced Encryption Standard) and DES (Data Encryption Standard).
+- **Asymmetric Encryption:** Uses a pair of keys—one for encryption (public key) and one for decryption (private key). Examples include RSA and ECC.
+
+**Example:**
+
+- **AES Encryption:**
+    - Original: `Hello, World!`
+    - Encrypted (AES): `5f4dcc3b5aa765d61d8327deb882cf99` (encrypted output would be a binary or hex string, and it looks random).
+
+#### Key Differences:
+
+| **Aspect**          | **Encoding**                          | **Encryption**                        |
+| ------------------- | ------------------------------------- | ------------------------------------- |
+| **Primary Purpose** | Data transformation for compatibility | Data protection and confidentiality   |
+| **Focus**           | Usability, compatibility              | Security, confidentiality             |
+| **Reversibility**   | Easily reversible without a key       | Reversible only with a specific key   |
+| **Security**        | No security provided                  | Provides security and confidentiality |
+| **Common Use**      | Data transmission (e.g., Base64, URL) | Secure communication and data storage |
+
+#### Analogies:
+
+- **Encoding:** Like translating a book from one language to another, ensuring it can be understood by different readers. Anyone who knows the new language can read it.
+- **Encryption:** Like locking the book in a safe. Only someone with the key to the safe can access the contents.
+
+#### Additional Concepts:
+
+- **Hashing:** Often confused with encryption, hashing is used to map data to a fixed-length value (like a "fingerprint"). Unlike encryption, it is **one-way** and cannot be reversed. Hashing is used for integrity verification (e.g., passwords, checksums).
+- **Encoding + Encryption:** Sometimes, data is both encoded and encrypted. For example, encrypted binary data may be Base64-encoded to make it easier to transmit or store, but the encryption ensures security.
+
+In summary, encoding is used to transform data into a different format for usability, while encryption is used to secure data and ensure confidentiality.
+
+
 ---
 
 ## Data Integrity
@@ -132,8 +204,6 @@ The signed certificates by CA contains
 - subject name
 - public key 
 	etc.
-
-![[Screenshot from 2024-06-11 19-44-13.png | 650]]
 
 here the process of getting a digital certificate issued is described :
 - The user(Bob here) creates a key pair using the public key cryptography algorithm and applies for the digital certificate to the Certifying authority by providing the public key and other supporting information and documents. 
