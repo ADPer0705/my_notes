@@ -379,6 +379,19 @@ sorting without modifying
 
 - `mylist = [0] * 5` will give `[0, 0, 0, 0, 0]`
 
+when we assign a list to a variable, it copies the reference to the list, so ,
+```python
+x = ["ANAY", "DHAVAL", "PANDYA"]
+y = x     # here the reference to the list pointed to by x is also now copied to 
+          # y, so x and y refers to the same list
+
+# if we make some changes to y, it'll make changes to x as well
+# in order to prevent it, we can do one of the following 
+y = list(x)
+y = x[:]
+# now any changes to y will not be reflected in x
+```
+```
 ---
 # Tuples
 - immutable groups of items
@@ -496,6 +509,12 @@ Below are a few global function
 - We can nest functions, just maintain the indentations
 - there is a special type of data classification called `nonlocal` 
 
+consider the following example of function declaration : 
+```python
+sorted(iterable, /, *, key=None, reverse=False)
+```
+here, all the variables before the `/` are passed only by position, and all the variables after `*` must by passed by keywords only
+
 ## Closures
 A closure in python is a function object that remembers values in enclosing scopes even if they are not present in memory
 - It is a record that stores a function together with an environment: a mapping associating each free variable of the function with the value or reference to which the name was bound when the closure was created.
@@ -510,6 +529,8 @@ We can get to know what variables are stored inside a Closure with the help of t
 2. When we have few functions in our code, closures in Python prove to be an efficient way. But if we need to have many functions, then go for class (OOP).
 3. We may have variables in the global scope that are not used by many functions at times. Instead of defining variables in global scope, consider using a closure. They can be defined in the outer function and used in the inner function. Python Closures are also useful for avoiding the use of a global scope.
 4. A class in the Python programming language always has the __init__ method. If you only have one extra method, an elegant solution would be to use a closure rather than a class. Because this improves code readability and even reduces the programmer’s workload. Closures in Python can thus be used to avoid the needless use of a class.
+
+
 ---
 # Objects 
 *Everything in python is an object*

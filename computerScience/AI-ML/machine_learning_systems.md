@@ -45,6 +45,10 @@ here are some of the most important supervised learning algorithms :
 - Decision Trees and Random Forests
 - Neural networks
 
+##### Classification
+- Binary Classification 
+	- Multi-Class classification
+
 #### Unsupervised Learning 
 In unsupervised learning, as you might guess, the training data is unlabeled. The system tries to learn without a teacher
 
