@@ -43,7 +43,12 @@ Either
 Or
 - Transform perceptions into data
 
-Occurs in33
+Occurs in  
 - NLP and audio
 - Computer Vision
 - Robotics and sensors 
+
+---
+
+![[Screenshot 2024-10-29 063646.png]]
+

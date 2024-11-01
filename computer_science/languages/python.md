@@ -35,34 +35,22 @@ when we type python in terminal and start interpreting the commands as we give t
 
 variable name rule are the same as in every other language
 
----
-# Expression and Statements
-expression is any sort of code that returns a value
-statement is an operation on a value 
-
-a program is made of statements 
-generally a single statement is written on a line, but we can write multiple statements on the same line separated by `;` like 
-```
-name = "ADPer" ; print(name)
-```
----
 # comments
 anything after a `#` is a comment 
 
----
 # Indentations
 unlike most other languages, indentation is python is very significant part of the code as using indentation and not some sort of brackets is how we mark a block of code, be it a function, etc.
 
 ---
 # Data Types
-we don't need to explicitly mention the data type while declaring a function or a variable 
+Python automatically assigns data types to variables, no explicit declaration of data types is needed
 
-checking the type of a function can be done in two ways, consider a variable `name`
+checking the type of a variable can be done in two ways, consider a variable `name`
 1. type function
 	- `type(name)` will return the type of the name
 	- `isinstance(name, str)` checks if `name` is an instance of a string and returns either `True` or `False`
 
-also, just like other languages, python can implicitly assign the data type or we can do that explicitly if we want to 
+also, python can implicitly assign the data type or we can do that explicitly if we want to 
 we can also go form int to string and so on, consider the following code 
 ```python 
 num = "20"                    # is a string 
@@ -243,7 +231,7 @@ print("ADPer is great".title()) # Adper Is Great
 	- `isalpha()` => to check if the string only contains characters and is not empty
 	- `isalnum()` => contains characters or digits and is not empty
 	- `isdecimal()` => if string contains digits and is not empty
-	- `islower()` or `isupper` => if the string is all lower or upper case respectively
+	- `islower()` or `isupper()` => if the string is all lower or upper case respectively
 	- `startswith()` => to check if the string starts with a specific substring 
 
 there are many more string operations, also all of these returns a brand new string and does not modify the original string
@@ -273,8 +261,8 @@ print(name[-4])   # D
 print(name[-5])   # A
 # As shown above, keep in mind 0 is postive, there is not -0 so the -1 is the last character 
 
-print(name[1:4])   # DPer => gives the 1,2,3,4 index characters
-print(name[:3])    # ADPe => gives everything upto and including index 3
+print(name[1:4])   # DPe => gives the 1,2,3 index characters
+print(name[:3])    # ADP => gives everything upto and but not including index 3
 print(name[2:])    # Der => gives everything inlcuding and after index 2
  
 ```
@@ -334,17 +322,19 @@ else :
 ```
 ---
 # Lists 
-lists is used to store multiple items in a single variable 
-
+ 
 ```python
 options = ["rock", "paper", "scissor"]
 computer_choice = random.choice(options)
 ```
 The above code will make a list of `options` and then randomly make a choice from the list using the `random` library
 
-- A single List can contain various number of data types
+- allows various heterogeneous data types
 - allows duplicate elements 
 - Lists can be empty
+```python
+mylist = list()    # creates an empty list
+```
 - Lists have indexing as arrays 
 	- `options[2]` will give `scissors`
 	- This can also be used to modify the lists using indexing
