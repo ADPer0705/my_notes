@@ -28,7 +28,7 @@ following code will create a table
 | Centered | Right Aligned | Left Aligned |
 | data | more data | even more data |
 ````
-#### TO-DO lists 
+## TO-DO lists 
 The following code creates a to-do list
 ````markdown
 - [ ] Task 1
@@ -58,4 +58,3 @@ The following code creates a to-do list
 ````markdown
 `#C6E48B`
 ````
-

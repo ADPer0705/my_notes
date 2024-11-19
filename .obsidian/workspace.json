@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a840f9e65de672fe",
+        "id": "52b1c80ad220d280",
         "type": "tabs",
         "children": [
           {
-            "id": "22c5a37e19fa80d3",
+            "id": "cd7c62ea62a8c838",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer_science/cybersecurity/cyber_kill_chain/7_actions_on_objectives/actions_on_objectives.md",
+                "file": "computer_science/cybersecurity/cryptography/hashes_and_encryption_methods/NTHash_NTLM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "actions_on_objectives"
+              "title": "NTHash_NTLM"
             }
           }
         ]
@@ -139,10 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computerScience/languages/programming/python.md"
+                "file": "computer_science/languages/markup/markdown.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of python"
+              "title": "Outline of markdown"
             }
           }
         ],
@@ -163,10 +163,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "22c5a37e19fa80d3",
+  "active": "cd7c62ea62a8c838",
   "lastOpenFiles": [
-    "computer_science/cybersecurity/cyber_kill_chain/6_command_and_control/command_and_control.md",
+    "computer_science/cybersecurity/cryptography/hash.md",
+    "computer_science/cybersecurity/cryptography/hashes_and_encryption_methods/NTHash_NTLM.md",
+    "computer_science/cybersecurity/cryptography/hashes_and_encryption_methods",
+    "computer_science/cybersecurity/tools/JohnTheRipper.md",
+    "computer_science/cybersecurity/tools/JohnTheRipper",
+    "computer_science/languages/markup/markdown.md",
+    "Attachment_Folder/97db105960dfe71e42855461e3ef0de2.png",
+    "computer_science/DBMS/class_notes.md",
+    "computer_science/DBMS/flatFile/SQLite.md",
+    "ignore/maths_assignment.md",
+    "computer_science/cybersecurity/linux/regular_expressions.md",
+    "computer_science/languages/regular_expressions.md",
+    "ignore/note.md",
+    "computer_science/cybersecurity/websec/tricks_and_treats.md",
+    "computer_science/cybersecurity/websec/web_servers.md",
+    "computer_science/cybersecurity/websec/other_components.md",
+    "computer_science/cybersecurity/websec/HTMLInjection.md",
+    "computer_science/cybersecurity/websec/basics.md",
+    "Untitled 1.md",
+    "Untitled.md",
     "computer_science/cybersecurity/cyber_kill_chain/7_actions_on_objectives/actions_on_objectives.md",
+    "computer_science/cybersecurity/cyber_kill_chain/6_command_and_control/command_and_control.md",
     "computer_science/cybersecurity/cyber_kill_chain/5_installation/installation.md",
     "computer_science/cybersecurity/cyber_kill_chain/4_exploitation/exploitation.md",
     "computer_science/cybersecurity/cyber_kill_chain/3_delivery/delivery.md",
@@ -181,14 +201,7 @@
     "computer_science/cybersecurity/cyber_kill_chain/4_exploitation",
     "computer_science/cybersecurity/cyber_kill_chain/3_delivery",
     "computer_science/cybersecurity/cyber_kill_chain/2_weaponization",
-    "computer_science/cybersecurity/cyber_kill_chain/reconnaissance/OSINT.md",
-    "computer_science/cybersecurity/cyber_kill_chain/reconnaissance/sock_puppets.md",
-    "computer_science/cybersecurity/cyber_kill_chain/OSINT/OSINT.md",
     "computer_science/cybersecurity/cyber_kill_chain/reconnaissance",
-    "computer_science/cybersecurity/cyber_kill_chain/OSINT/sock_puppets.md",
-    "computer_science/cybersecurity/cyber_kill_chain/OSINT",
-    "computer_science/cybersecurity/cyber_kill_chain",
-    "computerScience/cybersecurity/OSINT/OSINT.md",
     "computer_science/cybersecurity/ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/submit-spin.svg",
     "computer_science/cybersecurity/ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/footer_logo.png",
     "computer_science/cybersecurity/ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/ccLogo.png",
@@ -198,19 +211,6 @@
     "computer_science/cybersecurity/ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5_002.jpeg",
     "computer_science/cybersecurity/ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/a9fa49baf58d1aec5ab3cd2f50ec53e5.jpeg",
     "computer_science/cybersecurity/ISC2_CC/CertPrep_mock/CC4 – CertPreps_files/WEB_LOGO-1.png",
-    "computer_science/cybersecurity/ISC2_CC/CertPrep_mock/CC6 – CertPreps_files/submit-spin.svg",
-    "computer_science/cybersecurity/networking/Network_Protocols/email_sec/basics.md",
-    "computer_science/cybersecurity/networking/Network_Protocols/email_sec/SMTP.md",
-    "computer_science/cybersecurity/networking/Network_Protocols/email_sec/SMIME.md",
-    "computer_science/cybersecurity/networking/Network_Protocols/email_sec/POP.md",
-    "computer_science/cybersecurity/networking/Network_Protocols/email_sec/PGP.md",
-    "computer_science/cybersecurity/networking/Network_Protocols/email_sec/IMAP.md",
-    "computer_science/cybersecurity/networking/Network_Protocols/Network_Authentication_Protocol/kerberos.md",
-    "computer_science/cybersecurity/networking/Network_Protocols/IP_sec/basics.md",
-    "computer_science/cybersecurity/networking/Network_Protocols/IP_sec/ESP.md",
-    "computer_science/cybersecurity/networking/Network_Protocols/IP_sec/AH.md",
-    "computer_science/cybersecurity/networking/Wi-Fi/wifi.md",
-    "computer_science/cybersecurity/networking/Network_Services/VPN.md",
     "computerScience/DSA/Untitled.canvas"
   ]
 }
