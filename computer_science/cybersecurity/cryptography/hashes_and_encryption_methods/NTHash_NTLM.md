@@ -1,0 +1,5 @@
+- NTHash 
+	- is the hash format modern windows operating system machines use to store user and service passwords
+	- It's also commonly referred to as NTLM
+		- which references the previous version of windows format for hashing passwords known as LM, thus NT/LM
+	- "NT" designation for windows products originally meant "*New Technology*"
