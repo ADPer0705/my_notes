@@ -1,0 +1,216 @@
+{
+  "main": {
+    "id": "a12e2aaee0cce288",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f56e4f3ef427aa9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "109414acbac20ab7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "certifications/ISC2_CC/4)Network_Security/3_Understanding_Network_Security_Infrastructure.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3_Understanding_Network_Security_Infrastructure"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b4a42c1763b7a506",
+    "type": "split",
+    "children": [
+      {
+        "id": "32e86666f7c30f1c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cbf68360a1bdeb53",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "12eecdc40f775861",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "10a88ddee50d2ab9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "banner",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2cac4bd4c268b9f0",
+    "type": "split",
+    "children": [
+      {
+        "id": "531a06019a483921",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3d49db7278a47ce1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "computerScience/languages/programming/python.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for python"
+            }
+          },
+          {
+            "id": "912a936e33384f87",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "computerScience/cybersecurity/OSINT/OSINT.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from OSINT"
+            }
+          },
+          {
+            "id": "57046e02ee6fd24f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "bf3c145175b207c2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "computer_science/languages/markup/markdown.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of markdown"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "109414acbac20ab7",
+  "lastOpenFiles": [
+    "certifications/ISC2_CC/4)Network_Security/1_Understanding_Computer_Networking.md",
+    "certifications/ISC2_CC/2)Incident_Response_Business_Continuity_and_Disaster_Response_Concepts/3_Understanding_Disaster_Recovery_(DR).md",
+    "certifications/ISC2_CC/2)Incident_Response_Business_Continuity_and_Disaster_Response_Concepts/2_Understanding_Business_Continuity(BC).md",
+    "misc/AIML_Club/CTF.md",
+    "computer_science/AI-ML/evaluation_metrics/loss_funtion.md",
+    "computer_science/AI-ML/evaluation_metrics/confusion_matrix.md",
+    "computer_science/AI-ML/introduction_to_ml/cross_validation.md",
+    "computer_science/AI-ML/machine_learning_systems.md",
+    "computer_science/AI-ML/aiml.md",
+    "computer_science/AI-ML/data/features.md",
+    "computer_science/OS/windows/active_directory_basics.md",
+    "Attachment_Folder/15b282b6e3940f4c26c477a8c21f8266.png",
+    "Attachment_Folder/38edaf4a8665c257c62556096c69cb6f.png",
+    "computer_science/OS/windows/windows.md",
+    "computer_science/languages/programming/C.md",
+    "Attachment_Folder/Screenshot 2025-01-13 233526.png",
+    "computer_science/cybersecurity/search_skills.md",
+    "computer_science/cybersecurity/misc.md",
+    "computer_science/AI-ML/introduction_to_ml/model_development_overview.md",
+    "computer_science/AI-ML/introduction_to_ml/introduction_to_ml.md",
+    "ignore/OS Assignment.md",
+    "computer_science/OS/OS.md",
+    "Attachment_Folder/Screenshot 2025-01-13 025823.png",
+    "Attachment_Folder/Screenshot 2025-01-13 023302.png",
+    "ignore/maths_assignment.md",
+    "Attachment_Folder/5f04259cf9bf5b57aed2c476-1718112720346.png",
+    "Attachment_Folder/5f04259cf9bf5b57aed2c476-1718112692359.png",
+    "Attachment_Folder/5f04259cf9bf5b57aed2c476-1718112534973.png",
+    "Attachment_Folder/5f04259cf9bf5b57aed2c476-1718112514634.png",
+    "computer_science/cybersecurity/self_protection_tips.md",
+    "computer_science/cybersecurity/Useful_misc_Resources.md",
+    "computer_science/OS/linux/File_System.md",
+    "computer_science/OS/linux/Linux Process Analysis.md",
+    "computer_science/OS/File_Systems/NTFS.md",
+    "Attachment_Folder/ntfs-permissions1.png",
+    "computer_science/OS/File_Systems",
+    "computer_science/OS/linux/Fundamentals.md",
+    "computer_science/OS/linux/Arch",
+    "computer_science/networking/Types_of_Networks",
+    "computer_science/OS/windows",
+    "computer_science/cybersecurity/linux/Untitled",
+    "computer_science/OS",
+    "Jan07_NaveenSir",
+    "computer_science/networking/Network_Security",
+    "Attachment_Folder/New folder",
+    "electricalAndElectronics/CPU_Architecture",
+    "computerScience/DSA/Untitled.canvas"
+  ]
+}

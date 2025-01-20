@@ -1,0 +1,2 @@
+*Domain Name System (DNS)* is a **hierarchical distributed naming system** for computers, services, or any resource connected to the internet or a private network. 
+- translated domain names meaningful to humans into the numerical identifiers associated with networking equipment for the purpose of locating and addressing these devices worldwide 

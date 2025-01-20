@@ -1,0 +1,1 @@
+*Scikit-Learn* is very easy to use, yet it implements many Machine Learning algorithms efficiently, so it makes for a great entry point to machine learning. It was created by David Cournapeau in 2007, and is now led by a team of researchers at the French Institute of Research in Computer Science and Automation (Inria)

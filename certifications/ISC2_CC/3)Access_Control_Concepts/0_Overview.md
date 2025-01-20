@@ -1,0 +1,2 @@
+- detailed look at the types of access control that every information security professional should be familiar with
+			- discuss both physical and logical controls and how they are combined to strengthen the overall security of an organization

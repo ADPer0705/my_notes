@@ -1,0 +1,1 @@
+A web-based tool for gathering DNS-related information about a domain 

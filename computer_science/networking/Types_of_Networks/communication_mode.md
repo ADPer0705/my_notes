@@ -1,0 +1,3 @@
+- simplex
+- half-duplex
+- full-duplex

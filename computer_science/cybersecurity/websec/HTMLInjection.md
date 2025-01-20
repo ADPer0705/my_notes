@@ -1,0 +1,3 @@
+HTML Injection is a vulnerability that occurs when unfiltered user input is displayed on the page. If a website fails to sanitize user input and that input is used on the page, an attacker can inject HTML code into a vulnerability website
+
+The general rule is never to trust user input. To prevent malicious input, the website developer should sanitise everything the user enters before using it in the JavaScript function; in this case, the developer could remove any HTML tags.
